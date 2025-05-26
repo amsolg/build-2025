@@ -1,0 +1,2848 @@
+WEBVTT
+
+00:00:02.670 --> 00:00:07.470
+ZANKAR DESAI: Hi everyone.
+Welcome to day four of Build.
+
+00:00:07.470 --> 00:00:09.930
+We hope you've all had
+an incredible week.
+
+00:00:09.930 --> 00:00:12.570
+I'm excited to talk to everyone
+here today about building
+
+00:00:12.570 --> 00:00:15.870
+agents in Copilot studio
+using Model Context Protocol,
+
+00:00:15.870 --> 00:00:17.730
+open standards and more.
+
+00:00:17.730 --> 00:00:21.270
+My name is Zankar, I'm
+a PM in Copilot Studio.
+
+00:00:21.270 --> 00:00:22.560
+MADS BOLARIS: And
+I'm Mads Bolaris.
+
+00:00:22.560 --> 00:00:26.040
+And that "and more" is
+doing a lot of work.
+
+00:00:26.040 --> 00:00:28.350
+So, we'll also be
+talking about MCP works
+
+00:00:28.350 --> 00:00:31.080
+with Foundry and a bunch
+of other protocols.
+
+00:00:31.080 --> 00:00:34.260
+ZANKAR DESAI: Yep.
+So, brief overview
+
+00:00:34.260 --> 00:00:35.820
+of our agenda today,
+
+00:00:35.820 --> 00:00:38.790
+we will talk about what
+Model Context Protocol is,
+
+00:00:38.790 --> 00:00:40.560
+and like Matt said
+we'll talk about
+
+00:00:40.560 --> 00:00:42.540
+the integration with
+Copilot Studio,
+
+00:00:42.540 --> 00:00:44.460
+with Azure AI Foundry,
+
+00:00:44.460 --> 00:00:45.780
+and also have Zapier on
+
+00:00:45.780 --> 00:00:48.340
+stage to talk about
+their journey.
+
+00:00:50.400 --> 00:00:54.630
+So, here we just -- we -- at
+Microsoft we just love MCP,
+
+00:00:54.630 --> 00:00:57.090
+as you've probably seen all
+week, I'm sure it's not.
+
+00:00:57.090 --> 00:00:58.620
+something that you have not --
+
+00:00:58.620 --> 00:01:01.350
+that you're hearing
+for the first time,
+
+00:01:01.350 --> 00:01:05.070
+but what is Model
+Context Protocol?
+
+00:01:05.070 --> 00:01:08.130
+So, MCP is an open protocol that
+
+00:01:08.130 --> 00:01:12.330
+standardizes how applications
+provide context to LLMs.
+
+00:01:12.330 --> 00:01:16.490
+So, think of MCP
+like a USB-C port,
+
+00:01:16.490 --> 00:01:18.710
+just as a USB-C
+allows you to connect
+
+00:01:18.710 --> 00:01:22.550
+your devices to various
+peripherals and accessories,
+
+00:01:22.550 --> 00:01:25.460
+MCP allows you to connect
+to your applications and
+
+00:01:25.460 --> 00:01:29.790
+your agents to various external
+tools and data sources.
+
+00:01:31.140 --> 00:01:34.530
+MCP hosts are those programs,
+
+00:01:34.530 --> 00:01:37.770
+such VS Code and Copilot Studio,
+
+00:01:37.770 --> 00:01:42.210
+that want to access
+data through MCP.
+
+00:01:42.210 --> 00:01:43.650
+Then we have clients,
+
+00:01:43.650 --> 00:01:47.910
+such GitHub Copilot
+and Copilot Studio,
+
+00:01:47.910 --> 00:01:50.280
+that maintain these
+one-on-one connections
+
+00:01:50.280 --> 00:01:52.800
+with these servers.
+
+00:01:52.800 --> 00:01:55.440
+And then you have the
+servers themselves,
+
+00:01:55.440 --> 00:01:58.320
+these are lightweight
+programs that expose
+
+00:01:58.320 --> 00:02:00.930
+specific capabilities
+
+00:02:00.930 --> 00:02:04.350
+through the standardized
+Model Context Protocol.
+
+00:02:04.350 --> 00:02:07.020
+So, let's dive
+deep now into what
+
+00:02:07.020 --> 00:02:08.850
+these specific capabilities are
+
+00:02:08.850 --> 00:02:11.980
+and how MCP brings
+it all together.
+
+00:02:14.190 --> 00:02:18.210
+At its core, MCP provides a
+standardized way for agents,
+
+00:02:18.210 --> 00:02:20.910
+like those billed
+in Copilot Studio,
+
+00:02:20.910 --> 00:02:25.020
+to understand and act on
+structured data and services.
+
+00:02:25.020 --> 00:02:27.390
+Think of it as a shared
+language that connects
+
+00:02:27.390 --> 00:02:31.830
+Model to the tools and
+resources that they need.
+
+00:02:31.830 --> 00:02:34.890
+Tools in MCP
+represent functions,
+
+00:02:34.890 --> 00:02:36.330
+things like search,
+
+00:02:36.330 --> 00:02:40.200
+cogeneration or
+domain-specific actions.
+
+00:02:40.200 --> 00:02:43.020
+They're defined in a way
+that are consistent,
+
+00:02:43.020 --> 00:02:46.560
+reusable and
+discoverable by agents.
+
+00:02:46.560 --> 00:02:49.260
+Then you have resources.
+
+00:02:49.260 --> 00:02:52.740
+These are entities or data
+that the tools operate on.
+
+00:02:52.740 --> 00:02:54.360
+It can be a document,
+
+00:02:54.360 --> 00:02:55.860
+a calendar event,
+
+00:02:55.860 --> 00:03:00.390
+a program or even just a
+customer support ticket.
+
+00:03:00.390 --> 00:03:02.250
+And then you have prompts.
+
+00:03:02.250 --> 00:03:04.170
+Prompts act as a bridge
+
+00:03:04.170 --> 00:03:07.950
+between user intent
+and tool invocation.
+
+00:03:07.950 --> 00:03:10.140
+So, with MCP, we can define
+
+00:03:10.140 --> 00:03:13.110
+rich prompt templates
+that guide the model
+
+00:03:13.110 --> 00:03:19.440
+of agent to invoke the right
+tool in the right context.
+
+00:03:19.440 --> 00:03:22.230
+What's powerful here, with MCP,
+
+00:03:22.230 --> 00:03:24.750
+is that it brings
+all three, tools,
+
+00:03:24.750 --> 00:03:28.710
+resources and prompts,
+into a unified schema.
+
+00:03:28.710 --> 00:03:31.470
+This allows you to build
+agents that are not only
+
+00:03:31.470 --> 00:03:33.750
+smarter but more adaptable
+
+00:03:33.750 --> 00:03:37.080
+across domains and
+user scenarios.
+
+00:03:37.080 --> 00:03:41.640
+So, you could be building
+enterprise workflows,
+
+00:03:41.640 --> 00:03:45.690
+developer scenarios or
+vertical-specific solutions,
+
+00:03:45.690 --> 00:03:48.150
+MCP provides a
+standard foundation
+
+00:03:48.150 --> 00:03:50.500
+for you to be able to do so.
+
+00:03:56.220 --> 00:03:57.960
+And at Microsoft, we are fully
+
+00:03:57.960 --> 00:04:01.320
+committed to the Model
+Context Protocol.
+
+00:04:01.320 --> 00:04:05.430
+Whether you're building local
+and remote MCP servers to
+
+00:04:05.430 --> 00:04:07.830
+wanting to access
+many of our tools
+
+00:04:07.830 --> 00:04:11.370
+and registries for MCP servers,
+
+00:04:11.370 --> 00:04:13.140
+or consuming all of this via
+
+00:04:13.140 --> 00:04:16.170
+many of our clients and hosts,
+
+00:04:16.170 --> 00:04:18.450
+Microsoft is fully
+committed to providing
+
+00:04:18.450 --> 00:04:20.700
+a holistic ecosystem around
+
+00:04:20.700 --> 00:04:22.410
+Model Context Protocol with
+
+00:04:22.410 --> 00:04:25.390
+strong partnership
+with ANTHROPIC.
+
+00:04:27.900 --> 00:04:30.210
+So, let's now take a look
+at the integration of
+
+00:04:30.210 --> 00:04:34.000
+Copilot Studio with
+Model Context Protocol.
+
+00:04:35.460 --> 00:04:39.420
+So, MCP enables
+Copilot Studio agents
+
+00:04:39.420 --> 00:04:42.540
+to securely access
+external tools,
+
+00:04:42.540 --> 00:04:46.680
+external data and
+external prompts.
+
+00:04:46.680 --> 00:04:48.870
+So, by connecting
+to an MCP server,
+
+00:04:48.870 --> 00:04:51.660
+agents can perform actions
+like invoking functions,
+
+00:04:51.660 --> 00:04:56.340
+reading files or using
+predefined prompts.
+
+00:04:56.340 --> 00:04:59.370
+These integrations are
+managed through connectors,
+
+00:04:59.370 --> 00:05:03.270
+which are configured using
+OpenAPI schema files.
+
+00:05:03.270 --> 00:05:07.020
+Once connected,
+MCP actions appear
+
+00:05:07.020 --> 00:05:11.010
+as native agent
+capabilities, so as tools,
+
+00:05:11.010 --> 00:05:13.290
+and resources and prompts
+
+00:05:13.290 --> 00:05:15.630
+get added to the
+server or updated
+
+00:05:15.630 --> 00:05:17.430
+to the server these
+are dynamically
+
+00:05:17.430 --> 00:05:22.110
+reflected within your
+agent in Copilot Studio.
+
+00:05:22.110 --> 00:05:24.540
+And this approach streamlines
+the development of
+
+00:05:24.540 --> 00:05:27.060
+context-aware AI assistance by
+
+00:05:27.060 --> 00:05:28.830
+providing a standardized method
+
+00:05:28.830 --> 00:05:31.420
+for extending their
+functionality.
+
+00:05:34.920 --> 00:05:37.740
+And this week we're definitely
+excited to announce that
+
+00:05:37.740 --> 00:05:40.950
+MCP in Copilot studio is
+now generally available.
+
+00:05:40.950 --> 00:05:47.670
+(applause) And with GA,
+
+00:05:47.670 --> 00:05:50.730
+we have several new
+capabilities and enhancements.
+
+00:05:50.730 --> 00:05:52.290
+You can now see the list of
+
+00:05:52.290 --> 00:05:56.010
+tools that come with
+the MCP server.
+
+00:05:56.010 --> 00:05:59.460
+Additionally, we have enhanced
+tracing and analytic that
+
+00:05:59.460 --> 00:06:01.260
+allow you to better troubleshoot
+
+00:06:01.260 --> 00:06:04.240
+and optimize for performance.
+
+00:06:07.830 --> 00:06:13.410
+So, how does the integration
+in MCS work for MCP?
+
+00:06:13.410 --> 00:06:17.700
+The process can be broken
+down into three key steps.
+
+00:06:17.700 --> 00:06:19.680
+First, creating the server
+
+00:06:19.680 --> 00:06:23.820
+using many of the
+supported SDKs.
+
+00:06:23.820 --> 00:06:26.010
+Second, creating a
+custom connector
+
+00:06:26.010 --> 00:06:29.460
+to connect to the server.
+
+00:06:29.460 --> 00:06:32.490
+And lastly, adding
+that connection as
+
+00:06:32.490 --> 00:06:33.930
+a tool to your agent to
+
+00:06:33.930 --> 00:06:37.540
+consume that data
+via Copilot Studio.
+
+00:06:39.900 --> 00:06:41.640
+So, let's jump into
+the product and
+
+00:06:41.640 --> 00:06:44.440
+show you how the
+end-to-end works.
+
+00:06:49.890 --> 00:06:51.510
+So, here in Copilot Studio
+
+00:06:51.510 --> 00:06:53.980
+I'm going to click on my agent,
+
+00:06:55.650 --> 00:06:57.450
+and we navigate to
+tools where I can
+
+00:06:57.450 --> 00:07:00.330
+see my Contoso Lead
+Management Server.
+
+00:07:00.330 --> 00:07:03.420
+Type Model Context Protocol
+has already been added.
+
+00:07:03.420 --> 00:07:06.420
+But to show you how you can
+add additional servers or
+
+00:07:06.420 --> 00:07:09.420
+how you add a connection
+in the first place,
+
+00:07:09.420 --> 00:07:11.610
+you click on "Add a tool".
+
+00:07:11.610 --> 00:07:13.770
+You can either search
+for your MCP or
+
+00:07:13.770 --> 00:07:17.640
+navigate over to our filter,
+Model Context Protocol.
+
+00:07:17.640 --> 00:07:19.320
+You click on your server,
+
+00:07:19.320 --> 00:07:21.150
+ensure the correct connections,
+
+00:07:21.150 --> 00:07:23.800
+and then you can add
+it to your agent.
+
+00:07:26.580 --> 00:07:29.850
+So, clicking on my tool type,
+
+00:07:29.850 --> 00:07:31.650
+on the settings
+page here I can see
+
+00:07:31.650 --> 00:07:34.560
+some details of my
+MCP connection and,
+
+00:07:34.560 --> 00:07:36.360
+down here, I can see the list of
+
+00:07:36.360 --> 00:07:39.510
+tools that come with
+the MCP server.
+
+00:07:39.510 --> 00:07:42.840
+So, let's take a look at
+the end user experience.
+
+00:07:42.840 --> 00:07:46.950
+So, just adding a question here,
+
+00:07:46.950 --> 00:07:49.650
+"What are my open leads?"
+
+00:07:49.650 --> 00:07:51.630
+And you can see
+here, on the left,
+
+00:07:51.630 --> 00:07:53.010
+that the MCP server was
+
+00:07:53.010 --> 00:07:55.770
+initialized and I am
+able to see which tool,
+
+00:07:55.770 --> 00:08:00.300
+specifically, in the
+MCP server was invoked.
+
+00:08:00.300 --> 00:08:05.070
+To even give it -- have it
+give me more information,
+
+00:08:05.070 --> 00:08:10.890
+so just asking it
+
+00:08:10.890 --> 00:08:12.960
+to give me some more
+specific details
+
+00:08:12.960 --> 00:08:14.610
+on a particular lead.
+
+00:08:14.610 --> 00:08:15.720
+And as you can see,
+
+00:08:15.720 --> 00:08:20.290
+a different tool was
+invoked based on my prompt.
+
+00:08:28.680 --> 00:08:31.620
+Microsoft now has
+several MCP servers that
+
+00:08:31.620 --> 00:08:34.680
+are ready to use across
+the Microsoft ecosystem,
+
+00:08:34.680 --> 00:08:36.060
+so we highly encourage you
+
+00:08:36.060 --> 00:08:38.950
+explore these and try these out.
+
+00:08:39.990 --> 00:08:41.730
+Additionally, we are proud to
+
+00:08:41.730 --> 00:08:44.340
+announce that several
+of our partners and
+
+00:08:44.340 --> 00:08:47.010
+ISVs have developed
+MCP servers which
+
+00:08:47.010 --> 00:08:49.970
+will be available soon
+in Copilot Studio,
+
+00:08:49.970 --> 00:08:54.810
+empowering all our makers
+with new, powerful tools.
+
+00:08:54.810 --> 00:08:57.960
+With that, I'd like to
+invite on stage Nate Moore,
+
+00:08:57.960 --> 00:08:59.970
+Senior Software
+Engineer at Zapier,
+
+00:08:59.970 --> 00:09:02.550
+to talk to us about
+Zapier's journey with
+
+00:09:02.550 --> 00:09:04.260
+Model Context Protocol and
+
+00:09:04.260 --> 00:09:07.610
+their journey with integrating
+it into Copilot Studio.
+
+00:09:07.610 --> 00:09:13.400
+Nate? (applause)
+
+00:09:13.400 --> 00:09:15.650
+NATE MOORE: Hey everybody,
+my name's Nate Moore,
+
+00:09:15.650 --> 00:09:17.420
+I am a Software
+Engineer at Zapier.
+
+00:09:17.420 --> 00:09:19.220
+I work on our agent
+platforms team,
+
+00:09:19.220 --> 00:09:21.480
+so we're making a lot
+of really cool tools
+
+00:09:21.480 --> 00:09:25.500
+to enable your
+agents to do more.
+
+00:09:25.500 --> 00:09:27.120
+If you're unfamiliar
+with Zapier,
+
+00:09:27.120 --> 00:09:29.400
+we are a platform that
+
+00:09:29.400 --> 00:09:30.600
+lets you connect
+all of your apps
+
+00:09:30.600 --> 00:09:31.800
+to all of your other apps.
+
+00:09:31.800 --> 00:09:34.020
+Traditionally, this is a
+no-code kind of platform,
+
+00:09:34.020 --> 00:09:38.340
+but we're kind of breaking out
+of that mold a lot lately.
+
+00:09:38.340 --> 00:09:40.920
+And we have over 8,000 apps
+that you can connect to,
+
+00:09:40.920 --> 00:09:42.210
+and inside of those apps we have
+
+00:09:42.210 --> 00:09:44.400
+over 30,000 different tools.
+
+00:09:44.400 --> 00:09:47.400
+And in those apps, we
+have 300, and growing,
+
+00:09:47.400 --> 00:09:48.690
+AI apps that are specific
+
+00:09:48.690 --> 00:09:53.030
+to doing anything with
+agents or anything with AI.
+
+00:09:53.030 --> 00:09:54.080
+And, in fact, AI is
+
+00:09:54.080 --> 00:09:56.630
+the fastest growing
+category at Zapier.
+
+00:09:56.630 --> 00:09:58.100
+Over the past two
+years, we've just seen
+
+00:09:58.100 --> 00:09:59.750
+monumental growth inside of
+
+00:09:59.750 --> 00:10:01.310
+our product of just
+people using AI
+
+00:10:01.310 --> 00:10:05.400
+for everything,
+it's kind of crazy.
+
+00:10:05.400 --> 00:10:06.960
+And, as part of that,
+
+00:10:06.960 --> 00:10:08.460
+we sit -- we saw the Model
+
+00:10:08.460 --> 00:10:10.050
+Context Protocol come
+out and and we said,
+
+00:10:10.050 --> 00:10:12.120
+"This is a perfect
+fit for Zapier.
+
+00:10:12.120 --> 00:10:14.850
+We can go and enable
+
+00:10:14.850 --> 00:10:16.260
+all of these 30,000
+tools that we
+
+00:10:16.260 --> 00:10:18.120
+have to be called from MCP."
+
+00:10:18.120 --> 00:10:20.730
+So, we recently
+launched a Zapier MCP,
+
+00:10:20.730 --> 00:10:24.150
+which is a MCP server
+that we host on our side,
+
+00:10:24.150 --> 00:10:26.040
+you don't have to set up
+anything on your side.
+
+00:10:26.040 --> 00:10:27.540
+We handle all the
+authentication,
+
+00:10:27.540 --> 00:10:28.560
+all of the authorization,
+
+00:10:28.560 --> 00:10:30.870
+we have really nice
+auditing tools,
+
+00:10:30.870 --> 00:10:32.760
+we've got enterprise-grade
+security there,
+
+00:10:32.760 --> 00:10:34.080
+all the connections are
+through (inaudible),
+
+00:10:34.080 --> 00:10:35.310
+which is really nice.
+
+00:10:35.310 --> 00:10:37.710
+And like I said, we
+have 30,000 tools
+
+00:10:37.710 --> 00:10:41.580
+that you can use to connect
+to Zapier MCP today.
+
+00:10:41.580 --> 00:10:42.840
+And as part of
+this, we also have
+
+00:10:42.840 --> 00:10:44.400
+an advanced resolver where,
+
+00:10:44.400 --> 00:10:45.510
+when you're setting
+up your tools,
+
+00:10:45.510 --> 00:10:47.940
+you don't have to set a value
+for every single field,
+
+00:10:47.940 --> 00:10:49.620
+you just give it
+instructions like,
+
+00:10:49.620 --> 00:10:52.560
+"I want to add a
+row to my speaker
+
+00:10:52.560 --> 00:10:54.240
+presentation
+spreadsheet," and it will
+
+00:10:54.240 --> 00:10:56.220
+just figure out what
+the columns are,
+
+00:10:56.220 --> 00:10:57.450
+what the values for
+those columns are and
+
+00:10:57.450 --> 00:10:59.040
+it will just fill it
+out and figure it out,
+
+00:10:59.040 --> 00:11:02.940
+let Zapier do the hard part.
+
+00:11:02.940 --> 00:11:07.980
+And now we have a
+demo. This one.
+
+00:11:07.980 --> 00:11:10.650
+Okay, so, here I am
+inside of Zapier MCP,
+
+00:11:10.650 --> 00:11:12.210
+you can see I've already
+set up a server that
+
+00:11:12.210 --> 00:11:14.460
+is connected to Copilot Studio.
+
+00:11:14.460 --> 00:11:15.870
+I have added a bunch
+of tools here,
+
+00:11:15.870 --> 00:11:17.310
+some stuff for Gmail, Notion,
+
+00:11:17.310 --> 00:11:20.790
+Google Sheets, Jira,
+LinkedIn, anything.
+
+00:11:20.790 --> 00:11:24.060
+And like I said, we
+have over 8,000 apps,
+
+00:11:24.060 --> 00:11:26.040
+if you got to
+zapier.com/apps you can
+
+00:11:26.040 --> 00:11:27.060
+browse through all of
+
+00:11:27.060 --> 00:11:29.910
+our apps and see what
+we have available.
+
+00:11:29.910 --> 00:11:31.980
+And if I click "Add tool"
+here you can see all of
+
+00:11:31.980 --> 00:11:33.300
+these different tools
+that are available
+
+00:11:33.300 --> 00:11:36.180
+to add to Zapier MCP.
+
+00:11:36.180 --> 00:11:37.440
+And I have this already set up
+
+00:11:37.440 --> 00:11:39.330
+inside of an agent instead
+of Copilot Studio,
+
+00:11:39.330 --> 00:11:42.090
+so you can see here I have
+Zapier MCP as a tool.
+
+00:11:42.090 --> 00:11:46.050
+And if I click on that it
+will load in and it will
+
+00:11:46.050 --> 00:11:48.150
+show all of those
+tools that I have
+
+00:11:48.150 --> 00:11:51.210
+added to my Zapier MCP server.
+
+00:11:51.210 --> 00:11:52.950
+This isn't available
+yet, we hope to have it
+
+00:11:52.950 --> 00:11:56.250
+published in a week or two and
+you'll be able to find it.
+
+00:11:56.250 --> 00:11:57.480
+And the setup here
+is super easy,
+
+00:11:57.480 --> 00:11:58.530
+you just need to copy and paste
+
+00:11:58.530 --> 00:12:00.120
+your Zapier account ID in here,
+
+00:12:00.120 --> 00:12:04.030
+we'll have some really
+nice setup steps for that.
+
+00:12:05.190 --> 00:12:07.830
+Alright, so here it is,
+it has all of my tools.
+
+00:12:07.830 --> 00:12:10.650
+And as was demonstrated, we
+can interact with those,
+
+00:12:10.650 --> 00:12:13.470
+I can say, "Do I
+have any --" oh,
+
+00:12:13.470 --> 00:12:18.070
+I can zoom in here, "Do I
+have any urgent emails?"
+
+00:12:20.520 --> 00:12:21.540
+And that will connect to
+
+00:12:21.540 --> 00:12:23.730
+my Zapier MCP server and
+then it will call one
+
+00:12:23.730 --> 00:12:25.800
+of my tools that I have to
+
+00:12:25.800 --> 00:12:28.030
+see if I have any urgent emails.
+
+00:12:31.590 --> 00:12:33.570
+So, you can see it found
+that I have a Gmail "Find
+
+00:12:33.570 --> 00:12:37.140
+email" tool and it is searching
+with the "Urgent" label.
+
+00:12:37.140 --> 00:12:38.160
+And oh, I need to make
+
+00:12:38.160 --> 00:12:40.680
+a really awesome
+presentation for Build.
+
+00:12:40.680 --> 00:12:41.760
+And you can see
+that it gives you,
+
+00:12:41.760 --> 00:12:42.990
+even, a link to the email here,
+
+00:12:42.990 --> 00:12:45.600
+so if I open that it will
+show me the actual email.
+
+00:12:45.600 --> 00:12:48.840
+Oh, I sent this to
+myself last night.
+
+00:12:48.840 --> 00:12:50.670
+And I can say, "Wow,
+
+00:12:50.670 --> 00:12:54.700
+that is urgent. Let's
+make a Jira ticket."
+
+00:12:58.170 --> 00:12:59.610
+And so now it will take context
+
+00:12:59.610 --> 00:13:01.050
+of our conversation and it
+
+00:13:01.050 --> 00:13:02.340
+will go and call my other tool
+
+00:13:02.340 --> 00:13:04.020
+of creating an issue in Jira,
+
+00:13:04.020 --> 00:13:05.610
+and it will figure out
+
+00:13:05.610 --> 00:13:07.380
+all of the fields that
+need to be filled out to
+
+00:13:07.380 --> 00:13:12.160
+make that Jira ticket,
+and there that is.
+
+00:13:13.740 --> 00:13:14.550
+Oh, there is it.
+
+00:13:14.550 --> 00:13:16.050
+And something else I
+want to point out her,
+
+00:13:16.050 --> 00:13:17.760
+inside of Zapier MCP,
+
+00:13:17.760 --> 00:13:20.490
+you'll notice that some of
+these tools have values below,
+
+00:13:20.490 --> 00:13:21.510
+and that is because, like if I
+
+00:13:21.510 --> 00:13:22.920
+click on this LinkedIn one,
+
+00:13:22.920 --> 00:13:24.270
+all of these are set to have.
+
+00:13:24.270 --> 00:13:25.410
+AI generate a value, and that is
+
+00:13:25.410 --> 00:13:26.700
+that resolver that I
+was talking about,
+
+00:13:26.700 --> 00:13:28.170
+so when this tool runs,
+
+00:13:28.170 --> 00:13:29.340
+our AI will figure out
+
+00:13:29.340 --> 00:13:30.780
+a value to use for
+all of those fields.
+
+00:13:30.780 --> 00:13:32.430
+But you can see inside of
+
+00:13:32.430 --> 00:13:35.730
+this Jira one I have it
+set to, specifically,
+
+00:13:35.730 --> 00:13:37.230
+my agent platform team project,
+
+00:13:37.230 --> 00:13:38.940
+so you can control what
+
+00:13:38.940 --> 00:13:42.370
+your tools are able to
+access inside of Zapier MCP.
+
+00:13:44.580 --> 00:13:46.020
+Some other cool
+stuff. I can say,
+
+00:13:46.020 --> 00:13:50.580
+like, "Speaking of Build,
+
+00:13:50.580 --> 00:13:58.350
+get all the rows from
+my speaker spreadsheet.
+
+00:13:58.350 --> 00:14:01.980
+Get the first in."
+And over here,
+
+00:14:01.980 --> 00:14:03.030
+this is just an example,
+
+00:14:03.030 --> 00:14:05.550
+I have a spreadsheet that
+I built in Google Docs
+
+00:14:05.550 --> 00:14:08.370
+that just has the
+LinkedIn pages for me,
+
+00:14:08.370 --> 00:14:10.020
+Zankar and and Mads,
+
+00:14:10.020 --> 00:14:12.340
+who is behind the stage.
+
+00:14:13.350 --> 00:14:14.400
+And look, there is it,
+
+00:14:14.400 --> 00:14:16.780
+it got those, and it
+can say something like,
+
+00:14:18.720 --> 00:14:23.760
+"(inaudible) LinkedIn for
+--" with those columns,
+
+00:14:23.760 --> 00:14:26.770
+his name, title, and company.
+
+00:14:29.100 --> 00:14:30.870
+And so, as you can see,
+as you're talking to
+
+00:14:30.870 --> 00:14:33.180
+your agent you're
+building up this context,
+
+00:14:33.180 --> 00:14:34.200
+the agent is able to take all of
+
+00:14:34.200 --> 00:14:35.430
+that context and use it when it
+
+00:14:35.430 --> 00:14:39.120
+runs your MCP tools
+inside of Copilot Studio.
+
+00:14:39.120 --> 00:14:41.940
+So, there it goes, it got my
+-- everything and I can say,
+
+00:14:41.940 --> 00:14:48.490
+"Cool, let's update the
+spreadsheet with that info."
+
+00:14:49.590 --> 00:14:52.890
+And now it will go and it
+will update my spreadsheet
+
+00:14:52.890 --> 00:14:54.780
+and update that row with all of
+
+00:14:54.780 --> 00:14:57.700
+the info that it just got
+from my LinkedIn page.
+
+00:15:04.410 --> 00:15:05.490
+NATE MOORE: Oh, let's
+go see if it did it.
+
+00:15:05.490 --> 00:15:08.550
+And there it is, it
+updated that row.
+
+00:15:08.550 --> 00:15:10.770
+I can say, "Awesome,
+
+00:15:10.770 --> 00:15:14.970
+let's write a LinkedIn
+post about how
+
+00:15:14.970 --> 00:15:21.040
+I'm presenting on-stage
+at Microsoft Build."
+
+00:15:27.660 --> 00:15:28.710
+I haven't tried this one out yet
+
+00:15:28.710 --> 00:15:31.450
+so we'll see if it works.
+
+00:15:33.300 --> 00:15:36.390
+Oh, maybe it did, I don't know.
+
+00:15:36.390 --> 00:15:38.580
+I'll have to go to
+my LinkedIn and see.
+
+00:15:38.580 --> 00:15:41.100
+But yes, that's my demo.
+
+00:15:41.100 --> 00:15:42.480
+Like I said, this
+isn't available in
+
+00:15:42.480 --> 00:15:45.280
+Copilot Studio yet, but
+look for it. (applause)
+
+00:15:50.700 --> 00:15:51.900
+ZANKAR DESAI: Thank you,
+Nate, super excited
+
+00:15:51.900 --> 00:15:53.040
+to see Zapier's journey
+
+00:15:53.040 --> 00:15:56.830
+with both Model Context
+Protocol and Copilot Studio.
+
+00:15:58.950 --> 00:16:01.350
+We'd also like to
+announce that support for
+
+00:16:01.350 --> 00:16:06.180
+A2A protocol will also be
+coming soon to Copilot Studio.
+
+00:16:06.180 --> 00:16:08.190
+Mads will be touching point on
+
+00:16:08.190 --> 00:16:10.980
+that during the second
+half of this session,
+
+00:16:10.980 --> 00:16:12.900
+on MCP versus A2A.
+
+00:16:12.900 --> 00:16:16.860
+And with that, I'd like to
+invite Mads Bolaris back here
+
+00:16:16.860 --> 00:16:19.050
+to talk about Azure AI Foundry
+
+00:16:19.050 --> 00:16:21.600
+and its journey with
+Model Context Protocol.
+
+00:16:21.600 --> 00:16:24.930
+MADS BOLARIS:
+Awesome, thank you.
+
+00:16:24.930 --> 00:16:26.580
+Okay, so we learned about
+
+00:16:26.580 --> 00:16:30.180
+Copilot Studio and how it
+can use MCP for tools,
+
+00:16:30.180 --> 00:16:31.260
+which is great because, again,
+
+00:16:31.260 --> 00:16:34.770
+Microsoft has all
+these MCP servers,
+
+00:16:34.770 --> 00:16:37.380
+I'm going to be showing you
+one for GitHub in a bit.
+
+00:16:37.380 --> 00:16:39.330
+And then, of course, we have
+these third-party partners
+
+00:16:39.330 --> 00:16:41.250
+like Zapier which,
+oh my goodness,
+
+00:16:41.250 --> 00:16:44.370
+all those exciting
+connectors in Zapier,
+
+00:16:44.370 --> 00:16:46.200
+you can now give
+them to your agents,
+
+00:16:46.200 --> 00:16:48.990
+just imagine just how
+powerful that is and,
+
+00:16:48.990 --> 00:16:51.930
+as you just saw, how easy it is.
+
+00:16:51.930 --> 00:16:53.790
+So, I am Mads,
+
+00:16:53.790 --> 00:16:55.110
+I am the Group Product Manager
+
+00:16:55.110 --> 00:16:57.270
+for Azure AI Agent Service,
+
+00:16:57.270 --> 00:16:58.860
+and I am going to
+be talking about
+
+00:16:58.860 --> 00:17:01.500
+the more pro-codey way of
+
+00:17:01.500 --> 00:17:04.920
+integrating MCP
+into your agents.
+
+00:17:04.920 --> 00:17:07.830
+Now, Azure has an agent service
+
+00:17:07.830 --> 00:17:10.470
+similar to Copilot Studio and it
+
+00:17:10.470 --> 00:17:14.430
+lives inside this spectrum
+
+00:17:14.430 --> 00:17:17.550
+that Microsoft has
+of building agents.
+
+00:17:17.550 --> 00:17:19.530
+So, you all saw Copilot
+Studio which is
+
+00:17:19.530 --> 00:17:21.870
+-- you can see on the right,
+
+00:17:21.870 --> 00:17:22.980
+which is our SaaS offering,
+
+00:17:22.980 --> 00:17:24.240
+and you kind of do a
+bunch of click and
+
+00:17:24.240 --> 00:17:26.130
+drag and build things.
+
+00:17:26.130 --> 00:17:28.560
+You can, of course,
+host everything
+
+00:17:28.560 --> 00:17:32.000
+yourselves with IaaS,
+infrastructure-as-a-service,
+
+00:17:32.000 --> 00:17:34.070
+where you bring your own GPU,
+
+00:17:34.070 --> 00:17:35.750
+you bring your own containers,
+
+00:17:35.750 --> 00:17:37.070
+you use something
+like Semantic Kernel
+
+00:17:37.070 --> 00:17:39.260
+to build your own applications.
+
+00:17:39.260 --> 00:17:41.160
+And in the middle, for
+
+00:17:41.160 --> 00:17:42.690
+all of you that need
+something or you're,
+
+00:17:42.690 --> 00:17:44.370
+"I don't want to
+create everything from
+
+00:17:44.370 --> 00:17:48.450
+scratch" but at the same time
+you want to do some coding,
+
+00:17:48.450 --> 00:17:50.310
+you want control
+over your resources,
+
+00:17:50.310 --> 00:17:52.980
+you need things like
+private virtual networks,
+
+00:17:52.980 --> 00:17:55.290
+that's where Azure
+AI Foundry comes in,
+
+00:17:55.290 --> 00:17:56.880
+and the particular feature,
+
+00:17:56.880 --> 00:17:59.340
+Agent Service, within it.
+
+00:17:59.340 --> 00:18:02.460
+Okay. So, I -- this week,
+
+00:18:02.460 --> 00:18:04.050
+we announced that
+Azure AI Foundry
+
+00:18:04.050 --> 00:18:05.790
+Agent Service is generally
+
+00:18:05.790 --> 00:18:07.740
+available and with that came
+
+00:18:07.740 --> 00:18:10.890
+a bunch of new integrations
+with new tools.
+
+00:18:10.890 --> 00:18:14.880
+Now, sadly, MCP is
+not yet available,
+
+00:18:14.880 --> 00:18:16.470
+it is coming soon,
+
+00:18:16.470 --> 00:18:20.190
+but this is our road map
+for all of the connections
+
+00:18:20.190 --> 00:18:24.390
+that we want to bring to Azure
+AI Foundry Agent Service.
+
+00:18:24.390 --> 00:18:26.130
+At the very bottom row here,
+
+00:18:26.130 --> 00:18:28.620
+you can see that we, of course,
+
+00:18:28.620 --> 00:18:31.620
+care and love about
+MCP and we'll be
+
+00:18:31.620 --> 00:18:33.090
+talking about how to line it up
+
+00:18:33.090 --> 00:18:35.220
+today with Semantic Kernel,
+
+00:18:35.220 --> 00:18:37.590
+so there is some demos I'm
+going to be showing you,
+
+00:18:37.590 --> 00:18:38.760
+with pro-code,
+
+00:18:38.760 --> 00:18:41.280
+with bringing it to
+Azure AI Agent Service.
+
+00:18:41.280 --> 00:18:44.850
+And we will be talking
+about A2A in a bit,
+
+00:18:44.850 --> 00:18:46.080
+but I just want to
+talk about some of
+
+00:18:46.080 --> 00:18:49.410
+the other protocols
+because A2A and MCP,
+
+00:18:49.410 --> 00:18:51.390
+those are probably
+the most buzziest
+
+00:18:51.390 --> 00:18:53.430
+but we are seeing
+protocols from OpenAI,
+
+00:18:53.430 --> 00:18:56.370
+like the Assistants
+API, the Responses API.
+
+00:18:56.370 --> 00:18:58.950
+If you are familiar with
+LangChain they have
+
+00:18:58.950 --> 00:19:02.190
+their own protocol called
+the Agents protocol,
+
+00:19:02.190 --> 00:19:04.800
+an Microsoft, all of Microsoft,
+
+00:19:04.800 --> 00:19:06.510
+whether it's Copilot Studio,
+
+00:19:06.510 --> 00:19:08.610
+Azure or Semantic Kernel,
+
+00:19:08.610 --> 00:19:10.650
+is committed to
+supporting all of
+
+00:19:10.650 --> 00:19:13.860
+these protocols on both
+bringing those agents into
+
+00:19:13.860 --> 00:19:16.170
+our systems and
+taking our agents and
+
+00:19:16.170 --> 00:19:19.410
+exposing them through
+those protocols.
+
+00:19:19.410 --> 00:19:22.080
+I know no other company
+that is as committed to
+
+00:19:22.080 --> 00:19:26.460
+supporting all of these open
+standards as Microsoft.
+
+00:19:26.460 --> 00:19:29.280
+So, if you do want to get
+started with MCP today,
+
+00:19:29.280 --> 00:19:32.520
+with Azure, as I mentioned,
+
+00:19:32.520 --> 00:19:34.890
+you can achieve that today
+with Semantic Kernel,
+
+00:19:34.890 --> 00:19:36.930
+which is our enterprise,
+
+00:19:36.930 --> 00:19:41.460
+pro-code, AI SDK for
+building agents.
+
+00:19:41.460 --> 00:19:43.380
+And what's great about
+Semantic Kernel,
+
+00:19:43.380 --> 00:19:44.520
+this is a great one for taking
+
+00:19:44.520 --> 00:19:46.920
+pictures if you all
+have your cameras out,
+
+00:19:46.920 --> 00:19:50.340
+it connects to
+basically everything.
+
+00:19:50.340 --> 00:19:51.870
+So, of course, we would love
+
+00:19:51.870 --> 00:19:53.880
+it if you used it to connect to
+
+00:19:53.880 --> 00:19:59.340
+Azure AI and all of the models
+within Azure AI Foundry.
+
+00:19:59.340 --> 00:20:01.470
+We'd love it if you
+would connect it to
+
+00:20:01.470 --> 00:20:04.440
+things like Azure AI
+Search, our memory service,
+
+00:20:04.440 --> 00:20:05.930
+but if you have, maybe,
+
+00:20:05.930 --> 00:20:07.430
+competing over a product,
+
+00:20:07.430 --> 00:20:09.860
+you can still connect them
+with Semantic Kernel.
+
+00:20:09.860 --> 00:20:11.540
+And probably what's
+most relevant
+
+00:20:11.540 --> 00:20:13.460
+to this conversation is you're
+
+00:20:13.460 --> 00:20:19.050
+able to connect them
+with MCP and plug-ins.
+
+00:20:19.050 --> 00:20:20.580
+And you might be thinking,
+"Okay, if I'm using
+
+00:20:20.580 --> 00:20:22.500
+Semantic Kernel I don't have
+to deal with Foundry at all,
+
+00:20:22.500 --> 00:20:24.180
+I don't have to deal
+with an agent service,"
+
+00:20:24.180 --> 00:20:26.190
+but what I'm going to
+be demoing, in a bit,
+
+00:20:26.190 --> 00:20:27.960
+is actually when you build
+
+00:20:27.960 --> 00:20:29.910
+a entire system with
+
+00:20:29.910 --> 00:20:32.520
+Semantic -- with Azure
+AI Agent Service,
+
+00:20:32.520 --> 00:20:34.440
+nine out of ten times
+you're going to be
+
+00:20:34.440 --> 00:20:37.770
+using it with Semantic Kernel.
+
+00:20:37.770 --> 00:20:39.300
+And with that, I'm going to dive
+
+00:20:39.300 --> 00:20:42.120
+into a demo showing
+just how to do that.
+
+00:20:42.120 --> 00:20:44.730
+Actually, a ton of people
+are taking pictures so I'll
+
+00:20:44.730 --> 00:20:45.900
+pause for a little bit here
+
+00:20:45.900 --> 00:20:47.940
+as people finish
+taking pictures.
+
+00:20:47.940 --> 00:20:50.790
+But I'm going to be showing
+you how you can take an agent
+
+00:20:50.790 --> 00:20:53.670
+that you built in
+Foundry, and yes, sadly,
+
+00:20:53.670 --> 00:20:56.490
+we don't support MCP yet,
+
+00:20:56.490 --> 00:20:57.870
+how to then bring it into
+
+00:20:57.870 --> 00:20:59.610
+Semantic Kernel where you can
+
+00:20:59.610 --> 00:21:02.730
+enrich it with those
+additional capabilities.
+
+00:21:02.730 --> 00:21:07.320
+Alrighty. So, if we
+dive into my machine,
+
+00:21:07.320 --> 00:21:09.720
+we're going to go
+into my computer.
+
+00:21:09.720 --> 00:21:12.390
+We are in VS Code,
+
+00:21:12.390 --> 00:21:16.470
+and this right here is a
+Semantic Kernel project,
+
+00:21:16.470 --> 00:21:17.880
+and it's pretty simple,
+
+00:21:17.880 --> 00:21:21.180
+I'm going to have an AI answer
+this question "What are
+
+00:21:21.180 --> 00:21:24.240
+the latest five Python issues
+
+00:21:24.240 --> 00:21:27.330
+in the Microsoft Semantic
+Kernel project?"
+
+00:21:27.330 --> 00:21:31.070
+Now, to have the AI actually
+answer this question,
+
+00:21:31.070 --> 00:21:32.960
+obviously it doesn't know
+it from within the LLM,
+
+00:21:32.960 --> 00:21:35.180
+we have to provide
+it a knowledge tool,
+
+00:21:35.180 --> 00:21:36.740
+a retrieval tool so that it
+
+00:21:36.740 --> 00:21:38.300
+actually can search
+this information.
+
+00:21:38.300 --> 00:21:41.960
+And we just learned how
+MCP can provide you with
+
+00:21:41.960 --> 00:21:47.600
+tools so that the AI can learn
+or get this information.
+
+00:21:47.600 --> 00:21:50.420
+So, what we are going
+to do is connect
+
+00:21:50.420 --> 00:21:54.600
+to this "MCPStdio Plugin",
+
+00:21:54.600 --> 00:21:57.360
+this means it's a
+local MCP server
+
+00:21:57.360 --> 00:22:01.170
+on this service that's
+speaking through IO.
+
+00:22:01.170 --> 00:22:04.320
+This is a Semantic
+Kernel package
+
+00:22:04.320 --> 00:22:07.080
+that you can use, you
+can see it right here.
+
+00:22:07.080 --> 00:22:09.060
+And this is kid of behind
+
+00:22:09.060 --> 00:22:11.100
+the scenes what Copilot
+studio is doing, right?
+
+00:22:11.100 --> 00:22:12.540
+It's providing the name,
+
+00:22:12.540 --> 00:22:17.070
+the description and a link to
+that particular MCP server.
+
+00:22:17.070 --> 00:22:18.570
+Because this is a lot one,
+
+00:22:18.570 --> 00:22:20.790
+it's just connecting to server
+
+00:22:20.790 --> 00:22:24.930
+GitHub and it pulls it in
+and it starts using it.
+
+00:22:24.930 --> 00:22:27.480
+So, that's how I get to my MCP.
+
+00:22:27.480 --> 00:22:29.160
+How do I now connect it to
+
+00:22:29.160 --> 00:22:32.580
+my agent within
+Azure AI Foundry?
+
+00:22:32.580 --> 00:22:35.730
+Well, I'm not opening
+up Azure AI Foundry,
+
+00:22:35.730 --> 00:22:38.580
+this is what you get when
+you land on our homepage.
+
+00:22:38.580 --> 00:22:41.130
+I'm going to go ahead and
+go into my list of agents,
+
+00:22:41.130 --> 00:22:42.660
+and I have here,
+
+00:22:42.660 --> 00:22:45.540
+if it decides to load,
+
+00:22:45.540 --> 00:22:48.540
+here we go, my MCP demo agent.
+
+00:22:48.540 --> 00:22:50.610
+Here, I can curate
+its instructions,
+
+00:22:50.610 --> 00:22:51.900
+I can change its name.
+
+00:22:51.900 --> 00:22:53.040
+I'm going to be
+keeping it simple,
+
+00:22:53.040 --> 00:22:54.900
+it's not even going
+to have instructions,
+
+00:22:54.900 --> 00:22:57.750
+but you'll notice there's no
+actual tools here, right?
+
+00:22:57.750 --> 00:22:59.160
+Because I'm going
+to be giving it
+
+00:22:59.160 --> 00:23:02.070
+a tool using Semantic Kernel.
+
+00:23:02.070 --> 00:23:03.660
+So, we have my agent,
+
+00:23:03.660 --> 00:23:05.370
+we have this agent ID,
+
+00:23:05.370 --> 00:23:07.830
+and all I have to do is copy it.
+
+00:23:07.830 --> 00:23:12.150
+And when I get the
+agent from Foundry,
+
+00:23:12.150 --> 00:23:14.220
+I just provide the ID and
+
+00:23:14.220 --> 00:23:17.380
+then I can give it
+to Semantic Kernel.
+
+00:23:18.510 --> 00:23:20.730
+So, here I am creating
+my agent with
+
+00:23:20.730 --> 00:23:24.370
+the definition from Foundry.
+
+00:23:26.130 --> 00:23:29.640
+And after that, when
+we create our agent,
+
+00:23:29.640 --> 00:23:32.010
+you can see I'm
+giving it a plug-in,
+
+00:23:32.010 --> 00:23:33.960
+and I'm giving it
+that GitHub plug-in
+
+00:23:33.960 --> 00:23:36.970
+which is coming from
+that MCP server.
+
+00:23:38.490 --> 00:23:40.710
+And all I have to do
+now is hit "Run",
+
+00:23:40.710 --> 00:23:43.920
+and what's going to
+happen is my agent,
+
+00:23:43.920 --> 00:23:47.580
+yes, it's been
+defined in Foundry,
+
+00:23:47.580 --> 00:23:49.680
+it doesn't have any
+tools but, client-side,
+
+00:23:49.680 --> 00:23:52.110
+we are giving it the power
+of being able to search
+
+00:23:52.110 --> 00:23:53.820
+GitHub in order to
+
+00:23:53.820 --> 00:23:56.580
+answer the question that
+we gave it earlier,
+
+00:23:56.580 --> 00:23:58.830
+"What are the latest
+five Python issues
+
+00:23:58.830 --> 00:24:01.620
+in Microsoft Semantic Kernel?"
+
+00:24:01.620 --> 00:24:04.110
+So, it's going to
+think for a bit
+
+00:24:04.110 --> 00:24:07.960
+and any moment now it
+will give us an answer.
+
+00:24:12.960 --> 00:24:14.640
+And if we -- while
+we wait for it,
+
+00:24:14.640 --> 00:24:21.510
+we can go to a previous run
+and see what it was doing.
+
+00:24:21.510 --> 00:24:24.210
+And a question I
+often get is, "Okay,
+
+00:24:24.210 --> 00:24:27.540
+if I'm adding the
+MCP server locally,
+
+00:24:27.540 --> 00:24:29.190
+why -- what's the value of
+
+00:24:29.190 --> 00:24:31.500
+using Azure AI Foundry
+in the first place?"
+
+00:24:31.500 --> 00:24:32.820
+For one, the orchestration is
+
+00:24:32.820 --> 00:24:34.410
+all happening in
+the server side,
+
+00:24:34.410 --> 00:24:36.360
+and one of the big values of
+
+00:24:36.360 --> 00:24:38.370
+Azure AI Foundry Agent Service
+
+00:24:38.370 --> 00:24:40.320
+are actually these threads.
+
+00:24:40.320 --> 00:24:42.030
+And so I can go back to any of
+
+00:24:42.030 --> 00:24:45.600
+the prior conversations that
+I've had with this agent,
+
+00:24:45.600 --> 00:24:48.210
+whether it's user
+agent or agent agent,
+
+00:24:48.210 --> 00:24:52.650
+and I can see what was actually
+provided, responded back.
+
+00:24:52.650 --> 00:24:56.370
+I can also open it up in the
+playground and it -- look at
+
+00:24:56.370 --> 00:24:58.740
+the thread information
+to see all of
+
+00:24:58.740 --> 00:25:00.750
+the steps that the AI took
+
+00:25:00.750 --> 00:25:03.150
+to answer the user's questions.
+
+00:25:03.150 --> 00:25:06.390
+This is extremely powerful
+because this allows you to
+
+00:25:06.390 --> 00:25:12.210
+debug how your agent is
+actually using your MCP server.
+
+00:25:12.210 --> 00:25:14.070
+So, in this prior
+run, we can see,
+
+00:25:14.070 --> 00:25:16.200
+"What is the latest
+5 Python issues?"
+
+00:25:16.200 --> 00:25:17.310
+And it provided some outputs.
+
+00:25:17.310 --> 00:25:19.950
+But I can see also the
+
+00:25:19.950 --> 00:25:23.670
+individual run steps
+of this agent.
+
+00:25:23.670 --> 00:25:26.010
+And, obviously, the first
+one that it did was call
+
+00:25:26.010 --> 00:25:30.660
+the MCP server to get answers.
+
+00:25:30.660 --> 00:25:32.940
+And we can see for the
+input, it says, "Hey,
+
+00:25:32.940 --> 00:25:35.070
+I'm going to call the GitHub MCP
+
+00:25:35.070 --> 00:25:37.740
+server," I'm going to be asking,
+
+00:25:37.740 --> 00:25:40.590
+"Hey, this the repo
+I'm interested in,
+
+00:25:40.590 --> 00:25:44.190
+Semantic Kernel, I'm going to
+ask for some information."
+
+00:25:44.190 --> 00:25:47.790
+And then the MCP server
+actually generates all of
+
+00:25:47.790 --> 00:25:52.950
+this content and gives
+it back to the AI.
+
+00:25:52.950 --> 00:25:54.990
+And so, if we were
+
+00:25:54.990 --> 00:25:57.660
+wondering why it might
+have taken a while,
+
+00:25:57.660 --> 00:26:00.390
+the AI is actually eating,
+
+00:26:00.390 --> 00:26:04.650
+thinking over quite a bit of
+data from this MCP server.
+
+00:26:04.650 --> 00:26:06.090
+So, if you're an MCP author,
+
+00:26:06.090 --> 00:26:08.130
+you might actually
+use this to trim
+
+00:26:08.130 --> 00:26:10.830
+down or make the
+response smaller.
+
+00:26:10.830 --> 00:26:13.050
+Or if you're a MCP consumer,
+
+00:26:13.050 --> 00:26:14.610
+you might actually ask the AI,
+
+00:26:14.610 --> 00:26:16.230
+"Hey --" maybe ask for
+
+00:26:16.230 --> 00:26:19.770
+fewer responses so that
+you can think faster.
+
+00:26:19.770 --> 00:26:21.720
+Now, if we go back
+to my program,
+
+00:26:21.720 --> 00:26:23.760
+we can see that the agent
+was able to provide
+
+00:26:23.760 --> 00:26:25.890
+some answers and it listed off
+
+00:26:25.890 --> 00:26:29.190
+some real issues from
+the Semantic Kernel repo
+
+00:26:29.190 --> 00:26:33.540
+so that the user can, ultimately,
+do something with it.
+
+00:26:33.540 --> 00:26:36.660
+So, that's how you use
+Semantic Kernel with
+
+00:26:36.660 --> 00:26:38.700
+Azure AI Foundry
+Agent Service to
+
+00:26:38.700 --> 00:26:43.110
+bring MCP tools to your agents.
+
+00:26:43.110 --> 00:26:45.510
+Awesome. Okay, now we're
+
+00:26:45.510 --> 00:26:48.540
+going to go ahead and
+switch back to slideware.
+
+00:26:48.540 --> 00:26:51.300
+And now that we're
+at the halfway mark,
+
+00:26:51.300 --> 00:26:57.540
+we're going to talk about the
+"and more" of our session.
+
+00:26:57.540 --> 00:27:00.060
+A2A, I guess, raise
+of hands real quick,
+
+00:27:00.060 --> 00:27:04.050
+how many of you are
+familiar with A2A?
+
+00:27:04.050 --> 00:27:06.270
+Okay, alright, a
+good number of you.
+
+00:27:06.270 --> 00:27:08.550
+So, Google announced
+this a few weeks ago,
+
+00:27:08.550 --> 00:27:12.930
+it's short for
+Agent2Agent protocol
+
+00:27:12.930 --> 00:27:16.140
+and it's a way of
+giving a parent agent,
+
+00:27:16.140 --> 00:27:17.580
+we at Microsoft like to call it
+
+00:27:17.580 --> 00:27:20.610
+the router or the
+orchestrator agent in
+
+00:27:20.610 --> 00:27:22.440
+order to call other agents and
+
+00:27:22.440 --> 00:27:25.800
+delegate tasks to it, alright?
+
+00:27:25.800 --> 00:27:28.170
+Which kind of sounds
+similar to MCP,
+
+00:27:28.170 --> 00:27:30.690
+so we'll be talking about
+what the differences are.
+
+00:27:30.690 --> 00:27:35.790
+Now, what's powerful about
+A2A is a lot of companies are
+
+00:27:35.790 --> 00:27:38.640
+integrating with A2A so
+
+00:27:38.640 --> 00:27:40.740
+that all these different agents
+
+00:27:40.740 --> 00:27:41.700
+from different partners can
+
+00:27:41.700 --> 00:27:43.410
+ultimately talk to each other.
+
+00:27:43.410 --> 00:27:44.790
+And this demo, I'm really,
+
+00:27:44.790 --> 00:27:46.770
+really happy about this
+demo because I didn't make
+
+00:27:46.770 --> 00:27:50.280
+it, SAP made it.
+
+00:27:50.280 --> 00:27:51.330
+And what they were able to
+
+00:27:51.330 --> 00:27:53.250
+achieve is they
+were able to bring
+
+00:27:53.250 --> 00:27:56.760
+in agents from Foundry
+Agent Service,
+
+00:27:56.760 --> 00:28:00.150
+from Google, they had
+their own agents,
+
+00:28:00.150 --> 00:28:04.590
+and with them they were able
+to answer a user's question.
+
+00:28:04.590 --> 00:28:05.940
+So, you can see
+here, it actually
+
+00:28:05.940 --> 00:28:07.920
+contacts an Azure agent,
+
+00:28:07.920 --> 00:28:10.470
+it contacts some of
+their other agents,
+
+00:28:10.470 --> 00:28:12.360
+there's the Google
+agent right there.
+
+00:28:12.360 --> 00:28:15.000
+All of these different agents
+are able to talk to each
+
+00:28:15.000 --> 00:28:18.390
+other using the
+exact same protocol.
+
+00:28:18.390 --> 00:28:19.800
+So, for SAP, it was
+really easy for
+
+00:28:19.800 --> 00:28:21.390
+them to build this because they
+
+00:28:21.390 --> 00:28:24.480
+were talking to one
+type of protocol,
+
+00:28:24.480 --> 00:28:26.130
+type of message in
+
+00:28:26.130 --> 00:28:28.440
+order to generate
+this user's response.
+
+00:28:28.440 --> 00:28:30.510
+And here, this is their
+management plane.
+
+00:28:30.510 --> 00:28:33.540
+It also makes it really easy
+for them to show a list of
+
+00:28:33.540 --> 00:28:35.130
+all the agents that are working
+
+00:28:35.130 --> 00:28:37.800
+together inside
+of their project,
+
+00:28:37.800 --> 00:28:39.780
+because the A2A
+protocol also provides
+
+00:28:39.780 --> 00:28:43.590
+discoverability capabilities
+for you to see the name,
+
+00:28:43.590 --> 00:28:47.940
+description and
+capabilities of an agent.
+
+00:28:47.940 --> 00:28:49.980
+So, for all of you out there,
+
+00:28:49.980 --> 00:28:52.080
+I'm assuming you are only using
+
+00:28:52.080 --> 00:28:54.360
+Microsoft products
+in Microsoft agents,
+
+00:28:54.360 --> 00:28:57.000
+you can start using agents from
+
+00:28:57.000 --> 00:29:02.460
+other providers and having
+them work together using A2A.
+
+00:29:02.460 --> 00:29:04.320
+So, that was a nice little demo.
+
+00:29:04.320 --> 00:29:05.940
+I'd love to show you
+what it's actually
+
+00:29:05.940 --> 00:29:08.040
+like under the hood
+
+00:29:08.040 --> 00:29:09.930
+when you're using code to talk
+
+00:29:09.930 --> 00:29:13.050
+to one of our agents with A2A.
+
+00:29:13.050 --> 00:29:15.750
+So, I'll go ahead and
+switch back to my computer,
+
+00:29:15.750 --> 00:29:18.510
+and we are going to make
+this a little bit smaller.
+
+00:29:18.510 --> 00:29:20.700
+And this project that
+I hear -- have here,
+
+00:29:20.700 --> 00:29:22.710
+I just want to prove
+to all of you that
+
+00:29:22.710 --> 00:29:24.960
+the only libraries that we
+
+00:29:24.960 --> 00:29:27.750
+have are Azure identity for
+
+00:29:27.750 --> 00:29:30.870
+authentication and
+the A2A client,
+
+00:29:30.870 --> 00:29:33.960
+there is no Foundry
+client in here,
+
+00:29:33.960 --> 00:29:36.360
+there is no Copilot
+Studio client,
+
+00:29:36.360 --> 00:29:37.410
+besides Identity there's
+
+00:29:37.410 --> 00:29:40.890
+no Microsoft packages
+in this repo.
+
+00:29:40.890 --> 00:29:42.810
+And yet we're still
+
+00:29:42.810 --> 00:29:45.750
+going to be able to
+talk to our agent.
+
+00:29:45.750 --> 00:29:48.450
+So, if we go to program.cs,
+
+00:29:48.450 --> 00:29:51.540
+we can see we're getting my
+authentication token and
+
+00:29:51.540 --> 00:29:55.440
+we are creating a client,
+
+00:29:55.440 --> 00:29:58.470
+an A2A client to
+talk to our agent.
+
+00:29:58.470 --> 00:30:02.130
+And all I have to do
+is provide a URL,
+
+00:30:02.130 --> 00:30:05.940
+it's a frankly large URL
+but it's a URL nonetheless,
+
+00:30:05.940 --> 00:30:09.300
+that points to one of my agents.
+
+00:30:09.300 --> 00:30:12.690
+So, this is in my
+Foundry project
+
+00:30:12.690 --> 00:30:15.420
+and its agent ID is
+this ID right here.
+
+00:30:15.420 --> 00:30:19.950
+It maps directly -- let's see,
+
+00:30:19.950 --> 00:30:22.980
+it maps directly to
+the IDs that you see
+
+00:30:22.980 --> 00:30:27.150
+inside of our Agents experience.
+
+00:30:27.150 --> 00:30:29.400
+And this is a very
+simple program,
+
+00:30:29.400 --> 00:30:30.450
+it's proof of life,
+
+00:30:30.450 --> 00:30:31.710
+proof that we can actually talk
+
+00:30:31.710 --> 00:30:34.050
+A2A and we're just
+going to ask the agent,
+
+00:30:34.050 --> 00:30:35.400
+"Hey, how are you?"
+
+00:30:35.400 --> 00:30:36.900
+And if I go ahead and run
+
+00:30:36.900 --> 00:30:39.870
+this application it will
+
+00:30:39.870 --> 00:30:41.700
+go ahead and send that
+caress -- request,
+
+00:30:41.700 --> 00:30:46.170
+again through A2A, so our
+agent can talk to it.
+
+00:30:46.170 --> 00:30:48.840
+So, I -- the A2A head on
+
+00:30:48.840 --> 00:30:51.870
+top of our agent
+service went live,
+
+00:30:51.870 --> 00:30:54.030
+I believe, a couple of days ago
+
+00:30:54.030 --> 00:30:57.090
+and so if you wanted to
+start using it you can.
+
+00:30:57.090 --> 00:31:00.120
+Just FYI, Google did us dirty.
+
+00:31:00.120 --> 00:31:02.880
+No, I'm just kidding, they
+did update the A2A protocol
+
+00:31:02.880 --> 00:31:04.770
+earlier this week and so we are
+
+00:31:04.770 --> 00:31:07.680
+updating to match the
+latest specification,
+
+00:31:07.680 --> 00:31:10.290
+and that should be landing
+sometime next week.
+
+00:31:10.290 --> 00:31:13.920
+Alrighty. And if we see,
+
+00:31:13.920 --> 00:31:16.360
+and the agent did -- oh, no.
+
+00:31:18.150 --> 00:31:21.000
+Oh, it's in my debug
+console, here we go.
+
+00:31:21.000 --> 00:31:24.000
+It's thinking still -- or,
+
+00:31:24.000 --> 00:31:25.590
+no, I think it might have
+been this right here,
+
+00:31:25.590 --> 00:31:27.000
+it says, "Yes, I'm
+doing great, thank you.
+
+00:31:27.000 --> 00:31:28.800
+How can I assist you today?"
+
+00:31:28.800 --> 00:31:31.060
+Woohoo, ( applause) yes,
+clap, ( inaudible).
+
+00:31:32.850 --> 00:31:37.920
+And I like this because
+Google shipped this,
+
+00:31:37.920 --> 00:31:40.890
+like, was it three weeks
+or four weeks ago?
+
+00:31:40.890 --> 00:31:42.480
+Some of their own,
+even, services don't
+
+00:31:42.480 --> 00:31:45.270
+support A2A yet, but Microsoft,
+
+00:31:45.270 --> 00:31:47.490
+we love our open standards
+
+00:31:47.490 --> 00:31:49.500
+and so this is proof
+that if anything else
+
+00:31:49.500 --> 00:31:51.600
+comes up we're going to
+throw some engineers at
+
+00:31:51.600 --> 00:31:54.210
+it and we're going to support
+it, it's proof, okay?
+
+00:31:54.210 --> 00:31:57.960
+So, we really are wanting
+to be that platform that
+
+00:31:57.960 --> 00:31:59.910
+integrates with
+anything that you
+
+00:31:59.910 --> 00:32:03.210
+ultimately want to
+integrate with.
+
+00:32:03.210 --> 00:32:08.400
+Okay, so if we go back
+to our deck, MCP or A2A?
+
+00:32:08.400 --> 00:32:10.680
+When do you use each?
+
+00:32:10.680 --> 00:32:12.330
+So, it's pretty simple,
+
+00:32:12.330 --> 00:32:14.070
+at least in my opinion,
+
+00:32:14.070 --> 00:32:18.420
+if you have something like
+a tool -- and a tool,
+
+00:32:18.420 --> 00:32:20.370
+what Zapier showed you
+
+00:32:20.370 --> 00:32:22.080
+is a really great
+example of tools,
+
+00:32:22.080 --> 00:32:24.720
+so they're like your dumb APIs,
+
+00:32:24.720 --> 00:32:28.140
+that you send some sort
+of request body or
+
+00:32:28.140 --> 00:32:29.730
+JSON payload and you get
+
+00:32:29.730 --> 00:32:32.400
+some request body or JSON
+load -- payload back.
+
+00:32:32.400 --> 00:32:34.800
+The GitHub example was
+also really great, right?
+
+00:32:34.800 --> 00:32:36.090
+We sent a request and it sent us
+
+00:32:36.090 --> 00:32:39.370
+a big JSON payload
+of GitHub issues.
+
+00:32:40.710 --> 00:32:44.220
+A2A, however, when you're
+talking to agents, one,
+
+00:32:44.220 --> 00:32:46.980
+it's not some arbitrary JSON
+payload, there's messages,
+
+00:32:46.980 --> 00:32:49.500
+like all agents talk to
+each other with messages,
+
+00:32:49.500 --> 00:32:51.450
+so we can at least
+conform to that.
+
+00:32:51.450 --> 00:32:54.780
+And there's some
+state behind it,
+
+00:32:54.780 --> 00:32:56.820
+when you ask an agent, "Hey,
+
+00:32:56.820 --> 00:32:58.470
+can you help me look up
+
+00:32:58.470 --> 00:33:01.020
+some GitHub issues and
+return some results back?"
+
+00:33:01.020 --> 00:33:02.850
+You might want to continue
+that conversation,
+
+00:33:02.850 --> 00:33:03.690
+you might want to say, "Oh,
+
+00:33:03.690 --> 00:33:06.240
+can you drill down into issue
+
+00:33:06.240 --> 00:33:11.100
+one and tell me who
+it's assigned to?"
+
+00:33:11.100 --> 00:33:14.400
+With MCP, that state
+is kind of lost.
+
+00:33:14.400 --> 00:33:17.160
+With A2A, that's
+persisted and so that as
+
+00:33:17.160 --> 00:33:18.570
+your agents are
+communicating with each
+
+00:33:18.570 --> 00:33:20.430
+other they can
+have that two-way,
+
+00:33:20.430 --> 00:33:23.760
+back and forth
+conversation, okay?
+
+00:33:23.760 --> 00:33:25.590
+So, hopefully this
+is pretty simple,
+
+00:33:25.590 --> 00:33:29.430
+if you are talking
+to a dumb API MCP,
+
+00:33:29.430 --> 00:33:31.410
+if you're talking
+to a smarter system
+
+00:33:31.410 --> 00:33:32.760
+that's more of an agent,
+
+00:33:32.760 --> 00:33:36.090
+I'd recommend A2A, okay?
+
+00:33:36.090 --> 00:33:40.390
+And if you're curious about
+what is available today,
+
+00:33:41.550 --> 00:33:43.980
+one day all of this
+will say, "It's here,
+
+00:33:43.980 --> 00:33:45.870
+it's all available,"
+until then it's
+
+00:33:45.870 --> 00:33:46.950
+a little bit confusing so I'm
+
+00:33:46.950 --> 00:33:48.720
+just going to talk
+through this real quick.
+
+00:33:48.720 --> 00:33:52.470
+For MCP, you saw me demo
+it today with a connector,
+
+00:33:52.470 --> 00:33:56.460
+you saw us demo that
+with Copilot Studio.
+
+00:33:56.460 --> 00:33:59.190
+Agent Service, as I
+mentioned, is coming soon.
+
+00:33:59.190 --> 00:34:03.660
+And then on the A2A side
+we have, of course,
+
+00:34:03.660 --> 00:34:05.580
+a connector with Semantic Kernel
+
+00:34:05.580 --> 00:34:08.250
+and it's coming soon to agent
+Service and Copilot Studio,
+
+00:34:08.250 --> 00:34:12.150
+and you just saw me
+demo the API head.
+
+00:34:12.150 --> 00:34:15.560
+And we have one more
+thing to share,
+
+00:34:15.560 --> 00:34:18.530
+and then we can wrap
+up this session.
+
+00:34:18.530 --> 00:34:19.790
+That is, besides
+
+00:34:19.790 --> 00:34:23.480
+just MCP integration
+and A2A integration,
+
+00:34:23.480 --> 00:34:25.340
+we are also wanting to make
+sure that we integrate with
+
+00:34:25.340 --> 00:34:27.290
+all the open source
+libraries that are out
+
+00:34:27.290 --> 00:34:30.260
+there within the ecosystem.
+
+00:34:30.260 --> 00:34:32.450
+So, of course, you saw
+me demo Agent Service,
+
+00:34:32.450 --> 00:34:34.100
+working with Semantic Kernel,
+
+00:34:34.100 --> 00:34:35.690
+but there are other
+important libraries
+
+00:34:35.690 --> 00:34:39.420
+like LlamaIndex and CrewAI.
+
+00:34:39.420 --> 00:34:41.100
+I don't know if any of you
+all have used these before,
+
+00:34:41.100 --> 00:34:44.430
+and coming soon will be
+LangChain integration,
+
+00:34:44.430 --> 00:34:47.430
+which I know a lot of
+people use LangChain.
+
+00:34:47.430 --> 00:34:49.980
+But for each of these
+you can now use
+
+00:34:49.980 --> 00:34:53.460
+Agent Service inside
+of these SDKs.
+
+00:34:53.460 --> 00:34:55.080
+This is the example of using
+
+00:34:55.080 --> 00:34:58.530
+an Azure Foundry Agent
+within LlamaIndex,
+
+00:34:58.530 --> 00:34:59.910
+and then you can also use
+
+00:34:59.910 --> 00:35:03.060
+an agent from
+Foundry with CrewAI.
+
+00:35:03.060 --> 00:35:05.190
+Again, this is --
+we, as Microsoft,
+
+00:35:05.190 --> 00:35:07.380
+want to provide you the
+flexibility to make sure
+
+00:35:07.380 --> 00:35:10.530
+that you're able to use agents,
+
+00:35:10.530 --> 00:35:14.070
+whether it's from Copilot
+Studio or Agent Service in
+
+00:35:14.070 --> 00:35:19.170
+any of the frameworks
+that you use today.
+
+00:35:19.170 --> 00:35:22.050
+And with that, do
+you want to help
+
+00:35:22.050 --> 00:35:25.930
+round things off?
+Thank you. ( applause)
+
+00:35:29.100 --> 00:35:33.020
+ZANKAR DESAI: Thank
+you, Mads. So, just to
+
+00:35:33.020 --> 00:35:34.670
+share some additional
+resources we
+
+00:35:34.670 --> 00:35:37.740
+have for Copilot Studio MCP.
+
+00:35:37.740 --> 00:35:39.570
+We have our links
+for documentation,
+
+00:35:39.570 --> 00:35:41.850
+we have a community
+forum out there as
+
+00:35:41.850 --> 00:35:45.120
+well for you to share
+ideas, give feedback.
+
+00:35:45.120 --> 00:35:48.330
+And then we also have
+a Get Started Lab.
+
+00:35:48.330 --> 00:35:49.770
+Thank you all for
+being here with us
+
+00:35:49.770 --> 00:35:51.330
+today and for your time,
+
+00:35:51.330 --> 00:35:52.410
+and we're here to answer
+
+00:35:52.410 --> 00:35:54.180
+any questions after
+this session.
+
+00:35:54.180 --> 00:35:55.980
+But we hope you enjoyed
+the session and
+
+00:35:55.980 --> 00:35:59.080
+had a great time at Build.
+Thank you. (applause)

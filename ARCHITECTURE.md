@@ -9,12 +9,12 @@ This repository is dedicated to the accumulation and organization of all informa
 - `labs/` — Hands-on labs from Build 2025
 - `demos/` — Demos showcased during Build 2025
 - `breakouts/` — Breakout session notes, summaries, and resources
-- `announcements/` — Major announcements and news from Build 2025
-- `agenda/` — Full event agenda and session catalog
+- `keynotes/` — Keynote session notes and learnings
+- `announcements/` — Major announcements, product launches, and updates
 - `resources/` — Downloadable resources, documentation, and reference material
 - `videos/` — Links to on-demand session recordings and keynotes
-- `shows/` — Featured and popular Microsoft technical shows
 - `news/` — News articles and blog posts related to Build 2025
+- `partners/` — Partner announcements, integrations, and collaborations
 
 ## Folder Details
 
@@ -36,17 +36,17 @@ Contains notes and resources from breakout sessions, such as:
 - Customer and partner stories
 - Q&A and panel discussions
 
-### announcements/
-Contains markdown files for:
-- Keynote announcements
-- Product launches
-- Major updates (e.g., Copilot, Azure, Windows, Surface)
+### keynotes/
+Contains notes and learnings from keynote sessions, such as:
+- Microsoft Build opening keynote
+- Unpacking the tech
+- Scott and Mark Learn to...LIVE
 
-### agenda/
+### announcements/
 Contains:
-- The full session catalog
-- Event schedule
-- Speaker list
+- Major announcements from Microsoft Build 2025
+- Product launches
+- Important updates (e.g., Copilot, Azure, Windows, Surface)
 
 ### resources/
 Contains:
@@ -58,15 +58,17 @@ Contains:
 - Links to on-demand session recordings
 - Keynote and breakout session videos
 
-### shows/
-Contains:
-- Featured and popular Microsoft technical shows (e.g., Sip and Sync with Azure, Visual Studio Code, Data Exposed)
-
 ### news/
 Contains:
 - Blog posts
 - News articles
 - Press releases
+
+### partners/
+Contains:
+- Announcements and news from Microsoft Build partners
+- Partner integrations and demos
+- Collaboration stories and case studies
 
 ---
 

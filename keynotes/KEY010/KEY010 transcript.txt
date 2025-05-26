@@ -1,0 +1,8813 @@
+WEBVTT
+
+00:00:00.206 --> 00:00:06.870
+[ Music ]
+
+00:00:06.870 --> 00:00:09.510
+Speaker 1: I think I started
+programming at maybe 15.
+
+00:00:09.510 --> 00:00:13.470
+Speaker 2: I just couldn't pull
+myself away from these machines.
+
+00:00:13.470 --> 00:00:14.477
+Speaker 3: I wanted to be a
+developer,
+
+00:00:14.511 --> 00:00:15.300
+I wanted to write code.
+
+00:00:15.300 --> 00:00:17.760
+Speaker 4: I started
+creating my own video games.
+
+00:00:17.760 --> 00:00:19.350
+Speaker 5: It sparked
+something in me.
+
+00:00:19.350 --> 00:00:21.000
+Speaker 6: I started to
+really like programming.
+
+00:00:21.000 --> 00:00:21.598
+Speaker 7:
+Becoming a programmer,
+
+00:00:21.632 --> 00:00:22.999
+it opened the world for me.
+
+00:00:23.033 --> 00:00:29.336
+[ Music ]
+
+00:00:29.370 --> 00:00:31.770
+Speaker 8: I'm super
+excited about AI.
+
+00:00:31.770 --> 00:00:32.970
+The feeling of wonder,
+
+00:00:32.970 --> 00:00:35.730
+that's the reason why I
+started developing software.
+
+00:00:35.730 --> 00:00:37.830
+Speaker 9: I'm excited to see
+what we're going to build
+
+00:00:37.830 --> 00:00:39.630
+with such powerful tools.
+
+00:00:39.630 --> 00:00:41.940
+Speaker 10: Programming with
+an agent is really empowering.
+
+00:00:41.940 --> 00:00:43.110
+Speaker 11: That's like
+an extension of myself.
+
+00:00:43.110 --> 00:00:44.880
+It helps me go further.
+
+00:00:44.880 --> 00:00:46.260
+Speaker 12: No
+project is too big.
+
+00:00:46.260 --> 00:00:48.210
+No idea is too big.
+
+00:00:48.210 --> 00:00:50.160
+Speaker 13: It's magical.
+
+00:00:50.160 --> 00:00:51.600
+Speaker 14: If you make
+artificial intelligence
+
+00:00:51.600 --> 00:00:53.160
+available to everyone to use,
+
+00:00:53.160 --> 00:00:55.050
+you can essentially make
+the superpower available
+
+00:00:55.050 --> 00:00:56.220
+to everyone.
+
+00:00:56.220 --> 00:00:58.200
+Speaker 15: Knowing that my
+project is being used by people
+
+00:00:58.200 --> 00:01:00.000
+to make their lives better.
+
+00:01:00.000 --> 00:01:02.310
+Speaker 16: To make an
+impact in the world.
+
+00:01:02.310 --> 00:01:04.470
+Speaker 17: Solving the
+problems we want to solve.
+
+00:01:04.470 --> 00:01:07.530
+Speaker 18: That's just the
+best feeling in the world.
+
+00:01:07.530 --> 00:01:11.700
+Speaker 19: The ideas I have
+are limitless and endless.
+
+00:01:11.700 --> 00:01:13.860
+Speaker 20: Everything that we
+do is empowering other people
+
+00:01:13.860 --> 00:01:15.180
+to make the world better.
+
+00:01:15.214 --> 00:01:20.358
+[ Music ]
+
+00:01:22.119 --> 00:01:24.121
+[ Applause ]
+
+00:01:24.155 --> 00:01:25.249
+Satya Nadella: Good morning.
+
+00:01:25.283 --> 00:01:27.976
+[ Applause ]
+
+00:01:28.010 --> 00:01:30.407
+Good morning, and
+welcome to Build.
+
+00:01:30.441 --> 00:01:32.523
+[ Applause ]
+
+00:01:32.557 --> 00:01:36.600
+You know, it's always
+fun to be back at Build,
+
+00:01:36.600 --> 00:01:38.850
+especially in times like this.
+
+00:01:38.850 --> 00:01:41.730
+We're just about getting
+into these middle innings
+
+00:01:41.730 --> 00:01:44.190
+of another platform shift.
+
+00:01:44.190 --> 00:01:45.660
+And these middle innings are
+
+00:01:45.660 --> 00:01:48.840
+where all things happen,
+all things scale.
+
+00:01:48.840 --> 00:01:52.063
+In fact, it reminds
+me, for me, you know,
+
+00:01:52.096 --> 00:01:56.970
+'91 and Win32, or the Web Stack
+
+00:01:56.970 --> 00:02:01.950
+in '96, 2008 and
+Cloud and Mobile.
+
+00:02:01.950 --> 00:02:05.730
+And here we are in 2025 building
+
+00:02:05.730 --> 00:02:10.110
+out this open agentic
+web at scale.
+
+00:02:10.110 --> 00:02:13.230
+And we're going
+from these few apps
+
+00:02:13.230 --> 00:02:18.000
+with vertically integrated
+stacks to more of a platform
+
+00:02:18.000 --> 00:02:22.950
+that enables this open,
+scalable, agentic web.
+
+00:02:22.950 --> 00:02:28.200
+More importantly, it's all about
+expanding that opportunity
+
+00:02:28.200 --> 00:02:32.100
+for developers across
+every layer of the stack
+
+00:02:32.100 --> 00:02:35.160
+so that you all can
+build the apps,
+
+00:02:35.160 --> 00:02:37.830
+the agents that can
+empower every person
+
+00:02:37.830 --> 00:02:40.440
+and every organization
+on the planet.
+
+00:02:40.440 --> 00:02:44.520
+That's what we will unpack
+at this conference.
+
+00:02:44.520 --> 00:02:47.790
+But let us start
+where it all starts,
+
+00:02:47.790 --> 00:02:50.850
+the tools we use to build.
+
+00:02:50.850 --> 00:02:52.980
+Software engineering
+has always been
+
+00:02:52.980 --> 00:02:57.600
+about having the right tools
+to bring your ideas to life,
+
+00:02:57.600 --> 00:03:03.660
+continually perfect and
+craft and tame complexity.
+
+00:03:03.660 --> 00:03:06.450
+We're continually
+evolving these tools.
+
+00:03:06.450 --> 00:03:08.550
+We are seeing
+incredible momentum,
+
+00:03:08.550 --> 00:03:09.810
+adoption, and diffusion.
+
+00:03:09.810 --> 00:03:12.600
+In fact, Visual Studio
+and family now has
+
+00:03:12.600 --> 00:03:14.700
+over 50 million users.
+
+00:03:14.700 --> 00:03:18.000
+GitHub has 150 million users.
+
+00:03:18.000 --> 00:03:20.220
+GitHub Copilot, in fact,
+has been used by more
+
+00:03:20.220 --> 00:03:25.503
+than 15 million developers, and
+we are just getting started.
+
+00:03:25.537 --> 00:03:28.650
+We have a bunch of new updates
+we are rolling out at Build,
+
+00:03:28.650 --> 00:03:30.060
+starting with Visual Studio.
+
+00:03:30.060 --> 00:03:35.010
+It is the most powerful
+IDE for .NET and C++.
+
+00:03:35.010 --> 00:03:36.620
+And we're making
+it even better, right?
+
+00:03:36.654 --> 00:03:40.080
+.NET 10 support, live preview
+
+00:03:40.080 --> 00:03:44.640
+at design time, improvements
+to get tooling, a new debugger
+
+00:03:44.640 --> 00:03:47.700
+for cross-platform apps
+and much, much more.
+
+00:03:47.700 --> 00:03:50.400
+And we are moving, by the
+way, to a monthly cadence
+
+00:03:50.400 --> 00:03:52.770
+for stable releases as well.
+
+00:03:52.770 --> 00:03:56.730
+And when it comes to VS Code,
+just a couple of weeks ago,
+
+00:03:56.730 --> 00:04:01.950
+we shipped our 100th
+release in the open.
+
+00:04:01.950 --> 00:04:05.730
+It included improved
+multi-window support
+
+00:04:05.730 --> 00:04:11.370
+and made it easier to view stage
+directly from within the editor.
+
+00:04:11.370 --> 00:04:15.810
+And GitHub continues to be
+the home for developers.
+
+00:04:15.810 --> 00:04:20.660
+GitHub Enterprise has tremendous
+momentum in the enterprise.
+
+00:04:20.660 --> 00:04:23.720
+And we're doubling down
+for developers building
+
+00:04:23.720 --> 00:04:25.700
+any applications.
+
+00:04:25.700 --> 00:04:30.440
+Trust, security,
+compliance, auditability,
+
+00:04:30.440 --> 00:04:34.860
+data residency are even
+more critical today.
+
+00:04:34.860 --> 00:04:37.561
+Now, starting
+with tools you use,
+
+00:04:37.594 --> 00:04:40.563
+to the infrastructure
+you deploy on,
+
+00:04:40.597 --> 00:04:45.150
+to reach the users and
+the markets you want.
+
+00:04:45.150 --> 00:04:51.900
+Talking about trust, open source
+is at the core of GitHub,
+
+00:04:51.900 --> 00:04:56.250
+and we are taking
+this next big step.
+
+00:04:56.250 --> 00:05:00.960
+As GitHub Copilot has evolved
+inside VS Code, AI has become
+
+00:05:00.960 --> 00:05:04.470
+so central to how we code.
+
+00:05:04.470 --> 00:05:08.340
+And that's why we're open
+sourcing Copilot in VS Code.
+
+00:05:08.340 --> 00:05:09.786
+We're really excited about this.
+
+00:05:09.820 --> 00:05:11.127
+[ Applause ]
+
+00:05:11.161 --> 00:05:12.542
+[ Cheering ]
+
+00:05:12.576 --> 00:05:16.226
+[ Applause ]
+
+00:05:16.260 --> 00:05:17.940
+Satya Nadella:
+This is a big deal.
+
+00:05:17.940 --> 00:05:21.120
+Starting today, we will
+integrate these AI-powered
+
+00:05:21.120 --> 00:05:25.890
+capabilities directly into the
+core of VS Code, bringing them
+
+00:05:25.890 --> 00:05:28.230
+into the same open-source repo
+
+00:05:28.230 --> 00:05:33.240
+that powers the world's
+most loved dev tool.
+
+00:05:33.240 --> 00:05:35.460
+And, of course, we'll
+continue to build
+
+00:05:35.460 --> 00:05:37.620
+out GitHub Copilot, too.
+
+00:05:37.620 --> 00:05:39.540
+In fact, over the
+past few years,
+
+00:05:39.540 --> 00:05:43.350
+we've gone from code
+completions, to Chat,
+
+00:05:43.350 --> 00:05:46.860
+to multi-file edits,
+and now Agents.
+
+00:05:46.860 --> 00:05:50.550
+And this same pattern is
+emerging more broadly
+
+00:05:50.550 --> 00:05:52.710
+across the agentic web.
+
+00:05:52.710 --> 00:05:57.330
+You can ask questions, and AI
+assistants give us answers.
+
+00:05:57.330 --> 00:06:01.950
+You can assign tasks to agents
+and have them execute them
+
+00:06:01.950 --> 00:06:06.930
+or work side-by-side with AI
+to complete jobs and projects.
+
+00:06:06.930 --> 00:06:10.590
+And you can mix and match
+all of these form factors.
+
+00:06:10.590 --> 00:06:12.750
+That's kind of what we
+care about as developers.
+
+00:06:12.750 --> 00:06:14.220
+It's not about any one of them.
+
+00:06:14.220 --> 00:06:16.980
+In fact, we're building
+app modernization right
+
+00:06:16.980 --> 00:06:18.210
+into Agent mode, right?
+
+00:06:18.210 --> 00:06:21.720
+So, Copilot now is capable
+of upgrading frameworks
+
+00:06:21.720 --> 00:06:27.090
+like a Java 8 to Java
+21, or .NET 6 to .NET 9
+
+00:06:27.090 --> 00:06:30.960
+and migrate any on-premise
+app to the cloud.
+
+00:06:30.960 --> 00:06:33.600
+It creates a plan for
+your code and dependencies,
+
+00:06:33.600 --> 00:06:36.090
+suggests the fixes
+along the way,
+
+00:06:36.090 --> 00:06:38.730
+learns from changes you make,
+
+00:06:38.730 --> 00:06:41.940
+and makes the entire
+process seamless.
+
+00:06:41.940 --> 00:06:45.540
+And the next thing we're
+introducing is an autonomous
+
+00:06:45.540 --> 00:06:49.740
+agent for site reliability
+engineering, or SRE.
+
+00:06:49.740 --> 00:06:50.850
+I mean, think about one
+
+00:06:50.850 --> 00:06:52.861
+of the biggest pain
+points for any of us, right?
+
+00:06:52.895 --> 00:06:54.840
+Getting woken up in the
+middle of the night to deal
+
+00:06:54.840 --> 00:06:56.910
+with a live site issue.
+
+00:06:56.910 --> 00:07:00.750
+Take a pager in duty,
+memory leak issue.
+
+00:07:00.750 --> 00:07:04.230
+The SRE agent starts
+automatically triaging,
+
+00:07:04.230 --> 00:07:07.260
+root-causing,
+mitigating the issue,
+
+00:07:07.260 --> 00:07:10.320
+and then it logs the
+incident management report
+
+00:07:10.320 --> 00:07:13.950
+as a GitHub issue with
+all the repair items.
+
+00:07:13.950 --> 00:07:17.220
+And from there, you can even
+assign the repair items
+
+00:07:17.220 --> 00:07:19.103
+to GitHub Copilot.
+
+00:07:19.137 --> 00:07:21.990
+And, we're not stopping there.
+
+00:07:21.990 --> 00:07:23.910
+This is the next
+big step forward,
+
+00:07:23.910 --> 00:07:29.730
+which is a full coding agent
+built right into GitHub,
+
+00:07:29.730 --> 00:07:34.740
+taking Copilot from being a pair
+programmer to a peer programmer.
+
+00:07:34.740 --> 00:07:39.630
+You can assign issues
+to Copilot, bug fixes,
+
+00:07:39.630 --> 00:07:42.540
+new features, code maintenance,
+
+00:07:42.540 --> 00:07:45.900
+and it will complete
+these tasks autonomously.
+
+00:07:45.900 --> 00:07:48.840
+And today, I'm super excited
+
+00:07:48.840 --> 00:07:52.330
+that it's now available
+to all of you.
+
+00:07:52.364 --> 00:07:56.813
+[ Applause ]
+
+00:07:56.847 --> 00:08:00.240
+Satya Nadella:
+You know, let me walk over.
+
+00:08:00.240 --> 00:08:04.230
+Gone are the days when I could
+just simply report bugs.
+
+00:08:04.230 --> 00:08:08.040
+At this point, I get to --
+I'm assigned bugs to fix.
+
+00:08:08.040 --> 00:08:11.370
+And that's kind of
+called empowerment.
+
+00:08:11.370 --> 00:08:16.380
+And here I am with all the
+bugs that I have or issues
+
+00:08:16.380 --> 00:08:19.560
+that I have to deal
+with in GitHub Issues.
+
+00:08:19.560 --> 00:08:23.430
+The first one is adding a filter
+
+00:08:23.430 --> 00:08:25.920
+for user group, size,
+community page.
+
+00:08:25.920 --> 00:08:28.740
+Let's go take a
+look at this issue.
+
+00:08:28.740 --> 00:08:30.199
+It's nice. They say, like,
+
+00:08:30.233 --> 00:08:33.390
+I've got to go put
+some new filter up here,
+
+00:08:33.390 --> 00:08:35.820
+it also shows me where.
+
+00:08:35.820 --> 00:08:41.250
+I guess it needs to do a range,
+small, medium, large, by size
+
+00:08:41.250 --> 00:08:44.970
+or some kind of a percentile.
+It's like some kind
+
+00:08:44.970 --> 00:08:48.090
+of a "group-by"
+"case-when" type of thing.
+
+00:08:48.090 --> 00:08:52.320
+Anyway, so let's do the thing
+that is easiest for me.
+
+00:08:52.320 --> 00:08:54.330
+In fact, it even has
+some caching stuff,
+
+00:08:54.330 --> 00:08:55.830
+which I have no
+idea what that is,
+
+00:08:55.830 --> 00:08:58.770
+but I guess there's a staging
+cache and then a Redis.
+
+00:08:58.770 --> 00:09:00.030
+Okay, fine.
+
+00:09:00.030 --> 00:09:03.810
+Let's do the thing that I
+can do, which is assign it
+
+00:09:03.810 --> 00:09:05.460
+to my new buddy, Copilot.
+
+00:09:05.460 --> 00:09:07.020
+So I'm going to assign it.
+
+00:09:07.020 --> 00:09:09.720
+And there you go.
+
+00:09:09.720 --> 00:09:11.730
+Let's go and see.
+
+00:09:11.730 --> 00:09:14.220
+Let me scroll down.
+
+00:09:14.220 --> 00:09:18.150
+Ah, it's picked it up.
+
+00:09:18.150 --> 00:09:19.290
+It sees me.
+
+00:09:19.290 --> 00:09:21.330
+It creates a PR.
+
+00:09:21.330 --> 00:09:24.960
+And you see that nice eye emoji.
+
+00:09:24.960 --> 00:09:26.310
+It sort of knows that I'm here,
+
+00:09:26.310 --> 00:09:27.960
+and it's sort of
+going on to work.
+
+00:09:27.960 --> 00:09:29.820
+And we'll come back and
+check it out later.
+
+00:09:29.820 --> 00:09:33.330
+It's just so fun to be able
+to go take care of issues
+
+00:09:33.330 --> 00:09:37.710
+like that, like email
+triage assigned to Copilot.
+
+00:09:37.710 --> 00:09:40.890
+But what it's doing is
+it's setting up a branch.
+
+00:09:40.890 --> 00:09:43.110
+It starts GitHub Actions
+
+00:09:43.110 --> 00:09:46.020
+in the sense it just
+generates the compute for you
+
+00:09:46.020 --> 00:09:49.380
+or creates a virtual machine
+using GitHub Actions.
+
+00:09:49.380 --> 00:09:52.110
+It commits a draft
+PR to session logs.
+
+00:09:52.110 --> 00:09:54.750
+And, in fact, you can go back to
+the session logs and continue
+
+00:09:54.750 --> 00:09:58.110
+to see all the draft
+PRs as it's working.
+
+00:09:58.110 --> 00:10:02.790
+Our coding agent respects all
+the security measures while
+
+00:10:02.790 --> 00:10:05.490
+delivering a great
+developer experience.
+
+00:10:05.490 --> 00:10:07.770
+That's obviously
+super important.
+
+00:10:07.770 --> 00:10:10.050
+The agent works in
+its own branch.
+
+00:10:10.050 --> 00:10:14.040
+It only uses MCP servers
+configured by a developer.
+
+00:10:14.040 --> 00:10:17.640
+We can get other agents to do
+code reviews and keep people
+
+00:10:17.640 --> 00:10:22.470
+in the loop before they
+run any CI/CD or Merge.
+
+00:10:22.470 --> 00:10:27.360
+And we're also making all these
+intrinsics available to partners
+
+00:10:27.360 --> 00:10:31.640
+to ensure that there is an open
+and secure ecosystem of agents,
+
+00:10:31.640 --> 00:10:35.510
+whether it's SRE, SWE,
+code review and many,
+
+00:10:35.510 --> 00:10:38.210
+many more agents that
+all of you will build.
+
+00:10:38.210 --> 00:10:40.430
+And, of course, we
+also want to ensure
+
+00:10:40.430 --> 00:10:43.400
+that individual
+developers, as well as IT,
+
+00:10:43.400 --> 00:10:45.600
+have all the controls here.
+
+00:10:45.600 --> 00:10:49.860
+And talking about ecosystem
+of agents, we're very excited
+
+00:10:49.860 --> 00:10:54.000
+about OpenAI's Codex agent that
+was just launched on Friday.
+
+00:10:54.000 --> 00:10:57.150
+And I'm thrilled to have Sam
+Altman join us virtually.
+
+00:10:57.150 --> 00:10:59.070
+Welcome, Sam, to Build.
+
+00:10:59.070 --> 00:11:00.523
+Sam Altman: Thank you.
+Thank you for having me.
+
+00:11:00.557 --> 00:11:05.289
+[ Applause ]
+
+00:11:05.323 --> 00:11:06.422
+Satya Nadella: 
+You know,
+
+00:11:06.456 --> 00:11:08.452
+one of the things I know
+you've thought a lot about,
+
+00:11:08.485 --> 00:11:11.767
+all these various form
+factors the developers
+
+00:11:11.801 --> 00:11:13.260
+use for software engineering.
+
+00:11:13.260 --> 00:11:14.610
+Of course, you did the CLI.
+
+00:11:14.610 --> 00:11:18.750
+And now last week, you
+did the Coding Agent.
+
+00:11:18.750 --> 00:11:21.930
+You want to talk a little bit,
+Sam, sort of the vision you have
+
+00:11:21.930 --> 00:11:24.766
+for how software
+engineering evolves? And,
+
+00:11:24.800 --> 00:11:27.237
+actually, how developers
+will use all these various
+
+00:11:27.270 --> 00:11:29.370
+form factors together?
+
+00:11:29.370 --> 00:11:30.706
+Sam Altman: Yeah. 
+So Satya,
+
+00:11:30.740 --> 00:11:32.310
+you and I have been talking
+about this for a long time.
+
+00:11:32.310 --> 00:11:34.230
+In fact, the very first
+version of Codex,
+
+00:11:34.230 --> 00:11:35.730
+I think it was all
+the way back to 2021,
+
+00:11:35.730 --> 00:11:38.700
+one of the very first things
+we did together in GitHub.
+
+00:11:38.700 --> 00:11:42.120
+And we've been talking about
+how someday we'd get to, like,
+
+00:11:42.120 --> 00:11:44.100
+a real agentic
+coding experience.
+
+00:11:44.100 --> 00:11:47.010
+And it's kind of wild to
+me that it's finally here.
+
+00:11:47.010 --> 00:11:48.420
+I think this is one of
+the biggest changes
+
+00:11:48.420 --> 00:11:50.280
+to programming that
+I've ever seen.
+
+00:11:50.280 --> 00:11:53.220
+But this idea that you now
+have a real virtual teammate
+
+00:11:53.220 --> 00:11:55.620
+that you can assign work
+to, that you can say, hey,
+
+00:11:55.620 --> 00:11:57.600
+go off and do some of the
+stuff you were just doing;
+
+00:11:57.600 --> 00:12:00.090
+and increasingly more advanced
+things -- at some point, say,
+
+00:12:00.090 --> 00:12:03.180
+like, I got a big idea, go off
+and work for a couple of days
+
+00:12:03.180 --> 00:12:06.360
+and do it. And that you can
+issue many requests in parallel,
+
+00:12:06.360 --> 00:12:08.910
+that you can be fixing bugs,
+implementing new features,
+
+00:12:08.910 --> 00:12:11.400
+answering questions
+about the code.
+
+00:12:11.400 --> 00:12:15.330
+This is, like, true software
+engineering task delegation,
+
+00:12:15.330 --> 00:12:16.680
+and I think it'll only
+get better from here.
+
+00:12:16.680 --> 00:12:19.500
+But this is just a
+tremendously exciting moment.
+
+00:12:19.500 --> 00:12:21.390
+It integrates very
+deeply with GitHub.
+
+00:12:21.390 --> 00:12:23.250
+You can give it access to
+a repo and environment,
+
+00:12:23.250 --> 00:12:25.680
+and you can get some
+pretty amazing stuff done.
+
+00:12:25.680 --> 00:12:26.821
+Satya Nadella: Yeah,
+I know, it's really exciting
+
+00:12:26.855 --> 00:12:30.240
+to see that. And it's also sort
+of great to have developers stay
+
+00:12:30.240 --> 00:12:34.470
+in the flow, work with,
+essentially, peer programmers,
+
+00:12:34.470 --> 00:12:37.770
+agents as well as other people
+that we collaborate with,
+
+00:12:37.770 --> 00:12:40.500
+and just have the
+developer process itself
+
+00:12:40.500 --> 00:12:42.510
+and the lifecycle get faster.
+
+00:12:42.510 --> 00:12:45.390
+Obviously, you're also
+working on a lot of models
+
+00:12:45.390 --> 00:12:47.190
+and are very, sort
+of, fantastic.
+
+00:12:47.190 --> 00:12:50.040
+In fact, we've had a chance
+to sort of sim ship a lot
+
+00:12:50.040 --> 00:12:51.990
+of the models you
+guys have built.
+
+00:12:51.990 --> 00:12:55.110
+Just tell us a little bit about
+what's sort of coming as far
+
+00:12:55.110 --> 00:12:57.690
+as the model roadmap itself.
+
+00:12:57.690 --> 00:12:59.400
+Sam Altman: The models
+are already very smart.
+
+00:12:59.400 --> 00:13:00.900
+They will continue
+to get smarter, too.
+
+00:13:00.900 --> 00:13:03.390
+But I think one of the most
+exciting things is the models
+
+00:13:03.390 --> 00:13:05.100
+will get simpler to use.
+
+00:13:05.100 --> 00:13:06.240
+You won't have so
+many to pick from.
+
+00:13:06.240 --> 00:13:08.100
+It'll just sort of automatically
+do the right thing.
+
+00:13:08.100 --> 00:13:09.330
+They'll get much more reliable.
+
+00:13:09.330 --> 00:13:11.250
+You'll be able to trust
+them for much more.
+
+00:13:11.250 --> 00:13:13.530
+There'll be a lot more
+features like multimodality
+
+00:13:13.530 --> 00:13:15.600
+and great tool use
+and integration.
+
+00:13:15.600 --> 00:13:18.480
+It'll be closer to
+the "it just works".
+
+00:13:18.514 --> 00:13:19.975
+You know, I can talk to it.
+
+00:13:20.009 --> 00:13:23.126
+I can do a complicated
+coding, agentic thing.
+
+00:13:23.160 --> 00:13:24.420
+I can rely on it.
+
+00:13:24.420 --> 00:13:28.020
+And I think people are going
+to be surprised at how fast
+
+00:13:28.020 --> 00:13:29.893
+how fast we're going
+
+00:13:29.926 --> 00:13:31.470
+to make progress in
+those directions now.
+
+00:13:31.470 --> 00:13:32.615
+Satya Nadella: 
+Yeah, I know, we're very excited
+
+00:13:32.649 --> 00:13:33.780
+about your model roadmap.
+
+00:13:33.780 --> 00:13:35.311
+And obviously, you
+know, when you look at
+
+00:13:35.345 --> 00:13:37.980
+ChatGPT, it's the most at-scale,
+
+00:13:37.980 --> 00:13:42.270
+stateful, agentic app
+today that you guys built.
+
+00:13:42.270 --> 00:13:44.070
+And, of course, Codex
+is another sort
+
+00:13:44.070 --> 00:13:46.290
+of agent app that you build.
+
+00:13:46.290 --> 00:13:48.660
+And this conference is
+all about unpacking
+
+00:13:48.660 --> 00:13:50.640
+so that every developer
+can, in some sense,
+
+00:13:50.640 --> 00:13:55.350
+build these new agentic
+apps that use the model,
+
+00:13:55.350 --> 00:13:57.540
+do their own model scaffolding,
+
+00:13:57.540 --> 00:14:01.260
+go on to even do multi-agent
+orchestration and so on.
+
+00:14:01.260 --> 00:14:03.450
+Any advice you have
+as people build
+
+00:14:03.450 --> 00:14:05.796
+out these high-scale production,
+
+00:14:05.829 --> 00:14:08.016
+stateful, agentic apps, Sam,
+
+00:14:08.050 --> 00:14:09.433
+based on, obviously,
+what you guys
+
+00:14:09.466 --> 00:14:10.893
+have been doing and leading?
+
+00:14:13.230 --> 00:14:14.610
+Sam Altman: I think
+one of the hardest,
+
+00:14:14.610 --> 00:14:15.840
+most difficult things to manage
+
+00:14:15.840 --> 00:14:18.150
+about this is just
+the rate of change.
+
+00:14:18.150 --> 00:14:20.070
+If you think about what
+was possible two years ago
+
+00:14:20.070 --> 00:14:22.118
+or one year ago, or now, and
+
+00:14:22.152 --> 00:14:24.214
+what will be possible in
+another year or two years,
+
+00:14:24.247 --> 00:14:27.060
+sort of planning for
+this incredible increase
+
+00:14:27.060 --> 00:14:31.200
+in model power and how people
+are going to build products
+
+00:14:31.200 --> 00:14:34.560
+and software and companies
+in the kind of near future,
+
+00:14:34.560 --> 00:14:37.260
+and really leaning into
+the new tools and the sort
+
+00:14:37.260 --> 00:14:40.200
+of new workflows
+that are possible.
+
+00:14:40.200 --> 00:14:42.150
+Again, we haven't seen
+many technological shifts
+
+00:14:42.150 --> 00:14:43.230
+like this in history.
+
+00:14:43.230 --> 00:14:46.320
+But every time one has come,
+like, leaning in early
+
+00:14:46.320 --> 00:14:48.984
+and hard has been
+very rewarded --yeah.
+
+00:14:49.018 --> 00:14:50.280
+Satya Nadella: And that's
+absolutely well said,
+
+00:14:50.280 --> 00:14:52.110
+because at some level,
+one of the things we want
+
+00:14:52.110 --> 00:14:53.730
+to really unpack at
+this conference is,
+
+00:14:53.730 --> 00:14:56.130
+what's that app server
+that allows you
+
+00:14:56.130 --> 00:15:00.210
+to take the latest new sample
+that comes and keep moving
+
+00:15:00.210 --> 00:15:03.540
+at that pace, because I think
+that's the challenge we have
+
+00:15:03.540 --> 00:15:05.670
+as developers building
+these applications.
+
+00:15:05.670 --> 00:15:07.890
+But it's fantastic
+again -- go ahead.
+
+00:15:07.890 --> 00:15:09.450
+Sam Altman: Yeah, I was just
+going to say it was amazing
+
+00:15:09.450 --> 00:15:11.880
+to watch over the last few
+months, as we were working
+
+00:15:11.880 --> 00:15:14.160
+on Codex internally -- there
+are always a few people
+
+00:15:14.160 --> 00:15:15.270
+that are the early adopters --
+
+00:15:15.270 --> 00:15:17.370
+at how quickly the people
+
+00:15:17.370 --> 00:15:20.820
+who were just using Codex all
+day changed their workflow.
+
+00:15:20.820 --> 00:15:23.340
+And just the incredible amount
+they were able to do relative
+
+00:15:23.340 --> 00:15:25.227
+to someone else was
+quite interesting.
+
+00:15:25.261 --> 00:15:26.462
+Satya Nadella: No, it's
+fantastic.
+
+00:15:26.495 --> 00:15:28.470
+Thank you so much, Sam. 
+Thanks for the partnership.
+
+00:15:28.504 --> 00:15:31.020
+See you again, again, at
+Build again. All right.
+
+00:15:31.054 --> 00:15:31.710
+Sam Altman: Thank
+you for having me.
+
+00:15:31.710 --> 00:15:32.010
+Satya Nadella: Thank you.
+
+00:15:32.010 --> 00:15:36.806
+[ Applause ]
+
+00:15:36.840 --> 00:15:39.067
+Satya Nadella: You
+know, it's an incredible time
+
+00:15:39.101 --> 00:15:40.290
+to be a developer
+
+00:15:40.290 --> 00:15:43.770
+and all these tools
+getting richer.
+
+00:15:43.770 --> 00:15:46.410
+And more importantly, it's
+not about any one tool,
+
+00:15:46.410 --> 00:15:49.050
+any one agent or any
+one form factor.
+
+00:15:49.050 --> 00:15:52.320
+It's about the coming
+together of all of it for us
+
+00:15:52.320 --> 00:15:55.920
+as individuals and as Teams
+of software engineers
+
+00:15:55.920 --> 00:15:58.230
+to be able to express our craft.
+
+00:15:58.230 --> 00:16:00.270
+Now, let's go up the stack.
+
+00:16:00.270 --> 00:16:05.100
+Let's talk about the platform
+opportunity of Microsoft 365.
+
+00:16:05.100 --> 00:16:07.680
+I'm very excited about
+the latest update
+
+00:16:07.680 --> 00:16:12.150
+to Microsoft 365 Copilot, which
+is now generally available.
+
+00:16:12.150 --> 00:16:13.903
+It's really exciting
+to see this.
+
+00:16:13.937 --> 00:16:15.818
+[ Applause ]
+
+00:16:15.852 --> 00:16:18.690
+Satya Nadella: You know,
+this is the biggest update.
+
+00:16:18.690 --> 00:16:21.000
+In fact, if you think
+about, like, I don't think
+
+00:16:21.000 --> 00:16:26.310
+since Teams launched, we've
+had an update of this level.
+
+00:16:26.310 --> 00:16:31.740
+And it really brings together
+Chat, Search, Notebooks, Create,
+
+00:16:31.740 --> 00:16:36.960
+and Agents all into this one
+scaffolding that's intuitive.
+
+00:16:36.960 --> 00:16:40.530
+I always say this
+is the UI for AI.
+
+00:16:40.530 --> 00:16:43.800
+And Chat, for example, is
+grounded both on web data
+
+00:16:43.800 --> 00:16:47.040
+as well as your work data,
+and that's the game changer,
+
+00:16:47.040 --> 00:16:49.110
+especially with Pages.
+
+00:16:49.110 --> 00:16:52.440
+Search works across all
+of your applications,
+
+00:16:52.440 --> 00:16:55.500
+whether it's Confluence,
+or Google Drive, or JIRA,
+
+00:16:55.500 --> 00:16:58.980
+or ServiceNow, not
+just M365 data.
+
+00:16:58.980 --> 00:17:01.104
+With Notebooks, I
+can now create these
+
+00:17:01.137 --> 00:17:04.020
+heterogeneous
+collections of data, right?
+
+00:17:04.020 --> 00:17:08.100
+In fact, I can have chats
+and pages and any documents,
+
+00:17:08.100 --> 00:17:11.010
+emails all in that collection.
+
+00:17:11.010 --> 00:17:14.310
+And then, in fact, I can
+get all these audio reviews
+
+00:17:14.310 --> 00:17:16.973
+or podcasts out of it.
+
+00:17:17.013 --> 00:17:20.490
+You know, I can use
+Create to turn a PowerPoint
+
+00:17:20.490 --> 00:17:24.710
+into a new explainer video
+or generate an image.
+
+00:17:24.710 --> 00:17:26.660
+And when it comes to
+agents, we have a couple
+
+00:17:26.660 --> 00:17:29.180
+of special agents,
+like Researcher.
+
+00:17:29.180 --> 00:17:31.400
+It's been, perhaps, the
+biggest game changer for me,
+
+00:17:31.400 --> 00:17:34.590
+because it's synthesizing
+across both the web
+
+00:17:34.590 --> 00:17:36.118
+and enterprise sources, right?
+
+00:17:36.152 --> 00:17:38.550
+Applying deep
+chain-of-thought reasoning
+
+00:17:38.550 --> 00:17:41.550
+to any topic or any project.
+
+00:17:41.550 --> 00:17:45.540
+Analyst goes from raw data
+across multiple source files.
+
+00:17:45.540 --> 00:17:48.360
+I can just upload a
+bunch of Excel files.
+
+00:17:48.360 --> 00:17:50.760
+It will get the insights.
+
+00:17:50.760 --> 00:17:52.050
+It'll do forecasts.
+
+00:17:52.050 --> 00:17:54.540
+It'll do all the visualizations.
+
+00:17:54.540 --> 00:17:57.060
+And these agents are
+all, at the end,
+
+00:17:57.060 --> 00:18:00.150
+about putting expertise
+at your fingertips.
+
+00:18:00.150 --> 00:18:01.200
+Bill, a long time ago,
+
+00:18:01.200 --> 00:18:04.050
+had talked about information
+at your fingertips.
+
+00:18:04.050 --> 00:18:06.240
+I feel we are at that age
+where we are now going
+
+00:18:06.240 --> 00:18:09.240
+to put expertise at
+your fingertips.
+
+00:18:09.240 --> 00:18:14.640
+And Teams takes all that
+and makes it multiplayer.
+
+00:18:14.640 --> 00:18:17.970
+Right? And all of the agents
+you build can now show
+
+00:18:17.970 --> 00:18:20.130
+up in Teams and in Copilot.
+
+00:18:20.130 --> 00:18:23.640
+And you can ask questions,
+assign action items,
+
+00:18:23.640 --> 00:18:26.820
+or kick off a workflow by
+just mentioning an agent
+
+00:18:26.820 --> 00:18:28.940
+in a chat or meeting.
+
+00:18:28.940 --> 00:18:31.160
+And with the Teams AI library,
+
+00:18:31.160 --> 00:18:34.580
+building multiplayer agents
+is easier than ever.
+
+00:18:34.580 --> 00:18:36.920
+It now supports MCP.
+
+00:18:36.920 --> 00:18:41.940
+And with just one line of code,
+you can even have it enable A2A.
+
+00:18:41.940 --> 00:18:46.980
+And you can add things like
+episodic or semantic memory
+
+00:18:46.980 --> 00:18:50.040
+by using Azure Search,
+a new retrieval system,
+
+00:18:50.040 --> 00:18:51.210
+which I'll talk about later.
+
+00:18:51.210 --> 00:18:54.120
+And as a developer,
+you can now publish --
+
+00:18:54.120 --> 00:18:55.210
+-- and this is
+the biggest thing, right?
+
+00:18:55.244 --> 00:18:56.850
+Now you can build an agent,
+
+00:18:56.850 --> 00:18:59.910
+you can publish your
+agent to the Agent Store,
+
+00:18:59.910 --> 00:19:04.740
+and have them discovered and
+distributed across both Copilot
+
+00:19:04.740 --> 00:19:07.860
+and Teams, providing you access
+to the hundreds of millions
+
+00:19:07.860 --> 00:19:11.100
+of users and unlocking
+that opportunity.
+
+00:19:11.100 --> 00:19:14.190
+Over the past year, we've
+seen so many partners
+
+00:19:14.190 --> 00:19:17.100
+across every industry
+build agents
+
+00:19:17.100 --> 00:19:19.680
+that connect to
+Copilot and Teams.
+
+00:19:19.680 --> 00:19:21.630
+And let me just share
+a few examples.
+
+00:19:21.630 --> 00:19:24.870
+With Workday's agent, you
+can ask Copilot what needs
+
+00:19:24.870 --> 00:19:26.520
+your attention.
+
+00:19:26.520 --> 00:19:29.190
+It gives you a summary of
+all the Workday tasks,
+
+00:19:29.190 --> 00:19:31.800
+so you stay on top
+of the learnings,
+
+00:19:31.800 --> 00:19:34.020
+the approvals, the workflows.
+
+00:19:34.020 --> 00:19:38.400
+ServiceNow agent, you can ask it
+in real time about an incident,
+
+00:19:38.400 --> 00:19:41.790
+all the resolution metrics,
+and then you can use it
+
+00:19:41.790 --> 00:19:44.730
+to instantly create a
+PowerPoint presentation
+
+00:19:44.730 --> 00:19:46.800
+with all the results contained.
+
+00:19:46.800 --> 00:19:51.510
+With LSEG's agent, financial
+professionals can discover,
+
+00:19:51.510 --> 00:19:55.740
+analyze, share any financial
+data that the exchange puts
+
+00:19:55.740 --> 00:19:59.130
+out right in Excel
+and PowerPoint.
+
+00:19:59.130 --> 00:20:04.320
+And with Copilot Studio, you can
+start to build your own agents.
+
+00:20:04.320 --> 00:20:06.390
+We've shipped a lot, a ton
+
+00:20:06.390 --> 00:20:08.250
+of new features into
+Copilot Studio.
+
+00:20:08.250 --> 00:20:11.670
+Most recently, we put in
+a full Kua agent right
+
+00:20:11.670 --> 00:20:15.410
+into Copilot Studio,
+MCP, Agent flows.
+
+00:20:15.410 --> 00:20:16.700
+And this is very clear,
+
+00:20:16.700 --> 00:20:20.240
+right now you can mix
+and match both LLMs
+
+00:20:20.240 --> 00:20:22.650
+and deterministic workflows.
+
+00:20:22.650 --> 00:20:24.810
+Today we are making it easier
+
+00:20:24.810 --> 00:20:28.200
+to build even more complex
+multi-agent workflows
+
+00:20:28.200 --> 00:20:32.070
+in Copilot Studio
+using Orchestration.
+
+00:20:32.070 --> 00:20:34.770
+Take something like
+onboarding a new hire.
+
+00:20:34.770 --> 00:20:36.840
+It's actually a pretty
+complex process, actually.
+
+00:20:36.840 --> 00:20:41.490
+It involves agents from
+Facilities, Finance, Legal,
+
+00:20:41.490 --> 00:20:44.640
+and each with their own
+expertise and workflows.
+
+00:20:44.640 --> 00:20:47.130
+And so you can bring
+them all together,
+
+00:20:47.130 --> 00:20:48.690
+and everything moves faster,
+
+00:20:48.690 --> 00:20:50.310
+and the experience is
+better for everyone.
+
+00:20:50.310 --> 00:20:54.450
+That multi-agent orchestration
+right in Copilot Studio.
+
+00:20:54.450 --> 00:20:59.370
+All-up, you have built one
+million plus agents that connect
+
+00:20:59.370 --> 00:21:02.700
+with Copilot and Teams
+in the past year.
+
+00:21:02.700 --> 00:21:05.010
+And we're not slowing down.
+
+00:21:05.010 --> 00:21:07.980
+Today, we are
+introducing a new class
+
+00:21:07.980 --> 00:21:12.030
+of enterprise-grade agents
+you can build using models
+
+00:21:12.030 --> 00:21:17.370
+fine-tuned on your company's
+data, workflows, and style.
+
+00:21:17.370 --> 00:21:19.790
+We call it Copilot Tuning.
+
+00:21:20.397 --> 00:21:25.526
+[ Applause ]
+
+00:21:25.560 --> 00:21:26.640
+Satya Nadella: 
+This is a big deal.
+
+00:21:26.640 --> 00:21:27.870
+I mean, at some level, this is
+
+00:21:27.870 --> 00:21:30.780
+about really not
+just using Copilot,
+
+00:21:30.780 --> 00:21:34.320
+but it's about tuning
+Copilot for every customer,
+
+00:21:34.320 --> 00:21:38.300
+every enterprise, every firm.
+Copilot can now learn
+
+00:21:38.334 --> 00:21:41.700
+your company's unique
+tone and language.
+
+00:21:41.700 --> 00:21:44.640
+And soon, it'll even go
+further understanding all
+
+00:21:44.640 --> 00:21:48.120
+of the company's specific
+expertise and knowledge.
+
+00:21:48.120 --> 00:21:51.210
+All you need to do is seed
+the training environment
+
+00:21:51.210 --> 00:21:55.140
+with a small set of references
+and kick off a training run.
+
+00:21:55.140 --> 00:21:58.710
+The customized model
+inherits the permissions
+
+00:21:58.710 --> 00:22:00.990
+of all the source control.
+
+00:22:00.990 --> 00:22:03.660
+And once integrated
+into the agent,
+
+00:22:03.660 --> 00:22:06.870
+it can deploy to
+authorized users.
+
+00:22:06.870 --> 00:22:09.840
+So you can sort of go to
+groups that you have set up
+
+00:22:09.840 --> 00:22:12.390
+and distribute it
+across Copilot.
+
+00:22:12.390 --> 00:22:14.700
+For example, if you're a
+legal firm, it'll reason
+
+00:22:14.700 --> 00:22:19.260
+through past arguments
+and relevant literature
+
+00:22:19.260 --> 00:22:21.570
+and deliver answers
+or generate docs
+
+00:22:21.570 --> 00:22:23.490
+that are very specific
+to your firm.
+
+00:22:23.490 --> 00:22:26.280
+Or if you're a consulting
+company that works across,
+
+00:22:26.280 --> 00:22:30.240
+let's say, multiple vertical
+industries, you can now start
+
+00:22:30.240 --> 00:22:33.720
+to tune these models for
+each vertical industry
+
+00:22:33.720 --> 00:22:36.540
+to reflect sort of the
+specific know-how you know
+
+00:22:36.540 --> 00:22:39.030
+about the workflows
+in that industry.
+
+00:22:39.030 --> 00:22:42.540
+It's all about taking that
+expertise that you have
+
+00:22:42.540 --> 00:22:46.920
+as a firm and further
+amplifying it so that everyone
+
+00:22:46.920 --> 00:22:49.560
+in the company gets it,
+and also, your products
+
+00:22:49.560 --> 00:22:52.110
+and services reflect it.
+
+00:22:52.110 --> 00:22:54.360
+And to sort of give
+you a feel for all
+
+00:22:54.360 --> 00:22:57.540
+of what I've talked about, let
+me invite up on stage Miti
+
+00:22:57.540 --> 00:23:00.720
+to show you all of
+Copilot's ecosystem.
+
+00:23:00.720 --> 00:23:02.157
+Miti, over to you.
+
+00:23:02.191 --> 00:23:03.197
+Miti Joshi: 
+Thank you, Satya.
+
+00:23:03.231 --> 00:23:08.216
+[ Applause ]
+
+00:23:08.250 --> 00:23:11.820
+We as developers can easily
+scale productivity solutions
+
+00:23:11.820 --> 00:23:15.570
+using the new Microsoft
+365 Copilot app,
+
+00:23:15.570 --> 00:23:19.050
+Copilot Studio, and
+Copilot Tuning.
+
+00:23:19.050 --> 00:23:22.140
+Let's start with the
+new M365 Copilot app,
+
+00:23:22.140 --> 00:23:24.300
+where I'll show you
+how Copilot can reason
+
+00:23:24.300 --> 00:23:26.460
+over my GitHub backlog.
+
+00:23:26.460 --> 00:23:29.850
+This app is my
+five-in-one hub for work.
+
+00:23:29.850 --> 00:23:36.270
+It's got Chat, Search, Agents,
+Notebooks, and Create.
+
+00:23:36.270 --> 00:23:40.170
+And here, I can call on agents
+like the Researcher agent.
+
+00:23:40.170 --> 00:23:43.470
+Researcher can reason
+over all my work data.
+
+00:23:43.470 --> 00:23:47.490
+And with a connector, it
+can even tap into GitHub.
+
+00:23:47.490 --> 00:23:50.370
+So let's ask for help
+analyzing performance issues
+
+00:23:50.370 --> 00:23:54.060
+and prioritizing my next steps.
+
+00:23:54.060 --> 00:23:57.690
+It goes ahead and it asks me
+a few clarifying questions,
+
+00:23:57.690 --> 00:24:01.830
+just like if I delegated
+this to someone on my team.
+
+00:24:01.830 --> 00:24:05.970
+I'll give it a bit more
+direction, and off it goes.
+
+00:24:05.970 --> 00:24:10.110
+Because it is built on the
+OpenAI o3 reasoning model,
+
+00:24:10.110 --> 00:24:13.170
+Researcher shows its chain
+of thought as it pulls
+
+00:24:13.170 --> 00:24:16.680
+from both the web
+and my work data.
+
+00:24:16.680 --> 00:24:19.410
+I see here that it's giving
+me everything that I need,
+
+00:24:19.410 --> 00:24:23.190
+including some citations
+to help me get started.
+
+00:24:23.190 --> 00:24:26.940
+Now, let me show you how I built
+this connector in Visual Studio.
+
+00:24:26.940 --> 00:24:28.920
+It takes just a few steps.
+
+00:24:28.920 --> 00:24:32.820
+I'll go ahead and add a name
+and a place to save it.
+
+00:24:32.820 --> 00:24:37.350
+And in seconds, the M365 Agents
+toolkit gave me fully scaffolded
+
+00:24:37.350 --> 00:24:39.990
+code that I can modify,
+
+00:24:39.990 --> 00:24:44.640
+like creating my connection
+using the Microsoft Graph APIs.
+
+00:24:44.640 --> 00:24:46.710
+And then I can index
+any type of data.
+
+00:24:46.710 --> 00:24:51.600
+So here I've defined a specific
+schema for my scenario.
+
+00:24:51.600 --> 00:24:56.310
+Next up, I'm using the GitHub
+API to fetch my issues.
+
+00:24:56.310 --> 00:25:00.540
+And finally, I'll ingest every
+issue into Microsoft Graph.
+
+00:25:00.540 --> 00:25:04.379
+So, Copilot can now
+reason over this data.
+
+00:25:04.413 --> 00:25:06.528
+So, let's see it
+all in action. . .
+
+00:25:09.600 --> 00:25:12.360
+I see that all of my
+issues are being indexed,
+
+00:25:12.360 --> 00:25:16.170
+and I'm getting a full
+log of what's happening.
+
+00:25:16.170 --> 00:25:18.870
+As the log loads, I'll
+scroll up and confirm
+
+00:25:18.870 --> 00:25:20.670
+that my GitHub
+connection was made
+
+00:25:20.670 --> 00:25:25.830
+and that it has all the backlog
+items that I care about.
+
+00:25:25.830 --> 00:25:28.710
+So let's pivot to showing how
+the Copilot Studio can help us
+
+00:25:28.710 --> 00:25:32.520
+build agents with
+little code required.
+
+00:25:32.520 --> 00:25:35.520
+So here I've created
+an RFP response agent,
+
+00:25:35.520 --> 00:25:38.280
+which you can see
+right here in Teams.
+
+00:25:38.280 --> 00:25:40.200
+I see that it
+generated a proposal,
+
+00:25:40.200 --> 00:25:44.880
+and it even posted
+using its own Entra ID.
+
+00:25:44.880 --> 00:25:47.400
+So here you can see that we
+have a specific proposal
+
+00:25:47.400 --> 00:25:51.180
+that has the content, language,
+and format that you'd expect,
+
+00:25:51.180 --> 00:25:54.480
+for example, from an
+experienced employee.
+
+00:25:54.480 --> 00:25:56.760
+So let's go ahead and
+see how I built it.
+
+00:25:56.760 --> 00:26:00.390
+And for that, I'll jump
+over to Copilot Studio.
+
+00:26:00.390 --> 00:26:03.000
+Here, I've described what
+I want the agent to do,
+
+00:26:03.000 --> 00:26:05.280
+and I've given it
+some instructions.
+
+00:26:05.280 --> 00:26:08.580
+The GPT-4o response model
+is selected by default,
+
+00:26:08.580 --> 00:26:12.630
+but I can choose other
+models via AI Foundry.
+
+00:26:12.630 --> 00:26:14.957
+Now, I'll scroll below on the
+page
+
+00:26:14.990 --> 00:26:16.470
+and select which knowledge
+
+00:26:16.470 --> 00:26:19.560
+to ground this agent on,
+ensuring it's pulling
+
+00:26:19.560 --> 00:26:23.130
+from the right sources
+within my organization.
+
+00:26:23.130 --> 00:26:25.770
+We'll keep scrolling on
+to the "Tools" section.
+
+00:26:25.770 --> 00:26:28.680
+And I've added this "trigger"
+that prompts my agent
+
+00:26:28.680 --> 00:26:33.990
+to begin working whenever a
+new RFP arrives in my inbox.
+
+00:26:33.990 --> 00:26:37.140
+So now let's link this agent
+to the Dynamics MCP server
+
+00:26:37.140 --> 00:26:40.650
+to give it access to
+SKU and pricing data.
+
+00:26:40.650 --> 00:26:43.920
+And this will make for a
+more detailed proposal.
+
+00:26:43.920 --> 00:26:48.090
+So with just a few clicks,
+it's now connected.
+
+00:26:48.090 --> 00:26:52.170
+This server will keep the agent
+up to date automatically.
+
+00:26:52.170 --> 00:26:55.140
+It can also use third-party
+servers like DocuSign
+
+00:26:55.140 --> 00:26:58.200
+or custom MCP servers like
+this SAP one we created
+
+00:26:58.200 --> 00:27:01.380
+to access customer account data.
+
+00:27:01.380 --> 00:27:02.700
+The agent will need to be able
+
+00:27:02.700 --> 00:27:05.550
+to check compliance
+and contract terms.
+
+00:27:05.550 --> 00:27:07.980
+Now instead of building
+this out from scratch here,
+
+00:27:07.980 --> 00:27:11.940
+I can just use the new
+Multi-agent Orchestration.
+
+00:27:11.940 --> 00:27:14.910
+As Satya said, this means that
+agents can now collaborate
+
+00:27:14.910 --> 00:27:19.170
+with each other to take
+on more complex work.
+
+00:27:19.170 --> 00:27:22.410
+So let's go ahead and
+connect this agent to one
+
+00:27:22.410 --> 00:27:25.680
+that specializes in
+compliance checks.
+
+00:27:25.680 --> 00:27:28.530
+With Orchestration, the
+RFP agent can connect
+
+00:27:28.530 --> 00:27:30.210
+to the compliance review agent
+
+00:27:30.210 --> 00:27:33.640
+to ensure there
+are no red flags.
+
+00:27:36.780 --> 00:27:39.030
+If it passes, it will now
+return back to this agent
+
+00:27:39.030 --> 00:27:40.620
+to continue the process.
+
+00:27:40.620 --> 00:27:45.900
+And with that, our RFP response
+agent is up and running.
+
+00:27:45.900 --> 00:27:47.760
+So now let's move
+to Copilot Tuning,
+
+00:27:47.760 --> 00:27:50.010
+which Satya just announced.
+
+00:27:50.010 --> 00:27:51.060
+This is a low-code way
+
+00:27:51.060 --> 00:27:53.370
+to do what would otherwise
+take a whole team
+
+00:27:53.370 --> 00:27:55.860
+of data scientists weeks to do,
+
+00:27:55.860 --> 00:27:58.740
+finetuning a new model
+specifically designed
+
+00:27:58.740 --> 00:28:00.450
+for contract writing.
+
+00:28:00.450 --> 00:28:02.970
+And here's what it
+looks like in action.
+
+00:28:02.970 --> 00:28:06.060
+I'll open the Contract
+Builder agent and ask it
+
+00:28:06.060 --> 00:28:10.680
+to draft a contract using a
+couple of example documents.
+
+00:28:10.680 --> 00:28:12.990
+It's going to reference
+these documents
+
+00:28:12.990 --> 00:28:16.890
+of the custom model I created
+to assemble the contract.
+
+00:28:16.890 --> 00:28:19.230
+When the document is complete,
+
+00:28:19.230 --> 00:28:21.270
+I'll receive an email
+with the draft.
+
+00:28:21.270 --> 00:28:23.520
+Let's take a look at it.
+
+00:28:23.520 --> 00:28:27.000
+I see that this contract is
+using our company's language,
+
+00:28:27.000 --> 00:28:31.380
+terms and conditions,
+structure and format,
+
+00:28:31.380 --> 00:28:33.390
+and here's how I built it.
+
+00:28:33.390 --> 00:28:36.660
+I'll start by
+creating a new model.
+
+00:28:36.660 --> 00:28:38.850
+I'll give it some basic
+information, a name,
+
+00:28:38.850 --> 00:28:41.610
+a description, and I'll
+select the task type,
+
+00:28:41.610 --> 00:28:45.420
+which in this case is
+"Document generation".
+
+00:28:45.420 --> 00:28:47.610
+Now I'll add the
+knowledge source.
+
+00:28:47.610 --> 00:28:51.330
+Here we'll use our contract
+database from SharePoint,
+
+00:28:51.330 --> 00:28:53.070
+and I'll specify who
+should have access.
+
+00:28:53.070 --> 00:28:56.280
+So it's the Contracts Team
+and the Procurement Team.
+
+00:28:56.280 --> 00:28:58.140
+And then we'll ensure --
+
+00:28:58.140 --> 00:29:01.320
+so Copilot ensures that all of
+this access to knowledge sources
+
+00:29:01.320 --> 00:29:03.870
+and the tuned model is aligned.
+
+00:29:03.870 --> 00:29:08.700
+With that, our Contract Builder
+is now ready for data labeling.
+
+00:29:08.700 --> 00:29:11.010
+Now once the subject matter
+experts have completed the data
+
+00:29:11.010 --> 00:29:13.470
+labeling process, we can
+complete the training
+
+00:29:13.470 --> 00:29:18.360
+for this fine-tuned
+model, and we're done.
+
+00:29:18.360 --> 00:29:20.400
+Let's go ahead and publish it.
+
+00:29:20.400 --> 00:29:23.640
+And from the M365 Copilot
+app, the team can select
+
+00:29:23.640 --> 00:29:26.670
+"Create Agent," select a
+"Task-Specific" agent,
+
+00:29:26.670 --> 00:29:28.710
+and select the "Contract
+Builder"
+
+00:29:28.744 --> 00:29:31.230
+model I just fine-tuned.
+
+00:29:31.230 --> 00:29:34.590
+And with that, the
+agent is ready.
+
+00:29:34.590 --> 00:29:37.770
+I've now scaled the work that
+I can deliver as a developer,
+
+00:29:37.770 --> 00:29:40.050
+empowering those
+closest to the business
+
+00:29:40.050 --> 00:29:43.380
+to reimagine their
+workflows with AI.
+
+00:29:43.380 --> 00:29:44.400
+Back to you, Satya.
+
+00:29:44.400 --> 00:29:50.160
+[ Applause ]
+
+00:29:50.160 --> 00:29:51.360
+Satya Nadella: Thank
+you so much, Miti.
+
+00:29:51.360 --> 00:29:55.830
+I mean, I'm so excited about
+Copilot Studio, and with access
+
+00:29:55.830 --> 00:29:59.520
+to the reasoning models,
+the ability to do things
+
+00:29:59.520 --> 00:30:04.050
+like Copilot Tuning, these
+deterministic workflows.
+
+00:30:04.050 --> 00:30:07.170
+I mean, at some level, you can
+now think about these agents
+
+00:30:07.170 --> 00:30:11.640
+and multi-agent frameworks
+orchestrating the workflows
+
+00:30:11.640 --> 00:30:15.450
+in an agentic way for every
+role, every business process.
+
+00:30:15.450 --> 00:30:18.480
+I mean, especially once you
+start having even every business
+
+00:30:18.480 --> 00:30:20.970
+application just show
+up as an MCP server,
+
+00:30:20.970 --> 00:30:24.720
+you can imagine as a developer
+how you can start thinking
+
+00:30:24.720 --> 00:30:26.190
+about the next level
+of automation.
+
+00:30:26.190 --> 00:30:30.060
+It's just a complete game
+changer in terms of how we think
+
+00:30:30.060 --> 00:30:32.970
+about workflow and business
+process automation.
+
+00:30:32.970 --> 00:30:34.590
+Right? Those SaaS applications
+
+00:30:34.590 --> 00:30:37.080
+and productivity software
+all coming together
+
+00:30:37.080 --> 00:30:38.460
+by role and process.
+
+00:30:38.460 --> 00:30:40.980
+It's just an exciting day.
+
+00:30:40.980 --> 00:30:44.400
+To us, what we're doing is we're
+taking everything underneath
+
+00:30:44.400 --> 00:30:48.630
+Copilot, Copilot Studio,
+and making it available
+
+00:30:48.630 --> 00:30:51.900
+as a first-class platform
+for all of you as developers
+
+00:30:51.900 --> 00:30:55.890
+to build your own applications,
+your own application extensions.
+
+00:30:55.890 --> 00:31:01.020
+As models evolve faster
+and become more capable,
+
+00:31:01.020 --> 00:31:04.770
+with new samples being dropped,
+like, every couple of months,
+
+00:31:04.770 --> 00:31:08.430
+the apps will have to evolve
+to become these full,
+
+00:31:08.430 --> 00:31:13.650
+stateful applications that are
+multi-model and multi-agent.
+
+00:31:13.650 --> 00:31:15.420
+That's the big departure now.
+
+00:31:15.420 --> 00:31:17.250
+It's not about one model
+
+00:31:17.250 --> 00:31:20.490
+with just a
+request-response API call.
+
+00:31:20.490 --> 00:31:24.750
+We're building real, stateful,
+multi-model applications.
+
+00:31:24.750 --> 00:31:27.270
+And they have to be
+production-ready.
+
+00:31:27.270 --> 00:31:29.160
+And so that's what
+is the motivation
+
+00:31:29.160 --> 00:31:32.640
+for building a
+first-class app server.
+
+00:31:32.640 --> 00:31:34.260
+Think of Foundry
+
+00:31:34.260 --> 00:31:37.380
+like a production line
+for intelligence.
+
+00:31:37.380 --> 00:31:39.270
+It takes more than a great model
+
+00:31:39.270 --> 00:31:41.880
+to build these agents
+and applications.
+
+00:31:41.880 --> 00:31:45.420
+The system around the model,
+whether they are evals,
+
+00:31:45.420 --> 00:31:50.820
+this Orchestration layer or
+RAG all really, really matter.
+
+00:31:50.820 --> 00:31:54.900
+And Foundry is that complete
+app platform for the AI age.
+
+00:31:54.900 --> 00:31:58.170
+Over 70,000 organizations
+are already using it
+
+00:31:58.170 --> 00:32:03.240
+across industries, BMW,
+Carvana, Coca Cola, NASDAQ,
+
+00:32:03.240 --> 00:32:06.870
+along with many ISVs like
+Gainsight and others.
+
+00:32:06.870 --> 00:32:08.100
+They're all choosing Foundry.
+
+00:32:08.100 --> 00:32:12.000
+And enterprises are moving
+from just doing POCs
+
+00:32:12.000 --> 00:32:13.950
+to these enterprise-wide
+deployments
+
+00:32:13.950 --> 00:32:17.760
+to truly unlock the ROI of AI.
+
+00:32:17.760 --> 00:32:20.670
+In fact, over the past three
+months, we have processed
+
+00:32:20.670 --> 00:32:26.400
+over 100 trillion tokens,
+which is 5x year over year.
+
+00:32:26.400 --> 00:32:29.100
+In fact, when I was in
+Japan just recently,
+
+00:32:29.100 --> 00:32:32.550
+I saw this app built with
+Foundry that's helping people
+
+00:32:32.550 --> 00:32:35.850
+with auditory processing
+disorder make sense
+
+00:32:35.850 --> 00:32:37.770
+of what they hear.
+And it blew me away.
+
+00:32:37.770 --> 00:32:39.660
+Let's take a look at the video.
+
+00:32:39.660 --> 00:32:43.711
+[ Music ]
+
+00:32:43.745 --> 00:32:47.522
+Yukari Kato: When I was 
+two years old
+
+00:32:47.556 --> 00:32:51.453
+I lost my hearing
+due to an illness.
+
+00:32:51.487 --> 00:32:54.589
+I couldn't hear at all
+
+00:32:54.623 --> 00:32:57.092
+so they taught me how there are
+
+00:32:57.126 --> 00:33:01.502
+sounds and voices in this world.
+
+00:33:01.536 --> 00:33:03.825
+Kiyoki Kusaka:
+I first met Ms. Kato
+
+00:33:03.859 --> 00:33:07.636
+after she began using YYSystem
+
+00:33:07.669 --> 00:33:10.785
+She was deeply
+moved by the experience
+
+00:33:10.819 --> 00:33:14.062
+and ended up
+writing us a letter.
+
+00:33:14.096 --> 00:33:17.926
+She let us know that
+it had changed her life.
+
+00:33:17.960 --> 00:33:20.115
+Yukari Kato: 
+The most difficult thing was
+
+00:33:20.149 --> 00:33:22.016
+not being able to
+have a conversation
+
+00:33:22.050 --> 00:33:23.244
+[ Music ]
+
+00:33:23.278 --> 00:33:26.874
+Masaki Nakamura: In Japan, there
+are various regional dialects
+
+00:33:26.908 --> 00:33:29.363
+with unique ways of speaking
+
+00:33:29.397 --> 00:33:31.496
+and unique expressions.
+
+00:33:31.530 --> 00:33:33.635
+There were many requests
+
+00:33:33.669 --> 00:33:37.096
+to convert users'
+voices into words
+
+00:33:37.130 --> 00:33:41.615
+and that's how
+MyEngine developed.
+
+00:33:41.649 --> 00:33:44.277
+We use Azure AI Foundry a lot.
+
+00:33:44.311 --> 00:33:48.397
+The main thing we
+use it for is to verify the
+
+00:33:48.431 --> 00:33:51.171
+logic used to correct statements
+
+00:33:51.205 --> 00:33:53.852
+and as a tool to
+check that items are
+
+00:33:53.886 --> 00:33:59.061
+being properly translated.
+
+00:33:59.095 --> 00:34:01.919
+We use the Azure Speech Service,
+
+00:34:01.953 --> 00:34:05.821
+in real time, for transcription.
+
+00:34:05.855 --> 00:34:08.204
+In addition, it is used
+
+00:34:08.238 --> 00:34:11.967
+to learn the speech of
+those who are hard of hearing
+
+00:34:12.001 --> 00:34:15.196
+to make customized speech models
+
+00:34:15.230 --> 00:34:16.597
+unique to those people.
+
+00:34:16.638 --> 00:34:18.913
+Thanks to the
+support of everyone,
+
+00:34:18.947 --> 00:34:21.304
+we are happy to say
+that our YYSystem's app
+
+00:34:21.338 --> 00:34:24.425
+has been downloaded
+1.45 million times in Japan.
+
+00:34:24.459 --> 00:34:27.658
+Yukari Kato: I couldn't
+understand what my children
+
+00:34:27.692 --> 00:34:31.097
+and grandchildren were saying.
+
+00:34:31.131 --> 00:34:34.190
+Now I can.
+
+00:34:34.224 --> 00:34:36.591
+At my company
+they would be like,
+
+00:34:36.625 --> 00:34:38.279
+"Hey, Ms. Kato!"
+
+00:34:38.313 --> 00:34:41.188
+I didn't get it before.
+
+00:34:41.223 --> 00:34:44.572
+Now I can understand
+when they're calling me
+
+00:34:44.613 --> 00:34:48.896
+and I can communicate
+my thoughts.
+
+00:34:48.930 --> 00:34:50.177
+[ Music ]
+
+00:34:50.211 --> 00:34:52.294
+Masaki Nakamura: I was just an
+ordinary engineer but,
+
+00:34:52.328 --> 00:34:57.098
+since developing this app,
+
+00:34:57.132 --> 00:35:02.099
+now I feel that
+these users' voices
+
+00:35:02.133 --> 00:35:07.809
+are giving me energy
+and motivation to go on.
+
+00:35:07.843 --> 00:35:10.089
+[ Music ]
+
+00:35:10.123 --> 00:35:17.026
+[ Applause ]
+
+00:35:17.060 --> 00:35:18.434
+Satya Nadella:
+Really, a big thank you
+
+00:35:18.467 --> 00:35:20.960
+to all the developers at Aisin
+
+00:35:20.960 --> 00:35:23.330
+and Kato San for
+sharing that story.
+
+00:35:23.330 --> 00:35:25.640
+It's really inspiring.
+
+00:35:25.640 --> 00:35:28.610
+Today we're going further.
+
+00:35:28.610 --> 00:35:32.730
+It starts for Foundry
+with model choice.
+
+00:35:32.730 --> 00:35:38.310
+We already support 1,900 models,
+whether they're response models,
+
+00:35:38.310 --> 00:35:42.510
+reasoning models, task-specific,
+multi-model, you name it.
+
+00:35:42.510 --> 00:35:44.510
+They're all there in Foundry.
+
+00:35:44.510 --> 00:35:47.270
+And, of course, that
+includes the latest
+
+00:35:47.270 --> 00:35:48.920
+from our partners at OpenAI.
+
+00:35:48.920 --> 00:35:51.166
+Just this year, we
+have sim-shipped
+
+00:35:51.199 --> 00:35:53.600
+15 models from OpenAI
+
+00:35:53.600 --> 00:35:57.900
+on Azure, giving same-day
+access when a new model drops.
+
+00:35:57.900 --> 00:36:00.840
+And Sora is coming next week.
+
+00:36:00.840 --> 00:36:06.840
+As devs, we care about multiple
+dimensions, cost, reliability,
+
+00:36:06.840 --> 00:36:09.510
+latency, as well as quality.
+
+00:36:09.510 --> 00:36:11.700
+And Azure OpenAI
+is best in class.
+
+00:36:11.700 --> 00:36:15.780
+We offer enterprise guarantees
+like high reliability
+
+00:36:15.780 --> 00:36:20.970
+and great cost controls, things
+like batch or spillover, and,
+
+00:36:20.970 --> 00:36:25.400
+of course, leading security
+and compliance and safety.
+
+00:36:25.400 --> 00:36:29.060
+But still, picking a model
+can be a bit of a chore,
+
+00:36:29.060 --> 00:36:31.520
+and you need to be able
+to route your queries
+
+00:36:31.520 --> 00:36:33.380
+to the right one fast.
+
+00:36:33.380 --> 00:36:35.360
+And so we are making
+that easier, too.
+
+00:36:35.360 --> 00:36:39.120
+Our new model router will
+automatically choose the best
+
+00:36:39.120 --> 00:36:40.680
+OpenAI model for the job.
+
+00:36:40.680 --> 00:36:44.970
+No more sort of those
+manual model selections.
+
+00:36:44.970 --> 00:36:49.260
+An approach today, though, goes
+from having apps that you built
+
+00:36:49.260 --> 00:36:52.620
+or agents you build
+only bind to one model
+
+00:36:52.620 --> 00:36:55.890
+to truly becoming multi-model.
+
+00:36:55.890 --> 00:36:59.700
+That's why today, we are
+thrilled to announce Grok
+
+00:36:59.734 --> 00:37:02.103
+from xAI is coming to Azure.
+
+00:37:02.137 --> 00:37:06.788
+[ Applause ]
+
+00:37:06.822 --> 00:37:11.040
+You know, Grok 3 offers
+reasoning, deep search,
+
+00:37:11.040 --> 00:37:13.980
+response models all
+in one single model.
+
+00:37:13.980 --> 00:37:16.940
+And it is awesome to have
+a chance to chat with Elon
+
+00:37:16.940 --> 00:37:18.050
+over the weekend about it.
+
+00:37:18.050 --> 00:37:20.120
+Let's roll the video.
+
+00:37:20.120 --> 00:37:21.502
+Satya Nadella:
+Thank you so much, Elon,
+
+00:37:21.536 --> 00:37:23.000
+for being here at Build.
+
+00:37:23.000 --> 00:37:26.300
+I know you started off as
+an intern at Microsoft.
+
+00:37:26.300 --> 00:37:28.100
+You were a Windows
+developer, and, of course,
+
+00:37:28.100 --> 00:37:30.290
+you're a big PC gamer still.
+
+00:37:30.290 --> 00:37:34.280
+You want to just talk about even
+your early days with Windows
+
+00:37:34.280 --> 00:37:36.184
+and the kinds of
+things you built?
+
+00:37:37.397 --> 00:37:38.700
+Elon Musk: Yeah, well, actually,
+
+00:37:38.700 --> 00:37:41.010
+it started before
+Windows with DOS.
+
+00:37:41.010 --> 00:37:45.690
+I had one of the early
+IBM PCs with MS-DOS.
+
+00:37:45.690 --> 00:37:49.650
+And I think I had, like,
+128k in the beginning,
+
+00:37:49.650 --> 00:37:53.790
+and then it doubled to 256k,
+which felt like a lot.
+
+00:37:53.790 --> 00:37:56.125
+So I programmed video games
+
+00:37:56.158 --> 00:38:01.890
+in DOS, and then
+later in Windows.
+
+00:38:01.890 --> 00:38:04.140
+Remember Windows 3.1?
+
+00:38:04.140 --> 00:38:06.090
+Satya Nadella: Yeah.
+No, it's wonderful.
+
+00:38:06.090 --> 00:38:08.160
+I mean, even the last
+time I chatted with you,
+
+00:38:08.160 --> 00:38:09.840
+you were talking all
+about everything,
+
+00:38:09.840 --> 00:38:11.880
+the intricacies of
+Active Directory.
+
+00:38:11.880 --> 00:38:15.930
+And so it's fantastic to have
+you at our developer conference.
+
+00:38:15.930 --> 00:38:17.970
+Obviously, the exciting
+thing for us is to be able
+
+00:38:17.970 --> 00:38:21.240
+to launch Grok on Azure.
+
+00:38:21.240 --> 00:38:25.290
+I know you have a deep vision
+for what AI needs to be,
+
+00:38:25.290 --> 00:38:27.750
+and that's what got
+you to get this built.
+
+00:38:27.750 --> 00:38:29.940
+It's a family of models
+that are both response
+
+00:38:29.940 --> 00:38:31.260
+and reasoning models.
+
+00:38:31.260 --> 00:38:32.790
+And you have a very
+exciting roadmap.
+
+00:38:32.790 --> 00:38:34.380
+You want to just tell us
+a little bit about sort
+
+00:38:34.380 --> 00:38:37.200
+of your vision, the capability,
+
+00:38:37.200 --> 00:38:39.900
+pushing on both capability
+and efficiency?
+
+00:38:39.900 --> 00:38:42.150
+So maybe you can just talk
+about a little bit of that.
+
+00:38:42.150 --> 00:38:44.373
+Elon Musk: Sure. 
+So, yeah with Grok,
+
+00:38:44.406 --> 00:38:45.741
+especially with Grok 3.5
+
+00:38:45.775 --> 00:38:47.874
+that is about to be released,
+
+00:38:47.908 --> 00:38:50.850
+it's trying to reason
+from first principles.
+
+00:38:50.850 --> 00:38:56.190
+So apply kind of the tools
+of physics to thinking.
+
+00:38:56.190 --> 00:38:59.070
+So if you're trying to get
+to fundamental truths,
+
+00:38:59.070 --> 00:39:03.030
+you boil things down to
+the axiomatic elements
+
+00:39:03.030 --> 00:39:05.130
+that are most likely
+to be correct,
+
+00:39:05.130 --> 00:39:06.210
+and then you reason
+up from there.
+
+00:39:06.210 --> 00:39:07.770
+And then you can test
+your conclusions
+
+00:39:07.770 --> 00:39:09.570
+against those
+axiomatic elements.
+
+00:39:09.570 --> 00:39:12.840
+And in physics, if you violate
+conservation of energy
+
+00:39:12.840 --> 00:39:15.390
+over momentum, then
+you're either going
+
+00:39:15.390 --> 00:39:17.190
+to get a Nobel Prize,
+or you're wrong.
+
+00:39:17.190 --> 00:39:19.470
+And you're almost certainly
+wrong, basically.
+
+00:39:19.470 --> 00:39:21.423
+So. . .
+
+00:39:21.457 --> 00:39:26.849
+So that's really, the
+focus of Grok 3.5 is. . .
+
+00:39:26.882 --> 00:39:28.560
+sort of the fundamentals
+
+00:39:28.560 --> 00:39:32.820
+of physics and applying
+physics tools across all lines
+
+00:39:32.820 --> 00:39:38.520
+of reasoning and to aspire
+to truth with minimal error.
+
+00:39:38.520 --> 00:39:41.520
+Like, there's always going to
+be some mistakes that are made.
+
+00:39:41.520 --> 00:39:47.510
+But we aim to get to truth
+with acknowledged error,
+
+00:39:47.510 --> 00:39:49.670
+but minimize that
+error over time.
+
+00:39:49.670 --> 00:39:52.220
+And I think that's actually
+extremely important
+
+00:39:52.220 --> 00:39:54.960
+for AI safety.
+
+00:39:54.960 --> 00:39:57.480
+So I've thought a lot for a
+long time about AI safety,
+
+00:39:57.480 --> 00:40:00.990
+and my ultimate conclusion
+is the old maxim
+
+00:40:00.990 --> 00:40:03.710
+that honesty is the best policy.
+
+00:40:03.710 --> 00:40:06.810
+It really is for safety.
+
+00:40:06.810 --> 00:40:10.350
+But I do want to emphasize we
+have and will make mistakes,
+
+00:40:10.350 --> 00:40:12.990
+but we aspire to correct
+them very quickly.
+
+00:40:12.990 --> 00:40:15.180
+And we are very much
+looking forward to feedback
+
+00:40:15.180 --> 00:40:18.240
+from the developer community to
+say, like, what do you need?
+
+00:40:18.240 --> 00:40:21.000
+Where are we wrong?
+How can we make it better?
+
+00:40:21.000 --> 00:40:22.530
+And to have Grok be something
+
+00:40:22.530 --> 00:40:27.030
+that the developer community
+is very excited to use
+
+00:40:27.030 --> 00:40:30.570
+and where they can feel that
+their feedback is being heard
+
+00:40:30.570 --> 00:40:35.580
+and Grok is improving
+and serving their needs.
+
+00:40:35.580 --> 00:40:36.960
+Satya Nadella: I'm
+really thrilled
+
+00:40:36.960 --> 00:40:40.770
+to get this journey started,
+getting that developer feedback,
+
+00:40:40.770 --> 00:40:43.080
+and then looking forward to
+even how they're deployed.
+
+00:40:43.080 --> 00:40:44.893
+So, thank you so much, Elon,
+
+00:40:44.926 --> 00:40:46.260
+for briefly joining us today,
+
+00:40:46.260 --> 00:40:48.240
+and we're really excited
+about working with you
+
+00:40:48.240 --> 00:40:49.924
+and getting this into
+the developers' hands.
+
+00:40:49.958 --> 00:40:51.030
+Elon Musk: Thank you very much.
+
+00:40:51.030 --> 00:40:54.060
+And I can't emphasize enough
+that we're looking for feedback
+
+00:40:54.060 --> 00:40:55.860
+from you, the
+developer audience.
+
+00:40:55.860 --> 00:40:57.177
+Tell us what you want,
+
+00:40:57.211 --> 00:40:59.070
+and we'll make it
+happen. Thank you.
+
+00:41:00.074 --> 00:41:04.650
+[ Applause ]
+
+00:41:04.650 --> 00:41:06.114
+Satya Nadella: 
+I had a chance
+
+00:41:06.147 --> 00:41:07.230
+to talk to him again,
+
+00:41:07.230 --> 00:41:09.180
+and then he was talking
+about sort of all the things
+
+00:41:09.180 --> 00:41:10.440
+that they're doing with 3.5.
+
+00:41:10.440 --> 00:41:13.770
+So we want to get the journey
+started, get the feedback
+
+00:41:13.770 --> 00:41:17.699
+on the API front, and sort of
+help them with their roadmap.
+
+00:41:17.733 --> 00:41:20.128
+You know, we're excited about
+
+00:41:20.161 --> 00:41:23.100
+sort of all these
+new announcements.
+
+00:41:23.100 --> 00:41:26.520
+And one of the things, though,
+when you have multiple models,
+
+00:41:26.520 --> 00:41:28.500
+what you need is
+a new capability
+
+00:41:28.500 --> 00:41:29.850
+in how you use these models.
+
+00:41:29.850 --> 00:41:34.380
+And now you can provision
+throughput once on Foundry,
+
+00:41:34.380 --> 00:41:39.230
+and you can across -- you can
+use that provision throughput
+
+00:41:39.230 --> 00:41:41.810
+across multiple models,
+including Grok.
+
+00:41:41.810 --> 00:41:44.240
+That's just a game changer
+in terms of how you think
+
+00:41:44.240 --> 00:41:47.070
+about models and
+model provisioning.
+
+00:41:47.070 --> 00:41:50.580
+And so now, once you do
+that, you now have Mistral,
+
+00:41:50.580 --> 00:41:52.500
+which you can even provision
+
+00:41:52.500 --> 00:41:55.260
+with all the sovereign
+deployment in the EU region,
+
+00:41:55.260 --> 00:41:58.230
+which increasingly becomes
+a massive consideration
+
+00:41:58.230 --> 00:42:00.900
+for people building
+applications around the world,
+
+00:42:00.900 --> 00:42:02.070
+because I think increasingly,
+
+00:42:02.070 --> 00:42:05.370
+there will be models people
+prefer in different parts.
+
+00:42:05.370 --> 00:42:06.780
+And we're excited about Mistral.
+
+00:42:06.780 --> 00:42:09.420
+Llama. I was at LlamaCon
+recently with Mark.
+
+00:42:09.420 --> 00:42:11.658
+And as he likes to
+say, he's bringing a
+
+00:42:11.692 --> 00:42:13.680
+"full herd of llama",
+
+00:42:13.680 --> 00:42:15.840
+the full llama herd, to Azure.
+
+00:42:15.840 --> 00:42:17.730
+We're excited about
+all the advances
+
+00:42:17.730 --> 00:42:19.410
+that they're making
+in open source.
+
+00:42:19.410 --> 00:42:21.810
+Black Forest Labs
+and many more, right?
+
+00:42:21.810 --> 00:42:25.530
+So all of them all behind this
+one provision throughput.
+
+00:42:25.530 --> 00:42:28.410
+And so it's exciting for us as
+developers to be able to mix
+
+00:42:28.410 --> 00:42:30.150
+and match and use them all.
+
+00:42:30.150 --> 00:42:33.960
+Many of them have the same API
+signature, so even the ability
+
+00:42:33.960 --> 00:42:38.210
+to be able to make these model
+switches becomes even easier.
+
+00:42:38.210 --> 00:42:41.270
+And we also have expanded our
+partnership with Hugging Face.
+
+00:42:41.270 --> 00:42:45.530
+So you'll have access
+to over 11,000 frontier
+
+00:42:45.530 --> 00:42:48.260
+and open-source
+models in Foundry.
+
+00:42:48.260 --> 00:42:51.470
+But models are just
+part of the equation
+
+00:42:51.470 --> 00:42:53.840
+for anyone building an agent.
+
+00:42:53.840 --> 00:42:58.770
+And truly, you need to be able
+to have truly great access
+
+00:42:58.770 --> 00:43:01.110
+to real-time web as well,
+
+00:43:01.110 --> 00:43:04.140
+as the entire enterprise
+knowledge graph.
+
+00:43:04.140 --> 00:43:07.020
+We've learned that
+building RAG apps
+
+00:43:07.020 --> 00:43:11.190
+that you need a more
+sophisticated retrieval system.
+
+00:43:11.190 --> 00:43:14.490
+It's not good enough to
+just have a vector search
+
+00:43:14.490 --> 00:43:16.620
+and some embeddings.
+
+00:43:16.620 --> 00:43:20.700
+You really need, like, a
+database or a knowledge engine,
+
+00:43:20.700 --> 00:43:26.160
+a real query engine that's
+custom built for agents,
+
+00:43:26.160 --> 00:43:30.390
+so that you can break
+down any complex query,
+
+00:43:30.390 --> 00:43:35.190
+run them in parallel,
+return, synthesize results.
+
+00:43:35.190 --> 00:43:39.240
+Think of it, essentially, like a
+modern knowledge retrieval stack
+
+00:43:39.240 --> 00:43:43.080
+for agents that understand
+what users want
+
+00:43:43.080 --> 00:43:45.990
+and what your data means.
+
+00:43:45.990 --> 00:43:49.170
+And, of course, once you have
+even that part of the system,
+
+00:43:49.170 --> 00:43:51.240
+the next layer is the
+orchestration layer.
+
+00:43:51.240 --> 00:43:53.280
+You want to be able to
+have all these agents
+
+00:43:53.280 --> 00:43:55.590
+or multiple agents orchestrated.
+
+00:43:55.590 --> 00:44:00.090
+And the Foundry Agent Service
+lets you build declarative
+
+00:44:00.090 --> 00:44:01.860
+agents, in fact,
+just with a few lines
+
+00:44:01.860 --> 00:44:04.470
+of code just in the portal.
+
+00:44:04.470 --> 00:44:05.880
+For complex workflows,
+
+00:44:05.880 --> 00:44:08.700
+it supports multi-agent
+orchestration.
+
+00:44:08.700 --> 00:44:11.160
+It integrates seamlessly
+with frameworks
+
+00:44:11.160 --> 00:44:13.920
+like Semantic Kernel, AutoGen.
+
+00:44:13.920 --> 00:44:16.590
+And you can use the agent
+service essentially
+
+00:44:16.590 --> 00:44:21.450
+like a managed service for
+the execution environment.
+
+00:44:21.450 --> 00:44:24.690
+And more than 10,000
+organizations are already using
+
+00:44:24.690 --> 00:44:26.790
+it, and I'm excited to share
+
+00:44:26.790 --> 00:44:29.730
+that now the agent service
+is generally available.
+
+00:44:29.730 --> 00:44:34.208
+[ Applause ]
+
+00:44:34.242 --> 00:44:37.860
+You know, once you
+have these agents running,
+
+00:44:37.860 --> 00:44:40.860
+the next thing you need is
+the compute environment.
+
+00:44:40.860 --> 00:44:44.040
+And we are making everything
+from serverless Azure functions
+
+00:44:44.040 --> 00:44:48.390
+to Azure Container apps to the
+extreme control that you need
+
+00:44:48.390 --> 00:44:51.360
+with sort of AKS
+and how you scale.
+
+00:44:51.360 --> 00:44:55.410
+We're providing full spectrum
+of compute so that you can hit
+
+00:44:55.410 --> 00:44:59.580
+that right price performance for
+any of your agentic scenarios.
+
+00:44:59.580 --> 00:45:01.710
+And we're making it
+straightforward, for example,
+
+00:45:01.710 --> 00:45:06.300
+for you to connect Foundry to
+your Container app or functions
+
+00:45:06.300 --> 00:45:10.440
+and deploy any open-source
+model into AKS, whether it's
+
+00:45:10.440 --> 00:45:13.320
+in the cloud or in
+hybrid mode with Arc.
+
+00:45:13.320 --> 00:45:15.840
+Right? Increasingly, you want
+to even have these models
+
+00:45:15.840 --> 00:45:17.430
+that get deployed at the edge.
+
+00:45:17.430 --> 00:45:20.070
+And Foundry will support that.
+
+00:45:20.070 --> 00:45:23.820
+And we are closing
+the gap and the loop
+
+00:45:23.820 --> 00:45:26.250
+between Foundry and
+Copilot Studio.
+
+00:45:26.250 --> 00:45:29.010
+And this is pretty, pretty
+key for us as developers.
+
+00:45:29.010 --> 00:45:34.650
+You can now take a model,
+fine-tune it or post train it
+
+00:45:34.650 --> 00:45:37.950
+in Foundry and then drop it
+right into Copilot Studio,
+
+00:45:37.950 --> 00:45:40.530
+so that you can now use
+that post-train model
+
+00:45:40.530 --> 00:45:42.750
+to automate a workflow
+or build an agent.
+
+00:45:42.750 --> 00:45:45.540
+So that's the type of
+stuff that you can do.
+
+00:45:45.540 --> 00:45:49.740
+One fantastic example of this
+is what Stanford Medicine
+
+00:45:49.740 --> 00:45:53.370
+orchestrated using multiple
+agents to connect,
+
+00:45:53.370 --> 00:45:56.940
+from patient history,
+to radiology,
+
+00:45:56.940 --> 00:46:00.960
+to getting PubMed data,
+clinical trial data
+
+00:46:00.960 --> 00:46:02.940
+and many, many other scenarios.
+
+00:46:02.940 --> 00:46:06.720
+But one goal, which is, how can
+they take something mission
+
+00:46:06.720 --> 00:46:10.440
+critical like cancer care
+and a tumor board meeting,
+
+00:46:10.440 --> 00:46:12.300
+and orchestrate it all with AI?
+
+00:46:12.300 --> 00:46:13.410
+It's pretty incredible.
+
+00:46:13.444 --> 00:46:14.734
+Let's take a look at the video.
+
+00:46:15.817 --> 00:46:18.386
+[ Music ]
+
+00:46:18.420 --> 00:46:19.950
+Sylvia Plevritis:
+Sanford Medicine is
+
+00:46:19.950 --> 00:46:21.870
+at the forefront of
+cancer research.
+
+00:46:21.870 --> 00:46:24.000
+And in the context of treatment,
+
+00:46:24.000 --> 00:46:26.520
+tumor boards are a
+really important meeting
+
+00:46:26.520 --> 00:46:29.310
+of many different
+clinicians who convene
+
+00:46:29.310 --> 00:46:31.710
+because a patient
+presents in a way
+
+00:46:31.710 --> 00:46:35.430
+that they're not familiar with.
+
+00:46:35.430 --> 00:46:37.080
+Timothy Keyes: You have to
+pull together information
+
+00:46:37.080 --> 00:46:41.490
+about medications, any
+procedures, radiology, labs,
+
+00:46:41.490 --> 00:46:45.480
+a patient's history, as well
+as the medical literature.
+
+00:46:45.480 --> 00:46:47.640
+There's not just a lot of
+information that you need
+
+00:46:47.640 --> 00:46:49.290
+to bring together
+for the tumor board.
+
+00:46:49.290 --> 00:46:51.060
+It's that that
+information is fragmented
+
+00:46:51.060 --> 00:46:54.090
+in a bunch of different places.
+
+00:46:54.090 --> 00:46:55.110
+Nigam Shah: Stanford runs
+
+00:46:55.110 --> 00:46:58.170
+about 4,000 tumor board
+meetings per year,
+
+00:46:58.170 --> 00:47:01.020
+pulling through real-world
+evidence, pulling literature,
+
+00:47:01.020 --> 00:47:02.790
+pulling clinical trials.
+
+00:47:02.790 --> 00:47:04.740
+Those are things we do manually,
+
+00:47:04.740 --> 00:47:07.980
+and we can't do them
+4,000 times per year.
+
+00:47:07.980 --> 00:47:10.620
+Joel Neal: The Healthcare
+Agent Orchestrator is a way
+
+00:47:10.620 --> 00:47:12.840
+of bringing all this
+together at the beginning
+
+00:47:12.840 --> 00:47:16.140
+so that we can help make patient
+decisions more efficiently,
+
+00:47:16.140 --> 00:47:19.079
+faster, and perhaps
+more accurately.
+
+00:47:19.113 --> 00:47:20.756
+[ Music ]
+
+00:47:20.790 --> 00:47:23.490
+Timothy Keyes: This is an
+agentic AI solution deployable
+
+00:47:23.490 --> 00:47:25.500
+through Azure AI Foundry.
+
+00:47:25.500 --> 00:47:27.660
+We've been able to
+build, customize,
+
+00:47:27.660 --> 00:47:29.550
+and deploy our own agents
+
+00:47:29.550 --> 00:47:33.750
+with this first use case
+being a tumor board.
+
+00:47:33.750 --> 00:47:36.570
+There is an orchestration
+layer that allows all
+
+00:47:36.570 --> 00:47:38.430
+of the different
+agents to dispatch
+
+00:47:38.430 --> 00:47:41.220
+and to provide a comprehensive
+report to a clinician
+
+00:47:41.220 --> 00:47:42.360
+that brings together all
+
+00:47:42.360 --> 00:47:44.700
+of these disparate
+information sources.
+
+00:47:44.700 --> 00:47:47.400
+And this really powerful thing
+that Microsoft has incorporated
+
+00:47:47.400 --> 00:47:51.900
+into its agents is grounding
+within specific clinical notes.
+
+00:47:51.900 --> 00:47:54.540
+Nigam Shah: They're already
+using Word to summarize things.
+
+00:47:54.540 --> 00:47:56.100
+They often make
+PowerPoint slides.
+
+00:47:56.100 --> 00:47:58.260
+This enables us
+to put everything
+
+00:47:58.260 --> 00:48:01.140
+in an integrated setting
+into one summary.
+
+00:48:01.140 --> 00:48:02.610
+Timothy Keyes: It took
+just a few lines of code
+
+00:48:02.610 --> 00:48:04.770
+to deploy these
+agents into Teams
+
+00:48:04.770 --> 00:48:08.340
+so that we could start
+interacting with them directly.
+
+00:48:08.340 --> 00:48:09.390
+Joel Neal: The more integration
+
+00:48:09.390 --> 00:48:11.760
+between all these systems, the
+less effort they're spending
+
+00:48:11.760 --> 00:48:14.580
+on those mechanical things,
+the more effort we can spend
+
+00:48:14.580 --> 00:48:17.370
+at actual decision making
+that we're experts at.
+
+00:48:17.370 --> 00:48:19.260
+Nigam Shah: It's being
+delivered as a platform
+
+00:48:19.260 --> 00:48:20.730
+on which we can build.
+
+00:48:20.730 --> 00:48:23.490
+We can package things
+to share with others
+
+00:48:23.490 --> 00:48:27.570
+so that community hospitals
+get access to the same kind
+
+00:48:27.570 --> 00:48:31.290
+of capability that an
+academic medical center does.
+
+00:48:31.290 --> 00:48:33.990
+Joel Neal: If we work faster
+and we come to better decisions
+
+00:48:33.990 --> 00:48:37.740
+with better information, that
+itself, that's a revolution.
+
+00:48:37.740 --> 00:48:38.765
+Sylvia Plevritis: We
+want to develop tools that will
+
+00:48:38.799 --> 00:48:40.950
+not only help our
+physicians at Stanford
+
+00:48:40.950 --> 00:48:43.470
+but help physicians
+all over the world.
+
+00:48:43.504 --> 00:48:45.424
+I think it's going to
+be transformative.
+
+00:48:47.528 --> 00:48:53.040
+[ Applause ]
+
+00:48:53.040 --> 00:48:55.080
+Satya Nadella: And I'm
+really thrilled to share
+
+00:48:55.080 --> 00:48:57.120
+that this healthcare
+agent orchestrator
+
+00:48:57.120 --> 00:48:59.040
+that Stanford used
+is now available
+
+00:48:59.040 --> 00:49:01.903
+to everyone in Foundry, 
+it's pretty awesome.
+
+00:49:01.937 --> 00:49:04.046
+[ Applause ]
+
+00:49:04.080 --> 00:49:05.910
+Quite frankly, when
+I see that video is
+
+00:49:05.910 --> 00:49:08.490
+when I know things
+are becoming real.
+
+00:49:08.490 --> 00:49:11.820
+Think about it, which is, you
+use multiple models in Foundry.
+
+00:49:11.820 --> 00:49:15.570
+You do this multi-agent
+orchestrator.
+
+00:49:15.570 --> 00:49:18.930
+You bring it together in
+Copilot and in Teams.
+
+00:49:18.930 --> 00:49:23.430
+And a real-world example of some
+workflow orchestration done
+
+00:49:23.430 --> 00:49:24.840
+in an agentic way.
+
+00:49:24.840 --> 00:49:27.990
+That's when you know you're
+going from one little app
+
+00:49:27.990 --> 00:49:31.140
+to something that can scale
+throughout the enterprise.
+
+00:49:31.140 --> 00:49:33.210
+So, speaking about scaling
+to the enterprise,
+
+00:49:33.210 --> 00:49:35.370
+the other important
+consideration
+
+00:49:35.370 --> 00:49:37.980
+for an app server
+is observability.
+
+00:49:37.980 --> 00:49:41.280
+So that's why we now have new
+observability features coming
+
+00:49:41.280 --> 00:49:46.110
+to Foundry to help you monitor
+and manage AI in production.
+
+00:49:46.110 --> 00:49:50.310
+You can track the
+impact, quality, safety,
+
+00:49:50.310 --> 00:49:52.950
+as well as cost,
+all in one place.
+
+00:49:52.950 --> 00:49:54.810
+And it goes beyond that.
+
+00:49:54.810 --> 00:49:58.170
+In the future, we believe
+every organization is going
+
+00:49:58.170 --> 00:50:01.530
+to have people and
+agents working together.
+
+00:50:01.530 --> 00:50:06.240
+And so it means the systems that
+you are today using ubiquitously
+
+00:50:06.240 --> 00:50:11.070
+for things like identity,
+management of endpoints,
+
+00:50:11.070 --> 00:50:15.180
+security, will need to
+extend to agents as well.
+
+00:50:15.180 --> 00:50:16.590
+That's a big deal.
+
+00:50:16.590 --> 00:50:21.330
+You want the same rails that
+you use today at-scale to work
+
+00:50:21.330 --> 00:50:25.320
+across people and agents,
+and that's what we're doing.
+
+00:50:25.320 --> 00:50:31.530
+With Entra ID, agents now get
+their own identity, permissions,
+
+00:50:31.530 --> 00:50:34.380
+policies, access controls.
+
+00:50:34.380 --> 00:50:37.770
+The agents you build in Foundry
+and Copilot Studio show
+
+00:50:37.770 --> 00:50:41.940
+up automatically in an
+agent directory in Entra.
+
+00:50:41.940 --> 00:50:44.700
+We're also partnering with
+ServiceNow and Workday
+
+00:50:44.700 --> 00:50:47.700
+to bring automated
+provisioning and management
+
+00:50:47.700 --> 00:50:50.460
+to their agents via Entra.
+
+00:50:50.460 --> 00:50:52.890
+And when it comes
+to data governance,
+
+00:50:52.890 --> 00:50:55.290
+Purview now integrates
+with Foundry.
+
+00:50:55.290 --> 00:50:57.360
+So when you write an
+agent, automatically
+
+00:50:57.360 --> 00:51:00.420
+because of Purview, you
+can ensure end-to-end data
+
+00:51:00.420 --> 00:51:03.990
+protection, another massive
+safety consideration.
+
+00:51:03.990 --> 00:51:07.860
+And on the security side,
+Defender now integrates
+
+00:51:07.860 --> 00:51:12.240
+with Foundry, so that means
+your agents are also protected,
+
+00:51:12.240 --> 00:51:16.140
+just like an endpoint would be,
+from threats like wallet abuse
+
+00:51:16.140 --> 00:51:19.470
+or credential theft
+with Defender.
+
+00:51:19.470 --> 00:51:24.660
+And this is just a quick look
+at Foundry, your agent factory.
+
+00:51:24.660 --> 00:51:27.690
+Now, to make all this real,
+I would love to invite
+
+00:51:27.690 --> 00:51:29.760
+up on stage Kedasha,
+one of my colleagues,
+
+00:51:29.760 --> 00:51:31.320
+to show you how it
+all comes together.
+
+00:51:31.320 --> 00:51:32.793
+Kedasha, take it away.
+
+00:51:32.874 --> 00:51:37.856
+[ Applause ]
+
+00:51:37.890 --> 00:51:39.360
+Kedasha Kerr: Thanks, Satya.
+
+00:51:39.360 --> 00:51:42.180
+Today I'm going to show you how
+you can use Azure AI Foundry
+
+00:51:42.180 --> 00:51:46.530
+and GitHub Copilot to make your
+dev life a whole lot easier.
+
+00:51:46.530 --> 00:51:50.730
+This is VibeTravel, a chat-based
+app that uses Azure AI Foundry
+
+00:51:50.730 --> 00:51:55.620
+to provide an AI travel agent to
+help people plan their trips.
+
+00:51:55.620 --> 00:51:58.290
+I'm planning a trip to New
+Zealand in about eight months,
+
+00:51:58.290 --> 00:52:02.040
+so I asked Vibey
+for places to ski.
+
+00:52:02.040 --> 00:52:05.520
+Hmm, this math isn't "mathing".
+
+00:52:05.520 --> 00:52:09.720
+I'm pretty sure eight months
+from now is January 2026.
+
+00:52:09.720 --> 00:52:13.140
+And think about it, that's
+going to be the summer season
+
+00:52:13.140 --> 00:52:14.940
+in the southern hemisphere.
+
+00:52:14.940 --> 00:52:17.610
+We definitely need to make
+our AI agents smarter
+
+00:52:17.610 --> 00:52:21.510
+and give more
+grounded responses.
+
+00:52:21.510 --> 00:52:24.330
+I can pop into Foundry and
+see all of the AI agents
+
+00:52:24.330 --> 00:52:27.630
+that we have for this
+and our other apps.
+
+00:52:27.630 --> 00:52:30.540
+Our VibeTtravel
+agent uses GPT-4o
+
+00:52:30.540 --> 00:52:32.700
+and has a pretty great prompt.
+
+00:52:32.700 --> 00:52:35.730
+But we need to add
+some knowledge.
+
+00:52:35.730 --> 00:52:39.390
+We can do this by giving it
+files with reference data
+
+00:52:39.390 --> 00:52:41.520
+or connections to other services
+
+00:52:41.520 --> 00:52:44.640
+like Microsoft Fabric
+or TripAdvisor.
+
+00:52:44.640 --> 00:52:47.370
+But I think we can
+get a long way
+
+00:52:47.370 --> 00:52:49.920
+by just adding grounding
+with Bing search.
+
+00:52:49.920 --> 00:52:52.480
+So let's choose that option.
+
+00:52:53.940 --> 00:52:56.520
+Really simple.
+
+00:52:56.520 --> 00:52:59.220
+In addition to giving
+it access to knowledge,
+
+00:52:59.220 --> 00:53:03.060
+we also give it access to
+our flight reservation API.
+
+00:53:03.060 --> 00:53:07.650
+And because it's an open
+API API, it just works.
+
+00:53:07.650 --> 00:53:11.890
+Now let's go back to our app
+and try our query again.
+
+00:53:19.530 --> 00:53:21.210
+Being able to add data sources
+
+00:53:21.210 --> 00:53:24.180
+or search capabilities
+makes the agents smarter
+
+00:53:24.180 --> 00:53:27.000
+and far less likely
+to hallucinate.
+
+00:53:27.000 --> 00:53:29.880
+I could make it even smarter
+by adding information
+
+00:53:29.880 --> 00:53:32.940
+about hotel discounts
+or weather forecasts.
+
+00:53:32.940 --> 00:53:36.120
+The possibilities are endless.
+
+00:53:36.120 --> 00:53:39.630
+In about eight months,
+it's January 2026,
+
+00:53:39.630 --> 00:53:41.700
+which is the summer season.
+
+00:53:41.700 --> 00:53:44.130
+No skiing possible.
+
+00:53:44.130 --> 00:53:46.110
+That is much better.
+
+00:53:46.110 --> 00:53:50.040
+And you saw how easy it
+was for me to improve.
+
+00:53:50.040 --> 00:53:52.650
+Now let's have the agent
+actually book a flight
+
+00:53:52.650 --> 00:53:54.640
+on my behalf.
+
+00:53:59.100 --> 00:54:02.340
+Adding actions that the agent
+can perform upgrades the app
+
+00:54:02.340 --> 00:54:06.300
+from a simple question answering
+machine to an autonomous agent
+
+00:54:06.300 --> 00:54:09.300
+that can actually do
+things on your behalf.
+
+00:54:09.300 --> 00:54:12.120
+I can use an action to put
+that booking in my calendar
+
+00:54:12.120 --> 00:54:15.450
+or request to book a hotel
+or even to request leave
+
+00:54:15.450 --> 00:54:17.730
+from an internal system.
+
+00:54:17.730 --> 00:54:20.760
+Now, these flights look great.
+
+00:54:20.760 --> 00:54:24.060
+You just saw how Foundry made
+it easy to improve our agents.
+
+00:54:24.060 --> 00:54:27.810
+But there's still plenty of
+work to do in the actual code.
+
+00:54:27.810 --> 00:54:33.030
+I'm going to use agents in
+GitHub Copilot to get this done.
+
+00:54:33.030 --> 00:54:36.690
+Let's open Copilot Agent Mode,
+which is new, by the way.
+
+00:54:36.690 --> 00:54:39.660
+And I can choose between
+the most popular
+
+00:54:39.660 --> 00:54:44.430
+and most powerful models from
+all the major LLM providers.
+
+00:54:44.430 --> 00:54:48.270
+Agent mode takes GitHub Copilot
+beyond just answering questions
+
+00:54:48.270 --> 00:54:52.830
+or suggesting code to actually
+helping me do the work.
+
+00:54:52.830 --> 00:54:56.460
+I can come in here, and I can
+ask, "Can you show me the issues
+
+00:54:56.460 --> 00:54:59.430
+that are assigned to
+me in this repository?"
+
+00:54:59.430 --> 00:55:02.340
+Traditionally, I would have
+opened the browser to look
+
+00:55:02.340 --> 00:55:04.560
+at the issues on GitHub.com.
+
+00:55:04.560 --> 00:55:08.520
+But with MCP or Model Context
+Protocol, this allows you
+
+00:55:08.520 --> 00:55:11.670
+to give tools like GitHub
+Copilot the context
+
+00:55:11.670 --> 00:55:14.610
+and capabilities it
+needs to help you.
+
+00:55:14.610 --> 00:55:17.820
+GitHub Copilot will notice
+that we're using the --
+
+00:55:17.820 --> 00:55:21.570
+we're asking about GitHub issues
+and uses GitHub MCP server
+
+00:55:21.570 --> 00:55:23.340
+to get that information.
+
+00:55:23.340 --> 00:55:27.120
+And it looks like I have a
+few issues assigned to me.
+
+00:55:27.120 --> 00:55:30.870
+So let's have a look
+at the first one.
+
+00:55:30.870 --> 00:55:34.080
+Now, when I click this
+reset button in the app,
+
+00:55:34.080 --> 00:55:37.560
+it immediately clears our chat
+session without a warning.
+
+00:55:37.560 --> 00:55:39.420
+That's not ideal.
+
+00:55:39.420 --> 00:55:42.510
+We should really
+warn people first.
+
+00:55:42.510 --> 00:55:46.230
+Let's go back to the app,
+and I can ask GitHub Copilot
+
+00:55:46.230 --> 00:55:49.170
+to help me implement the
+details for Issue Number 1
+
+00:55:49.170 --> 00:55:52.470
+and also fetch the details
+for Issue Number 1.
+
+00:55:52.470 --> 00:55:56.040
+I also have this beautiful
+design that my manager gave
+
+00:55:56.040 --> 00:55:58.950
+to me last minute that I
+need to add as context
+
+00:55:58.950 --> 00:56:00.630
+to the prompt as well.
+
+00:56:00.630 --> 00:56:01.950
+Hope you can see it.
+
+00:56:01.950 --> 00:56:06.060
+So let me pull up my screenshot
+for you so you can see that.
+
+00:56:06.060 --> 00:56:07.290
+It's pretty sweet.
+
+00:56:07.290 --> 00:56:09.100
+Wouldn't you say?
+
+00:56:10.110 --> 00:56:14.070
+Let me add this to the context
+window and send the prompt.
+
+00:56:14.070 --> 00:56:16.950
+We'll see Copilot asking
+for specific permissions
+
+00:56:16.950 --> 00:56:21.840
+to use the GitHub MCP server to
+fetch the details of the issue.
+
+00:56:21.840 --> 00:56:24.390
+Let's hit "Continue" to allow it
+
+00:56:24.390 --> 00:56:26.910
+to implement the changes
+in our code base.
+
+00:56:26.910 --> 00:56:29.820
+You can see the GitHub MCP
+server fetch the details,
+
+00:56:29.820 --> 00:56:32.730
+and with Agent Mode's
+new Vision capabilities,
+
+00:56:32.730 --> 00:56:35.730
+it means that Copilot can
+even understand the sketches
+
+00:56:35.730 --> 00:56:37.260
+of what I want.
+
+00:56:37.260 --> 00:56:40.920
+Then it starts working out the
+issues of what I want to change
+
+00:56:40.920 --> 00:56:43.720
+and figure out how to change it.
+
+00:56:47.190 --> 00:56:50.970
+While it's doing that, let's
+take a look at the other issue.
+
+00:56:50.970 --> 00:56:54.694
+And actually, I cheated
+a little for this one.
+
+00:56:58.260 --> 00:57:01.860
+Before I came out, I assigned
+the issue to Copilot,
+
+00:57:01.860 --> 00:57:03.900
+just like you saw
+Satya did earlier
+
+00:57:03.900 --> 00:57:06.510
+with the Azure dev
+community website.
+
+00:57:06.510 --> 00:57:08.970
+Copilot has looked at
+this issue and opened
+
+00:57:08.970 --> 00:57:10.950
+up a pull request for us.
+
+00:57:10.950 --> 00:57:12.990
+Let's take a look at it.
+
+00:57:12.990 --> 00:57:15.450
+You can see here it
+has a description
+
+00:57:15.450 --> 00:57:17.190
+with implementation details
+
+00:57:17.190 --> 00:57:19.830
+and the code changes
+that it recommends.
+
+00:57:19.830 --> 00:57:22.410
+We can also see the
+full session log
+
+00:57:22.410 --> 00:57:25.440
+of how GitHub Copilot
+implemented this change
+
+00:57:25.440 --> 00:57:27.450
+by clicking this
+"View Session" button
+
+00:57:27.450 --> 00:57:30.300
+and scrolling
+through the changes.
+
+00:57:30.300 --> 00:57:32.318
+Let's take a look at the
+actual code, though.
+
+00:57:34.431 --> 00:57:35.514
+Hmmm. . .
+
+00:57:35.878 --> 00:57:39.420
+This looks good, but if I
+want to add some feedback,
+
+00:57:39.420 --> 00:57:43.560
+I can do that by popping in a
+comment, write in the issue
+
+00:57:43.560 --> 00:57:45.030
+or in the pull request.
+
+00:57:45.030 --> 00:57:47.730
+And GitHub Copilot is
+going to take a look at it
+
+00:57:47.730 --> 00:57:49.590
+and get started on the work.
+
+00:57:49.590 --> 00:57:52.620
+You can see the little
+emoji right here.
+
+00:57:52.654 --> 00:57:56.160
+You know, it actually
+feels really good working
+
+00:57:56.160 --> 00:57:59.340
+on two issues at the same time.
+
+00:57:59.340 --> 00:58:01.380
+Now, let's go back to our editor
+
+00:58:01.380 --> 00:58:03.850
+to see the progress
+on Issue Number 1.
+
+00:58:05.700 --> 00:58:08.370
+As you can see, Copilot
+Agent Mode was able
+
+00:58:08.370 --> 00:58:11.700
+to examine the proposed changes,
+look for relevant files
+
+00:58:11.700 --> 00:58:14.760
+to change, make the
+changes as appropriate.
+
+00:58:14.760 --> 00:58:16.680
+And it even stuck to the styles
+
+00:58:16.680 --> 00:58:19.410
+and coding standards
+that I wanted it to.
+
+00:58:19.410 --> 00:58:20.940
+When I go back to the app,
+
+00:58:20.940 --> 00:58:25.260
+it was able to implement the UI
+changes that my boss wanted.
+
+00:58:25.260 --> 00:58:27.400
+Let me see if it's running. . .
+
+00:58:31.860 --> 00:58:34.200
+As you can see,
+folks, this is live. . .
+
+00:58:45.993 --> 00:58:50.190
+I don't have time to debug,
+but once I click this issue,
+
+00:58:50.190 --> 00:58:52.200
+I'm pretty sure
+it's implemented.
+
+00:58:52.200 --> 00:58:54.840
+Copilot was able to add
+the modal in our app.
+
+00:58:54.840 --> 00:58:56.550
+And that's two issues
+that we worked
+
+00:58:56.550 --> 00:58:58.860
+on in a handful of minutes.
+
+00:58:58.860 --> 00:59:02.215
+Thank you, GitHub Copilot
+and Azure AI Foundry.
+
+00:59:02.255 --> 00:59:04.466
+[ Applause ]
+
+00:59:04.500 --> 00:59:09.330
+Kedasha Kerr: And actually,
+while I'm here, it's not often
+
+00:59:09.330 --> 00:59:12.390
+that I get the chance to
+check on Satya's work.
+
+00:59:12.390 --> 00:59:15.960
+So let's take a look at the
+issue that he assigned earlier,
+
+00:59:15.960 --> 00:59:19.140
+do you remember it, to add that
+group size filter to the site?
+
+00:59:19.140 --> 00:59:20.300
+Let's take a look at it.
+
+00:59:21.996 --> 00:59:23.490
+Oh, we're already here.
+
+00:59:23.490 --> 00:59:26.430
+Okay. So this is the
+issue, as you see.
+
+00:59:26.430 --> 00:59:29.700
+And Copilot was able to
+open up a pull request
+
+00:59:29.700 --> 00:59:32.070
+to start implementing
+these changes.
+
+00:59:32.070 --> 00:59:34.530
+Let's take a look at the PR.
+
+00:59:34.530 --> 00:59:37.680
+So as you see here,
+Copilot was able
+
+00:59:37.680 --> 00:59:40.710
+to add the group size
+filter property.
+
+00:59:40.710 --> 00:59:44.010
+It was able to add the
+logic for Redis caching.
+
+00:59:44.010 --> 00:59:47.490
+And it also added some
+testing with instructions.
+
+00:59:47.490 --> 00:59:48.840
+That's pretty sweet.
+
+00:59:48.840 --> 00:59:53.160
+Now it's also deployed the app
+to our staging environment.
+
+00:59:53.160 --> 00:59:55.140
+So let's take a look
+at the deployment.
+
+00:59:55.140 --> 00:59:56.449
+Fingers crossed. . .
+
+00:59:58.200 --> 01:00:01.590
+Let's scroll all the way down.
+
+01:00:01.590 --> 01:00:05.130
+And you can see the group
+size filter was added.
+
+01:00:05.165 --> 01:00:11.576
+[ Applause ]
+
+01:00:11.610 --> 01:00:14.220
+I do see a couple of things
+that I want to tweak.
+
+01:00:14.220 --> 01:00:15.990
+But I'll work on that backstage
+
+01:00:15.990 --> 01:00:19.170
+and then push the production
+later, so you can take a look.
+
+01:00:19.170 --> 01:00:20.401
+That's three issues
+
+01:00:20.434 --> 01:00:23.370
+in a handful of minutes.
+Back to you, Satya.
+
+01:00:23.404 --> 01:00:24.491
+Satya Nadella:
+Thank you so much.
+
+01:00:24.525 --> 01:00:29.520
+[ Applause ]
+
+01:00:29.520 --> 01:00:34.410
+Talk about working
+hard in parallel.
+
+01:00:34.410 --> 01:00:40.140
+It's really exciting to see
+the progress that we're making
+
+01:00:40.140 --> 01:00:42.060
+with really building out.
+
+01:00:42.060 --> 01:00:45.810
+Each one of these platform
+shifts has needed an app server.
+
+01:00:45.810 --> 01:00:50.490
+And building out that
+fullness of the app server is
+
+01:00:50.490 --> 01:00:55.710
+when you know that the platform
+shift is now taking scale.
+
+01:00:55.710 --> 01:00:57.090
+So far, we have talked
+
+01:00:57.090 --> 01:01:00.300
+about everything we're
+doing in the cloud.
+
+01:01:00.300 --> 01:01:04.710
+Now we want to bring the
+power of this app server
+
+01:01:04.710 --> 01:01:09.240
+and app building capability to
+the Edge and clients as well
+
+01:01:09.240 --> 01:01:12.750
+with Foundry Local, which
+we are announcing today.
+
+01:01:12.750 --> 01:01:14.815
+It includes a very -- yeah!
+
+01:01:14.848 --> 01:01:15.935
+[ Cheering ]
+
+01:01:15.969 --> 01:01:17.605
+[ Applause ]
+
+01:01:17.639 --> 01:01:22.560
+You know, it includes a fast,
+high-performance runtime,
+
+01:01:22.560 --> 01:01:30.180
+models, agents as a service, and
+a CLI for local app development.
+
+01:01:30.214 --> 01:01:34.368
+And yes, it's fully supported
+on Windows and the Mac.
+
+01:01:35.596 --> 01:01:37.406
+[ Applause ]
+
+01:01:37.440 --> 01:01:43.200
+So now let's just step back and
+talk about Windows for a moment.
+
+01:01:43.200 --> 01:01:47.640
+If you're a developer, Windows
+is the most open platform
+
+01:01:47.640 --> 01:01:50.520
+with massive scale, with
+over a billion users
+
+01:01:50.520 --> 01:01:53.040
+and billion devices
+that you can reach.
+
+01:01:53.040 --> 01:01:56.430
+And we're constantly improving
+it, making it more secure,
+
+01:01:56.430 --> 01:01:59.310
+more reliable, better
+for your apps,
+
+01:01:59.310 --> 01:02:03.120
+no matter whether you want --
+where you want to run, in fact,
+
+01:02:03.120 --> 01:02:06.180
+the Windows image,
+whether it's on the cloud
+
+01:02:06.180 --> 01:02:08.430
+or on the client machine.
+
+01:02:08.430 --> 01:02:12.720
+In the past year, we have
+seen developers from Adobe
+
+01:02:12.720 --> 01:02:17.850
+to Zoom use these on-device
+AI capabilities on Windows
+
+01:02:17.850 --> 01:02:19.890
+to ship some amazing
+applications.
+
+01:02:19.890 --> 01:02:22.110
+If you go to the
+Store and the AI Hub,
+
+01:02:22.110 --> 01:02:25.410
+you can start seeing many
+of these things light up.
+
+01:02:25.410 --> 01:02:28.080
+And today, we're
+taking another step
+
+01:02:28.080 --> 01:02:31.500
+to make Windows the
+best platform for AI.
+
+01:02:31.500 --> 01:02:35.795
+We're excited to announce
+the Windows AI Foundry.
+
+01:02:35.829 --> 01:02:40.590
+[ Applause ]
+
+01:02:40.590 --> 01:02:44.640
+Windows AI Foundry is
+what we used, in fact,
+
+01:02:44.640 --> 01:02:50.790
+ourselves internally to build
+features like on Copilot+ PCs
+
+01:02:50.790 --> 01:02:53.910
+for things like recall
+or even click-to-do.
+
+01:02:53.910 --> 01:02:58.350
+All of these now are built using
+the same runtime and the SDK.
+
+01:02:58.350 --> 01:03:00.630
+And now we're extending
+this platform
+
+01:03:00.630 --> 01:03:03.450
+to support the full
+dev lifecycle,
+
+01:03:03.450 --> 01:03:07.530
+not just on Copilot PCs,
+but across CPUs, GPUs,
+
+01:03:07.530 --> 01:03:10.110
+NPUs, and in the cloud.
+
+01:03:10.110 --> 01:03:13.230
+So you can build your
+application and have it run
+
+01:03:13.230 --> 01:03:14.700
+across all of that silicon.
+
+01:03:14.700 --> 01:03:17.970
+And Foundry Local is built
+into Windows AI Foundry,
+
+01:03:17.970 --> 01:03:22.710
+so you can tap into this rich
+catalog of these pre-optimized,
+
+01:03:22.710 --> 01:03:26.460
+open-source models that you can
+run locally on your device.
+
+01:03:26.460 --> 01:03:30.780
+And with Windows AI Foundry,
+you can customize --
+
+01:03:30.780 --> 01:03:32.430
+this is very, very cool --
+
+01:03:32.430 --> 01:03:36.582
+our built-in Phi Silica SLM
+
+01:03:36.616 --> 01:03:40.530
+using LoRA adapters and to sort
+
+01:03:40.530 --> 01:03:44.250
+of basically meet any specific
+need of your application.
+
+01:03:44.250 --> 01:03:45.600
+Think about it, it comes with --
+
+01:03:45.600 --> 01:03:47.910
+-- the image comes
+with Phi Silica.
+
+01:03:47.910 --> 01:03:49.350
+You just do a LoRA adapter
+
+01:03:49.350 --> 01:03:53.460
+in your application,
+and it just works.
+
+01:03:53.460 --> 01:03:59.858
+And if o1 and DeepSeek mark the
+beginning of,
+
+01:03:59.892 --> 01:04:01.200
+basically, inference
+
+01:04:01.200 --> 01:04:03.900
+or test time compute
+in the cloud,
+
+01:04:03.900 --> 01:04:06.210
+I think Phi Silica is going
+
+01:04:06.210 --> 01:04:09.390
+to completely revolutionize
+what inference compute
+
+01:04:09.390 --> 01:04:10.980
+on the PC is going to look like.
+
+01:04:10.980 --> 01:04:13.890
+And you all, as developers,
+are going to truly exploit
+
+01:04:13.890 --> 01:04:16.740
+that to build some
+amazing experiences.
+
+01:04:16.740 --> 01:04:18.540
+And beyond the model itself,
+
+01:04:18.540 --> 01:04:21.990
+you now have all these rich
+semantic APIs to embed
+
+01:04:21.990 --> 01:04:26.790
+and index your local data
+into a vector store,
+
+01:04:26.790 --> 01:04:30.210
+with all the privacy protected.
+
+01:04:30.210 --> 01:04:33.780
+And then you can do these
+hybrid RAG applications,
+
+01:04:33.780 --> 01:04:38.130
+where when you do a RAG, you can
+actually get to the local data
+
+01:04:38.130 --> 01:04:42.810
+and have it relevant,
+contextually relevant.
+
+01:04:42.810 --> 01:04:44.340
+And if you're building
+your own models,
+
+01:04:44.340 --> 01:04:48.240
+Windows ML gives you a path
+to deploy high-performance AI
+
+01:04:48.240 --> 01:04:51.840
+across a variety of silicon
+without the complexity
+
+01:04:51.840 --> 01:04:54.840
+of all these
+device-specific tuning.
+
+01:04:54.840 --> 01:04:57.150
+And today, we are
+taking the next step,
+
+01:04:57.150 --> 01:05:01.380
+modernizing windows
+for the agentic web.
+
+01:05:01.380 --> 01:05:06.510
+We're announcing native
+support for MCP in Windows.
+
+01:05:06.510 --> 01:05:11.430
+[ Applause ]
+
+01:05:11.430 --> 01:05:13.099
+Satya Nadella:
+Windows will now include
+
+01:05:13.133 --> 01:05:15.390
+several built-in MCP servers;
+
+01:05:15.390 --> 01:05:20.280
+like file systems, settings, app
+actions, as well as windowing.
+
+01:05:20.280 --> 01:05:23.280
+And we're adding
+native MCP registry
+
+01:05:23.280 --> 01:05:30.540
+that lets MCP-compatible clients
+discover the secure MCP servers
+
+01:05:30.540 --> 01:05:34.140
+that have been vetted by us
+for security performance,
+
+01:05:34.140 --> 01:05:36.930
+all while keeping
+you in control.
+
+01:05:36.930 --> 01:05:39.600
+Let me hand it over to Divya
+to show you all of this
+
+01:05:39.600 --> 01:05:41.850
+and how it works and
+how it comes together,
+
+01:05:41.850 --> 01:05:45.720
+both as an app developer
+and also as a user
+
+01:05:45.720 --> 01:05:47.040
+of applications on Windows.
+
+01:05:47.040 --> 01:05:48.210
+Divya, over to you.
+
+01:05:48.210 --> 01:05:53.370
+[ Applause ]
+
+01:05:53.370 --> 01:05:54.952
+Divya Venkataramu: 
+Thank you, Satya
+
+01:05:54.986 --> 01:05:58.440
+Today I'm going to show
+you how easy it is to set
+
+01:05:58.440 --> 01:06:03.090
+up a new Linux distro, build
+a complete website project,
+
+01:06:03.090 --> 01:06:07.650
+and update with my Figma design,
+all with just three sentences
+
+01:06:07.650 --> 01:06:13.050
+in VS Code using GitHub
+Copilot and MCP on Windows.
+
+01:06:13.050 --> 01:06:16.290
+First, let's make sure
+we're set up correctly.
+
+01:06:16.290 --> 01:06:19.650
+For agents to connect
+to MCP servers,
+
+01:06:19.650 --> 01:06:23.520
+apps need explicit
+user permissions.
+
+01:06:23.520 --> 01:06:28.260
+In "Settings," you will see
+that I have already enabled WSL
+
+01:06:28.260 --> 01:06:32.910
+and Figma, so their MCP servers
+can be easily accessible
+
+01:06:32.910 --> 01:06:34.200
+to agents.
+
+01:06:34.200 --> 01:06:38.370
+Other apps remain in their
+disabled default state,
+
+01:06:38.370 --> 01:06:41.340
+putting me as a user
+in full control.
+
+01:06:41.340 --> 01:06:44.730
+Now that we're all set up,
+let's dive into VS Code
+
+01:06:44.730 --> 01:06:46.926
+and use my first two sentences.
+
+01:06:48.660 --> 01:06:52.230
+I have the VS Code open
+with GitHub Copilot.
+
+01:06:52.230 --> 01:06:54.960
+And this is also in the
+Agent Mode, as you can see.
+
+01:06:54.960 --> 01:06:56.880
+I'm using my first
+two sentences,
+
+01:06:56.880 --> 01:07:00.090
+and I'm asking GitHub
+Copilot, "Can you search
+
+01:07:00.090 --> 01:07:04.980
+for the latest version of Fedora
+in WSL and install it for me?"
+
+01:07:04.980 --> 01:07:07.470
+"Once it's installed,
+can you also set
+
+01:07:07.470 --> 01:07:12.513
+up a simple website project
+in Fedora using Node.js.?"
+
+01:07:14.280 --> 01:07:17.280
+I hit "Enter," and
+Copilot here is trying
+
+01:07:17.280 --> 01:07:21.450
+to establish a secure connection
+with the WSL MCP server.
+
+01:07:21.450 --> 01:07:22.530
+And it gives me first
+
+01:07:22.530 --> 01:07:25.770
+of my several quick
+user consent prompts.
+
+01:07:25.770 --> 01:07:28.830
+I hit "Accept" and
+allow it to proceed.
+
+01:07:28.830 --> 01:07:31.770
+Behind the scenes, it's also
+trying to query the list
+
+01:07:31.770 --> 01:07:34.200
+of available online distros,
+
+01:07:34.200 --> 01:07:37.650
+finds that Fedora 42
+is the latest version,
+
+01:07:37.650 --> 01:07:39.690
+and proceeds to install.
+
+01:07:39.690 --> 01:07:42.840
+This installation, as you can
+imagine, can take roughly
+
+01:07:42.840 --> 01:07:44.610
+about two to three minutes.
+
+01:07:44.610 --> 01:07:49.170
+So let's switch over to a device
+where this setup is complete.
+
+01:07:49.170 --> 01:07:52.530
+So on this device, I've got
+the environment set up.
+
+01:07:52.530 --> 01:07:56.400
+Let's scroll back up and see
+what steps it executed for me.
+
+01:07:56.400 --> 01:07:59.220
+As you can see, it's
+the exact same prompt.
+
+01:07:59.220 --> 01:08:02.010
+GitHub Copilot and the Agent
+Mode were smart enough
+
+01:08:02.010 --> 01:08:05.790
+to parse this multi-step
+request pretty seamlessly.
+
+01:08:05.790 --> 01:08:09.240
+It also queried the
+WSL online distro,
+
+01:08:09.240 --> 01:08:11.550
+set up the Fedora
+environment for me.
+
+01:08:11.550 --> 01:08:16.710
+It also installed the Node.js
+NPM directly inside Fedora using
+
+01:08:16.710 --> 01:08:18.840
+the DNF Package Manager.
+
+01:08:18.840 --> 01:08:21.030
+The best part here
+is it also knew how
+
+01:08:21.030 --> 01:08:24.150
+to run specific commands
+directly interacting
+
+01:08:24.150 --> 01:08:26.640
+with WSL on my device.
+
+01:08:26.640 --> 01:08:28.560
+That's pretty neat.
+
+01:08:28.560 --> 01:08:29.790
+Now let's go take a look
+
+01:08:29.790 --> 01:08:34.110
+at the simple website
+project it created for me.
+
+01:08:34.110 --> 01:08:36.120
+Well, this is a start.
+
+01:08:36.120 --> 01:08:39.810
+I'd like to take it one step
+farther and make it look
+
+01:08:39.810 --> 01:08:42.750
+like the design I've
+selected in my Figma.
+
+01:08:42.750 --> 01:08:44.670
+So here's my Figma desktop app,
+
+01:08:44.670 --> 01:08:48.210
+and here's the design I've
+selected, "Penguin Pen Pals".
+
+01:08:48.210 --> 01:08:51.360
+So now I'm ready to
+go back to VS Code
+
+01:08:51.360 --> 01:08:53.212
+and use my third sentence.
+
+01:08:55.706 --> 01:08:59.006
+So I'm going to ask
+GitHub Copilot here,
+
+01:08:59.040 --> 01:09:02.790
+"C an you make my website look
+like the design I have selected
+
+01:09:02.790 --> 01:09:05.400
+in Figma and pull
+the design details
+
+01:09:05.400 --> 01:09:07.020
+and apply them to my project?"
+
+01:09:07.020 --> 01:09:10.050
+But you can see the detailed
+prompt in the chat.
+
+01:09:10.050 --> 01:09:13.500
+Now I "Enter", and
+Copilot here, again,
+
+01:09:13.500 --> 01:09:15.750
+is establishing a
+secure connection
+
+01:09:15.750 --> 01:09:20.010
+with the Figma MCP server and
+asks for my consent to proceed.
+
+01:09:20.010 --> 01:09:22.200
+And I obviously accept.
+
+01:09:22.200 --> 01:09:26.310
+Before doing that, it queried
+the list of available servers
+
+01:09:26.310 --> 01:09:31.050
+in my MCP registry, found that
+Figma was the most relevant one
+
+01:09:31.050 --> 01:09:34.400
+to perform this task, and
+it proceeds to connect.
+
+01:09:34.400 --> 01:09:39.020
+Once connected, the agent
+pulled, pulls the design details
+
+01:09:39.020 --> 01:09:43.250
+directly from Figma, integrates
+them into my project,
+
+01:09:43.250 --> 01:09:45.830
+and updates the site's
+layout, design, style,
+
+01:09:45.830 --> 01:09:47.790
+and content accordingly.
+
+01:09:47.790 --> 01:09:51.540
+This could take roughly
+about two to three minutes.
+
+01:09:51.540 --> 01:09:53.100
+Let's switch over
+to another device
+
+01:09:53.100 --> 01:09:56.130
+where this final
+step is complete.
+
+01:09:56.130 --> 01:09:58.950
+So, on this device, the
+whole setup is complete.
+
+01:09:58.950 --> 01:10:02.040
+On the left side, you will see
+the code changes it applied
+
+01:10:02.040 --> 01:10:05.400
+by pulling the design details
+from my Figma desktop app.
+
+01:10:05.400 --> 01:10:07.770
+Now it's the right time
+for us to go take a look
+
+01:10:07.770 --> 01:10:10.830
+at the website it
+created for me.
+
+01:10:10.830 --> 01:10:14.850
+Boom! This is exactly
+the design I selected
+
+01:10:14.850 --> 01:10:16.200
+in my Figma desktop app.
+
+01:10:16.200 --> 01:10:19.976
+[ Applause ]
+
+01:10:20.010 --> 01:10:23.400
+It did all of this in
+just three sentences
+
+01:10:23.400 --> 01:10:25.770
+in a single chat interface.
+
+01:10:25.770 --> 01:10:27.630
+This is just one example
+
+01:10:27.630 --> 01:10:30.750
+of a developer-centric
+scenario I showed you today.
+
+01:10:30.750 --> 01:10:34.470
+Imagine what are the incredible
+opportunities this can unlock
+
+01:10:34.470 --> 01:10:37.050
+for you, enhancing
+your productivity,
+
+01:10:37.050 --> 01:10:39.060
+all while remaining secure.
+
+01:10:39.060 --> 01:10:42.720
+This is the power of
+MCP on Windows, secure,
+
+01:10:42.720 --> 01:10:46.260
+agent driven, and developer
+first. Back to you, Satya.
+
+01:10:46.260 --> 01:10:53.186
+[ Applause ]
+
+01:10:53.220 --> 01:10:55.110
+Satya Nadella: Thank
+you so much, Divya.
+
+01:10:55.110 --> 01:10:59.850
+As you saw with VS Code,
+GitHub Copilot, and WSL,
+
+01:10:59.850 --> 01:11:02.700
+we're really making
+windows the best dev box
+
+01:11:02.700 --> 01:11:04.770
+for the agentic web.
+
+01:11:04.770 --> 01:11:10.860
+Now speaking of WSL, we first
+announced Bash on Ubuntu
+
+01:11:10.860 --> 01:11:14.520
+on Windows nearly 10 years ago.
+
+01:11:14.520 --> 01:11:19.920
+It subsequently became what
+we obviously call today, WSL.
+
+01:11:19.920 --> 01:11:24.900
+Looking back, in fact,
+the very first issue
+
+01:11:24.900 --> 01:11:29.220
+in the repo was a request
+to open-source it.
+
+01:11:29.220 --> 01:11:31.770
+At that time, all of our logic
+
+01:11:31.770 --> 01:11:34.020
+for the project was
+quite inseparable
+
+01:11:34.020 --> 01:11:36.810
+from the rest of
+the Windows image.
+
+01:11:36.810 --> 01:11:39.930
+But since then, with a lot
+of the changes we've made,
+
+01:11:39.930 --> 01:11:44.670
+WSL 2 distros are more separable
+and they're standalone.
+
+01:11:44.670 --> 01:11:48.840
+So let's go back and reopen that
+very first issue and close it
+
+01:11:48.840 --> 01:11:53.660
+as fixed, because today we are
+making WSL fully open-source.
+
+01:11:53.694 --> 01:12:01.770
+[ Applause ]
+
+01:12:01.770 --> 01:12:05.520
+So far, we've talked a
+lot about the agentic web
+
+01:12:05.520 --> 01:12:09.090
+and the ecosystem around
+it coming together,
+
+01:12:09.090 --> 01:12:14.220
+whether it's Microsoft 365 to
+Foundry all the way to Windows.
+
+01:12:14.220 --> 01:12:18.510
+And I thought it would be great
+to have Kevin Scott, our CTO,
+
+01:12:18.510 --> 01:12:21.300
+to give you a broader
+perspective on this ecosystem
+
+01:12:21.300 --> 01:12:25.350
+and our collective opportunity
+to build a more agentic web.
+
+01:12:25.350 --> 01:12:26.858
+Welcome, Kevin.
+
+01:12:26.892 --> 01:12:30.457
+[ Applause ]
+
+01:12:30.491 --> 01:12:32.396
+[ Music ]
+
+01:12:32.430 --> 01:12:33.930
+Kevin Scott: All right.
+
+01:12:33.930 --> 01:12:35.280
+Thank you, Satya.
+
+01:12:35.280 --> 01:12:37.680
+So it's super good
+to see you all.
+
+01:12:37.680 --> 01:12:41.670
+I think this is my ninth
+Build as CTO of Microsoft,
+
+01:12:41.670 --> 01:12:45.120
+which seems like a
+really long time.
+
+01:12:45.120 --> 01:12:50.190
+I get to come out here once
+a year to talk to you all,
+
+01:12:50.190 --> 01:12:54.000
+forget that I'm an introvert
+for about 15, 20 minutes.
+
+01:12:54.000 --> 01:12:56.160
+And it's not like there's
+some magical thing
+
+01:12:56.160 --> 01:12:57.676
+that happens every May
+
+01:12:57.710 --> 01:12:59.340
+that makes me forget
+that I'm an introvert.
+
+01:12:59.340 --> 01:13:02.310
+It's just that there have
+been so many exciting things
+
+01:13:02.310 --> 01:13:04.800
+that have happened in the
+universe of technology
+
+01:13:04.800 --> 01:13:08.010
+over the past year, and there's
+so many things that are coming
+
+01:13:08.010 --> 01:13:11.400
+in the next year that I
+just want to share some
+
+01:13:11.400 --> 01:13:13.470
+of that enthusiasm with you all.
+
+01:13:13.470 --> 01:13:16.920
+And the thing that is really
+exciting me right now is
+
+01:13:16.920 --> 01:13:19.620
+something that is emerging,
+
+01:13:19.620 --> 01:13:23.340
+not solely because Microsoft
+wants it to happen,
+
+01:13:23.340 --> 01:13:27.000
+but because the components and
+the protocols and services
+
+01:13:27.000 --> 01:13:28.800
+that we've all been
+collectively working
+
+01:13:28.800 --> 01:13:33.590
+on for the past few years are
+sort of forming this thing
+
+01:13:33.590 --> 01:13:36.620
+that we've been calling
+the "agentic web".
+
+01:13:36.620 --> 01:13:39.260
+And the thing that's really,
+really encouraging about it is
+
+01:13:39.260 --> 01:13:42.410
+that it's happening in an open
+way, which I think is a thing
+
+01:13:42.410 --> 01:13:46.910
+that we all should want a whole
+lot, given where we're headed.
+
+01:13:46.910 --> 01:13:49.790
+I'll explain a little bit of why
+that's important in a minute.
+
+01:13:49.790 --> 01:13:52.940
+But before we go into
+the architecture
+
+01:13:52.940 --> 01:13:59.070
+of this open agentic web, let's
+talk about what an agent is.
+
+01:13:59.070 --> 01:14:01.380
+So, I know you all
+probably have a bunch
+
+01:14:01.380 --> 01:14:03.900
+of different definitions
+in your head.
+
+01:14:03.900 --> 01:14:05.490
+It's a little bit like
+a Rorschach test,
+
+01:14:05.490 --> 01:14:08.040
+but the thing that I
+always come back to
+
+01:14:08.040 --> 01:14:11.130
+and what we're pushing towards
+here at Microsoft, both in terms
+
+01:14:11.130 --> 01:14:12.840
+of agents that we're
+building ourselves,
+
+01:14:12.840 --> 01:14:16.140
+as well as the capability
+that we are trying to create
+
+01:14:16.140 --> 01:14:18.960
+to help ourselves and to help
+you all make your own agents,
+
+01:14:18.960 --> 01:14:21.150
+is that an agent is a thing
+
+01:14:21.150 --> 01:14:25.140
+that a human being is able
+to delegate tasks to.
+
+01:14:25.140 --> 01:14:28.320
+And over time, the tasks
+to which you are --
+
+01:14:28.320 --> 01:14:29.790
+the tasks that you're delegating
+
+01:14:29.790 --> 01:14:32.850
+to these agents are becoming
+increasingly complex.
+
+01:14:32.850 --> 01:14:37.860
+And that's the thing that
+we're aiming for over time.
+
+01:14:37.860 --> 01:14:40.530
+The thing that we've seen over
+the past year is just sort
+
+01:14:40.530 --> 01:14:44.220
+of an explosion of
+agents themselves.
+
+01:14:44.220 --> 01:14:47.880
+So this is our diagram of what
+the agentic web looks like.
+
+01:14:47.880 --> 01:14:51.060
+And at the very top of the
+stack is, like, a richer
+
+01:14:51.060 --> 01:14:54.870
+and richer ecosystem of
+agents that we're building,
+
+01:14:54.870 --> 01:14:57.150
+our partners are building,
+that you all are building.
+
+01:14:57.150 --> 01:15:00.750
+And we're just going to see
+more coming over the next year.
+
+01:15:00.750 --> 01:15:02.700
+And the striking thing
+about what's happened
+
+01:15:02.700 --> 01:15:05.130
+with these agents
+over the past year is
+
+01:15:05.130 --> 01:15:06.540
+that they're being used more
+
+01:15:06.540 --> 01:15:08.670
+and more frequently
+than ever before.
+
+01:15:08.670 --> 01:15:12.030
+So, across the agents that
+we have visibility on,
+
+01:15:12.030 --> 01:15:15.090
+the daily active users, since
+I was here last time chatting
+
+01:15:15.090 --> 01:15:18.420
+with you all at Build,
+have more than doubled.
+
+01:15:18.420 --> 01:15:22.620
+So just people using them
+at an incredibly increasing
+
+01:15:22.620 --> 01:15:24.410
+and accelerating rate.
+
+01:15:24.410 --> 01:15:26.540
+But the bigger thing that
+I think has happened is
+
+01:15:26.540 --> 01:15:29.750
+that these agents, because
+of the new reasoning models
+
+01:15:29.750 --> 01:15:32.570
+that have launched over the
+past year, have been able
+
+01:15:32.570 --> 01:15:37.400
+to really take on extremely
+complicated tasks.
+
+01:15:37.400 --> 01:15:41.070
+And you've seen a whole bunch of
+this stuff already from Satya
+
+01:15:41.070 --> 01:15:45.660
+and from the folks who've been
+on stage to provide demos,
+
+01:15:45.660 --> 01:15:47.580
+just the incredible
+things that some
+
+01:15:47.580 --> 01:15:49.470
+of these agents can do
+right now, particularly
+
+01:15:49.470 --> 01:15:51.090
+in software engineering.
+
+01:15:51.090 --> 01:15:53.130
+And you guys are going to
+see more and more of that
+
+01:15:53.130 --> 01:15:55.080
+over the course of Build.
+
+01:15:55.080 --> 01:15:58.470
+But sort of sitting on
+top of the agent layer
+
+01:15:58.470 --> 01:16:04.170
+of this agentic web stack is a
+thing called the runtime layer.
+
+01:16:04.170 --> 01:16:07.320
+And the runtime is, again,
+sort of an emerging set
+
+01:16:07.320 --> 01:16:09.690
+of components that
+we are building.
+
+01:16:09.690 --> 01:16:12.600
+The thing that I just mentioned
+that's gotten really good
+
+01:16:12.600 --> 01:16:16.380
+over the past year is
+the reasoning layer
+
+01:16:16.380 --> 01:16:18.210
+or the reasoning
+component inside
+
+01:16:18.210 --> 01:16:21.390
+of the runtime layer here.
+
+01:16:21.390 --> 01:16:23.640
+The reasoning capabilities
+of these models is going
+
+01:16:23.640 --> 01:16:25.830
+to continue to get
+better and better.
+
+01:16:25.830 --> 01:16:27.660
+If anything, right now, I
+think we have a little bit
+
+01:16:27.660 --> 01:16:30.240
+of a capability overhang
+with reasoning.
+
+01:16:30.240 --> 01:16:32.640
+So the models are more powerful
+
+01:16:32.640 --> 01:16:35.400
+than what we collectively are
+using them for at the moment.
+
+01:16:35.400 --> 01:16:39.450
+And one of my big challenges to
+all of you this year at Build is
+
+01:16:39.450 --> 01:16:42.390
+to just sort of think about how
+you can set your ambition level
+
+01:16:42.390 --> 01:16:46.200
+to 11 to try to target
+some things that are --
+
+01:16:46.200 --> 01:16:48.930
+you think are barely
+possible right now in terms
+
+01:16:48.930 --> 01:16:52.380
+of reasoning capability, because
+the models are going to get
+
+01:16:52.380 --> 01:16:54.990
+so much more powerful and so
+much cheaper over the course
+
+01:16:54.990 --> 01:16:57.360
+of the next 12 months
+that we don't want
+
+01:16:57.360 --> 01:17:01.040
+that capability overhang getting
+bigger than it already is.
+
+01:17:01.040 --> 01:17:03.920
+But there are a whole bunch of
+things in addition to reasoning
+
+01:17:03.920 --> 01:17:05.630
+that need to be built
+that are just sort
+
+01:17:05.630 --> 01:17:07.580
+of basic software engineering.
+
+01:17:07.580 --> 01:17:09.680
+A thing that's been
+conspicuously missing
+
+01:17:09.680 --> 01:17:14.520
+for a while with agents is
+really robust agentic memory.
+
+01:17:14.520 --> 01:17:17.790
+We've approximated it a bunch
+of ways with things like RAG
+
+01:17:17.790 --> 01:17:19.740
+and with long context windows.
+
+01:17:19.740 --> 01:17:22.020
+But the thing that you really
+want your agents to be able
+
+01:17:22.020 --> 01:17:27.840
+to do is to have a rich memory
+over which they can recall
+
+01:17:27.840 --> 01:17:31.890
+with real breadth and where
+you can have high precision
+
+01:17:31.890 --> 01:17:33.810
+in the recollection
+so that the things
+
+01:17:33.810 --> 01:17:37.110
+that are being pulled back
+out of memory are accurate,
+
+01:17:37.110 --> 01:17:39.660
+and you can trust them
+and rely upon them.
+
+01:17:39.660 --> 01:17:43.440
+And so there's just super
+interesting stuff happening.
+
+01:17:43.440 --> 01:17:46.260
+We open-sourced a system
+called Type Agent
+
+01:17:46.260 --> 01:17:49.350
+that you all can learn more
+about later here at Build
+
+01:17:49.350 --> 01:17:52.110
+that is one way
+that we're trying
+
+01:17:52.110 --> 01:17:56.160
+to tackle this agentic memory,
+which is just really important
+
+01:17:56.160 --> 01:17:57.990
+to make them less transactional.
+
+01:17:57.990 --> 01:18:01.380
+So, they can solve a problem
+once and recall the solution.
+
+01:18:01.380 --> 01:18:05.070
+They can remember their
+interactions with you so that
+
+01:18:05.070 --> 01:18:08.640
+they can become personalized and
+understand your preferences,
+
+01:18:08.640 --> 01:18:11.970
+the same way that you
+would expect from someone
+
+01:18:11.970 --> 01:18:14.430
+that you were
+delegating a task to
+
+01:18:14.430 --> 01:18:17.730
+or that you were
+collaborating with.
+
+01:18:17.730 --> 01:18:21.570
+So this whole runtime layer,
+the way that you can think
+
+01:18:21.570 --> 01:18:24.870
+about how Microsoft is
+delivering these components
+
+01:18:24.870 --> 01:18:26.649
+and participating
+in the community
+
+01:18:26.682 --> 01:18:28.080
+is these things are going
+
+01:18:28.080 --> 01:18:30.900
+to be offered in Azure Foundry.
+
+01:18:30.900 --> 01:18:33.690
+So, Azure Foundry is going
+to get richer and richer
+
+01:18:33.690 --> 01:18:35.250
+and richer over the coming year.
+
+01:18:35.250 --> 01:18:37.680
+You're going to hear my
+colleague Jay Parikh and a bunch
+
+01:18:37.680 --> 01:18:40.140
+of other folks talking
+about that Foundry layer
+
+01:18:40.140 --> 01:18:43.020
+and this runtime in
+much greater depth.
+
+01:18:43.020 --> 01:18:47.670
+But the thing that is super
+important, if you think
+
+01:18:47.670 --> 01:18:51.660
+about what an open agentic web
+could be, is you need agents
+
+01:18:51.660 --> 01:18:54.750
+to be able to take
+actions on your behalf.
+
+01:18:54.750 --> 01:18:59.010
+And one of the really important
+things about agents being able
+
+01:18:59.010 --> 01:19:01.170
+to take actions on your behalf
+is they have to be plumbed
+
+01:19:01.170 --> 01:19:03.600
+up to the greater world.
+
+01:19:03.600 --> 01:19:08.040
+So you need protocols, things
+like MCP and A2A and things
+
+01:19:08.040 --> 01:19:11.220
+that likely are going to be
+emerging over the coming year
+
+01:19:11.220 --> 01:19:15.090
+that will help connect
+in an open, reliable,
+
+01:19:15.090 --> 01:19:18.420
+interoperable way the
+agents that you are writing
+
+01:19:18.420 --> 01:19:22.830
+and the agents that are being
+used so actively now by hundreds
+
+01:19:22.830 --> 01:19:26.820
+of millions of people to be
+able to go access content,
+
+01:19:26.820 --> 01:19:30.090
+to access services, to take
+action on behalf of users
+
+01:19:30.090 --> 01:19:33.120
+in fulfilling the tasks that
+have been delegated to them.
+
+01:19:33.120 --> 01:19:38.280
+And so the super exciting thing
+that we really want to talk
+
+01:19:38.280 --> 01:19:46.130
+about here at this Build is our
+real, serious commitment to MCP.
+
+01:19:46.130 --> 01:19:49.280
+So MCP has just
+taken off like crazy
+
+01:19:49.280 --> 01:19:51.350
+over the past handful of months.
+
+01:19:51.350 --> 01:19:52.460
+And there's a good
+reason for it.
+
+01:19:52.460 --> 01:19:55.340
+It's filling an incredibly
+important niche
+
+01:19:55.340 --> 01:19:58.860
+in this open web, open
+agentic web ecosystem.
+
+01:19:58.860 --> 01:20:04.860
+It's a very simple protocol,
+akin to HTTP in the internet,
+
+01:20:04.860 --> 01:20:09.030
+where it allows you to do
+really sophisticated things,
+
+01:20:09.030 --> 01:20:11.640
+just because the protocol itself
+doesn't have much in the way
+
+01:20:11.640 --> 01:20:15.120
+of opinion about the
+payload that it carries,
+
+01:20:15.120 --> 01:20:17.880
+which also means that
+it's a great foundation
+
+01:20:17.880 --> 01:20:20.190
+which you can layer
+things on top of.
+
+01:20:20.190 --> 01:20:23.610
+And if you think about how
+the internet itself emerged,
+
+01:20:23.610 --> 01:20:25.830
+that composability of
+components and layering
+
+01:20:25.830 --> 01:20:27.990
+of protocols was
+really important
+
+01:20:27.990 --> 01:20:29.730
+to get to the richness.
+
+01:20:29.730 --> 01:20:31.320
+It gives you good
+starting places,
+
+01:20:31.320 --> 01:20:33.210
+and it gives you the
+ability to solve problems
+
+01:20:33.210 --> 01:20:36.980
+as you discover them as things
+are developing over time.
+
+01:20:36.980 --> 01:20:40.970
+So, we have heard
+from Satya just now
+
+01:20:40.970 --> 01:20:43.520
+about the MCP
+registry and Windows.
+
+01:20:43.520 --> 01:20:44.720
+We're doing a ton of work
+
+01:20:44.720 --> 01:20:48.500
+to enable Microsoft's
+first-party platform components
+
+01:20:48.500 --> 01:20:53.220
+and first-party services
+to be MCP-uplifted.
+
+01:20:53.220 --> 01:20:55.710
+We've chosen it as
+our standard protocol
+
+01:20:55.710 --> 01:20:58.800
+for agentic communication
+between agents
+
+01:20:58.800 --> 01:21:01.320
+and from agents to services.
+
+01:21:01.320 --> 01:21:03.510
+And then we're going to be
+doing a whole bunch of work
+
+01:21:03.510 --> 01:21:06.630
+over the next handful of
+months with our partners
+
+01:21:06.630 --> 01:21:10.290
+and collaborators at
+Anthropic to make sure
+
+01:21:10.290 --> 01:21:14.460
+that really tough enterprise
+problems that need to be solved
+
+01:21:14.460 --> 01:21:19.580
+on top of a protocol like
+MCP get resolved and solved.
+
+01:21:19.580 --> 01:21:22.070
+Like, how an agent
+identifies itself,
+
+01:21:22.070 --> 01:21:24.740
+how you build a really rich
+entitlements infrastructure
+
+01:21:24.740 --> 01:21:27.050
+so we can permission
+agents to have access
+
+01:21:27.050 --> 01:21:29.810
+to the systems they
+need to have access to.
+
+01:21:29.810 --> 01:21:32.570
+And then we are going
+to be just really,
+
+01:21:32.570 --> 01:21:36.540
+really supporting the
+open community here.
+
+01:21:36.540 --> 01:21:40.440
+Partially, that is because when
+you think about the utility
+
+01:21:40.440 --> 01:21:43.050
+of a protocol at this
+layer of the stack,
+
+01:21:43.050 --> 01:21:45.990
+the most important
+thing is ubiquity.
+
+01:21:45.990 --> 01:21:48.060
+We can get into all
+sorts of arguments,
+
+01:21:48.060 --> 01:21:51.750
+and I know you all are perfectly
+capable of this, as am I,
+
+01:21:51.750 --> 01:21:55.710
+as engineers, like, where you've
+got really sharp opinions
+
+01:21:55.710 --> 01:21:57.960
+about pieces of technology,
+
+01:21:57.960 --> 01:22:00.570
+and this thing is a little
+bit better than that thing.
+
+01:22:00.570 --> 01:22:01.710
+But what's better than all
+
+01:22:01.710 --> 01:22:04.320
+of that is just getting
+something standard
+
+01:22:04.320 --> 01:22:06.360
+that we can all use
+and build on top of.
+
+01:22:06.360 --> 01:22:10.040
+And we hope that thing is MCP.
+
+01:22:10.040 --> 01:22:13.140
+So, the thing
+that I want to talk
+
+01:22:13.140 --> 01:22:16.620
+about next is -- I
+mentioned layering.
+
+01:22:16.620 --> 01:22:22.620
+And so if you think back
+to the web, we have HTTP.
+
+01:22:22.620 --> 01:22:27.030
+And then we had things that
+sit on top of HTTP, like HTML,
+
+01:22:27.030 --> 01:22:31.770
+mainly, that are opinionated
+about the payload.
+
+01:22:31.770 --> 01:22:34.470
+And so we're announcing today,
+and you all should go check
+
+01:22:34.470 --> 01:22:38.190
+out the code in the
+GitHub repo, NLWeb.
+
+01:22:38.190 --> 01:22:42.540
+And the idea behind NLWeb
+is it is a way for anyone
+
+01:22:42.540 --> 01:22:45.030
+who has a website
+or an API already
+
+01:22:45.030 --> 01:22:48.510
+to very easily
+make their website
+
+01:22:48.510 --> 01:22:52.620
+or their API an
+agentic application.
+
+01:22:52.620 --> 01:22:56.880
+It lets you implement and
+leverage the full power
+
+01:22:56.880 --> 01:23:00.780
+of large language models to
+enrich the services and products
+
+01:23:00.780 --> 01:23:02.310
+that you're already offering.
+
+01:23:02.310 --> 01:23:08.070
+And because every NLWeb endpoint
+is by default an MCP server,
+
+01:23:08.070 --> 01:23:11.490
+it means that those things
+that people are offering
+
+01:23:11.490 --> 01:23:16.800
+up via NLWeb will be accessible
+to any agent that speaks MCP.
+
+01:23:16.800 --> 01:23:18.720
+So you really can think
+about it a little bit
+
+01:23:18.720 --> 01:23:22.440
+like HTML for the agentic web.
+
+01:23:22.440 --> 01:23:27.030
+We have done a bunch of
+work already with partners
+
+01:23:27.030 --> 01:23:30.240
+who have been really
+excited and been able
+
+01:23:30.240 --> 01:23:35.010
+to really very quickly get
+to quick implementations
+
+01:23:35.010 --> 01:23:38.050
+and prototypes using NLWeb.
+
+01:23:39.390 --> 01:23:44.250
+We've worked with
+TripAdvisor, O'Reilly Media,
+
+01:23:44.250 --> 01:23:49.020
+a ton of really great companies
+that offer important products
+
+01:23:49.020 --> 01:23:52.590
+and services on the internet
+to add in a web functionality
+
+01:23:52.590 --> 01:23:56.010
+to their site so that they can
+have these agentic experiences
+
+01:23:56.010 --> 01:23:58.110
+directly on their sites.
+
+01:23:58.110 --> 01:24:00.570
+And one of the things that
+I wanted to show you all
+
+01:24:00.570 --> 01:24:01.740
+to just sort of ground you
+
+01:24:01.740 --> 01:24:06.210
+in the capabilities is how
+you all might be able to go
+
+01:24:06.210 --> 01:24:10.590
+out right now, although you
+shouldn't do it right now --
+
+01:24:10.590 --> 01:24:12.900
+wait to hear all of
+the amazing finish
+
+01:24:12.900 --> 01:24:15.000
+of Satya's keynote, please.
+
+01:24:15.000 --> 01:24:20.880
+But right after that, you can
+go grab code from this depot.
+
+01:24:20.880 --> 01:24:25.290
+And like what we're showing
+here is a way for you all
+
+01:24:25.290 --> 01:24:29.160
+to put an agentic NLWeb
+user interface on top
+
+01:24:29.160 --> 01:24:32.340
+of any GitHub repo that
+you have access to.
+
+01:24:32.340 --> 01:24:33.753
+So what we're showing
+on the screen is like
+
+01:24:33.786 --> 01:24:35.250
+you run this Python script.
+
+01:24:35.250 --> 01:24:37.320
+It talks to the GitHub API.
+
+01:24:37.320 --> 01:24:40.830
+It extracts a whole bunch of
+data from your GitHub repo.
+
+01:24:40.830 --> 01:24:43.830
+Here, you're seeing Jennifer
+Marsman, who's a member
+
+01:24:43.830 --> 01:24:47.490
+of my team in the Office of the
+CTO, who's the best demo builder
+
+01:24:47.490 --> 01:24:52.740
+on the planet, who is getting
+all of the metadata and data
+
+01:24:52.740 --> 01:24:56.580
+out of her repos into
+an NLWeb repository.
+
+01:24:56.580 --> 01:24:59.430
+The second thing that you do
+is you go run a little script
+
+01:24:59.430 --> 01:25:01.380
+that takes all of this
+data, computes a bunch
+
+01:25:01.380 --> 01:25:03.221
+of embeddings
+for it, in this case.
+
+01:25:03.255 --> 01:25:04.650
+And you have a
+ton of choice here
+
+01:25:04.650 --> 01:25:08.310
+about which model you're using,
+which embeddings you're using,
+
+01:25:08.310 --> 01:25:10.920
+which vector store that you're
+sticking the embeddings
+
+01:25:10.920 --> 01:25:15.330
+in for the NLWeb server
+to have access to.
+
+01:25:15.330 --> 01:25:17.910
+And as soon as you compute the
+embeddings and import them,
+
+01:25:17.910 --> 01:25:20.700
+in this case, into a local
+vector store that's running
+
+01:25:20.700 --> 01:25:22.830
+on her laptop, then you're able
+
+01:25:22.830 --> 01:25:27.240
+to make some really interesting
+queries on top of it.
+
+01:25:27.240 --> 01:25:30.450
+So in this case, you can do more
+than what you would get just
+
+01:25:30.450 --> 01:25:32.310
+with a database
+query or some kind
+
+01:25:32.310 --> 01:25:34.680
+of information retrieval thing.
+
+01:25:34.680 --> 01:25:38.040
+You're able to say, "Hey, I
+wrote this piece of code. . .
+
+01:25:38.040 --> 01:25:40.560
+. . . it was in some PR
+I don't remember. . .
+
+01:25:40.560 --> 01:25:43.890
+. . .I need to recall the
+name of this algorithm."
+
+01:25:43.890 --> 01:25:47.970
+And that's the sort of thing
+that NLWeb can do and things
+
+01:25:47.970 --> 01:25:52.260
+that we honestly aren't going
+to even be able to imagine,
+
+01:25:52.260 --> 01:25:55.200
+which is why we're
+making this open source.
+
+01:25:55.200 --> 01:25:59.010
+And we're hoping to hear a
+ton of feedback from you all
+
+01:25:59.010 --> 01:26:02.310
+about how we can improve and
+make NLWeb better, because,
+
+01:26:02.310 --> 01:26:05.970
+again, we think
+that the sum total
+
+01:26:05.970 --> 01:26:09.540
+of your imagination operating
+on the agentic web is going
+
+01:26:09.540 --> 01:26:12.660
+to make the agentic web a
+fundamentally more interesting
+
+01:26:12.660 --> 01:26:16.500
+thing than we would have
+if one entity was trying
+
+01:26:16.500 --> 01:26:18.230
+to do everything alone.
+
+01:26:18.230 --> 01:26:20.780
+So you can learn more
+about these things
+
+01:26:20.780 --> 01:26:24.000
+from these two talks
+in particular.
+
+01:26:24.000 --> 01:26:30.660
+So there is a fantastic
+talk at 4:30 to 5:30 today
+
+01:26:30.660 --> 01:26:34.200
+on how you can turn your
+website into an AI app.
+
+01:26:34.200 --> 01:26:36.420
+And then the memory stuff
+that I was referencing,
+
+01:26:36.420 --> 01:26:39.870
+we've got a talk from
+1:45 to 2pm today
+
+01:26:39.870 --> 01:26:42.240
+that is going to
+be really awesome.
+
+01:26:42.240 --> 01:26:45.900
+So the last thing that I want to
+say before handing things back
+
+01:26:45.900 --> 01:26:49.530
+over to Satya is to just sort
+of press on these two points
+
+01:26:49.530 --> 01:26:55.230
+about why open is
+so important here.
+
+01:26:55.230 --> 01:27:00.000
+So, it is unbelievable what
+can happen in the world
+
+01:27:00.000 --> 01:27:03.270
+when simple components
+and simple protocols
+
+01:27:03.270 --> 01:27:07.050
+that are composable with one
+another are out there exposed
+
+01:27:07.050 --> 01:27:11.370
+to the full scrutiny and
+creativity of every developer
+
+01:27:11.370 --> 01:27:15.180
+in the world who wants to
+participate or who has an idea.
+
+01:27:15.180 --> 01:27:18.300
+This thought game that I play
+
+01:27:18.300 --> 01:27:19.980
+with myself all
+the time is trying
+
+01:27:19.980 --> 01:27:23.340
+to imagine what the web would
+have looked like if one
+
+01:27:23.340 --> 01:27:25.740
+of the actors in the early
+development of the web, like,
+
+01:27:25.740 --> 01:27:29.580
+say, the browser manufacturers,
+had decided that they wanted
+
+01:27:29.580 --> 01:27:33.240
+to vertically integrate
+and own the entire web.
+
+01:27:33.240 --> 01:27:38.400
+A hundred percent of the web
+would have been dictated
+
+01:27:38.400 --> 01:27:40.290
+by the limits of
+their imagination.
+
+01:27:40.290 --> 01:27:43.440
+And it's just obvious,
+with 30 years of history,
+
+01:27:43.440 --> 01:27:46.290
+that that wouldn't have
+been a very interesting web
+
+01:27:46.290 --> 01:27:50.490
+that we would have had,
+because the web is interesting
+
+01:27:50.490 --> 01:27:54.900
+because millions, tens of
+millions, hundreds of millions
+
+01:27:54.900 --> 01:27:57.240
+of people are
+participating to make it
+
+01:27:57.240 --> 01:28:00.180
+into this rich, dynamic thing.
+
+01:28:00.180 --> 01:28:02.190
+That's what we think we
+need with the agentic web,
+
+01:28:02.190 --> 01:28:05.760
+and that's what we're hoping you
+all can get inspired to go work
+
+01:28:05.760 --> 01:28:09.780
+on a little bit and to riff
+on and to use the full extent
+
+01:28:09.780 --> 01:28:13.590
+of your imagination to help
+make this thing interesting.
+
+01:28:13.590 --> 01:28:14.820
+So thank you all
+for being at Build,
+
+01:28:14.820 --> 01:28:15.630
+and I'll see you next year.
+
+01:28:15.630 --> 01:28:21.990
+[ Applause ]
+
+01:28:21.990 --> 01:28:24.589
+Satya Nadella: Thanks
+so much, Kevin.
+
+01:28:24.623 --> 01:28:28.770
+You know, the agentic web vision
+that Kevin just described,
+
+01:28:28.770 --> 01:28:32.910
+in some sense, gets us closer
+to even the original vision
+
+01:28:32.910 --> 01:28:35.400
+and the ethos of the web.
+
+01:28:35.400 --> 01:28:38.010
+Both the content as well
+
+01:28:38.010 --> 01:28:42.060
+as the intelligence now
+can be more distributed
+
+01:28:42.060 --> 01:28:44.430
+and discoverable across the web.
+
+01:28:44.430 --> 01:28:46.590
+NLWeb, if you sort
+of look at it,
+
+01:28:46.590 --> 01:28:48.390
+it's a pretty fascinating thing.
+
+01:28:48.390 --> 01:28:50.220
+I'm really looking forward
+
+01:28:50.220 --> 01:28:52.680
+to seeing what all
+of you make of it.
+
+01:28:52.680 --> 01:28:57.720
+But it democratizes both the
+creation of intelligence
+
+01:28:57.720 --> 01:29:00.630
+for any app, any website.
+
+01:29:00.630 --> 01:29:02.700
+But here's the
+interesting thing:
+
+01:29:02.700 --> 01:29:05.490
+it democratizes the aggregation
+
+01:29:05.490 --> 01:29:08.610
+of this intelligence
+for any developer.
+
+01:29:08.610 --> 01:29:09.510
+You can easily see it.
+
+01:29:09.510 --> 01:29:13.860
+Give me sort of a
+reasoning model, an NLWeb,
+
+01:29:13.860 --> 01:29:17.610
+and I can take an intent
+and start composing,
+
+01:29:17.610 --> 01:29:20.820
+using the reasoning model to
+go compose and synthesize
+
+01:29:20.820 --> 01:29:22.410
+across that distributed
+intelligence.
+
+01:29:22.410 --> 01:29:28.140
+It's just a completely-- what
+is Search, what is a feed.
+
+01:29:28.140 --> 01:29:31.890
+Any of these things gets
+completely changed in terms
+
+01:29:31.890 --> 01:29:33.930
+of how one goes
+about building it.
+
+01:29:33.930 --> 01:29:37.020
+So this is a platform that
+we want to create together.
+
+01:29:37.020 --> 01:29:39.600
+I think something big is
+going to shake out of this,
+
+01:29:39.600 --> 01:29:42.870
+because this is not just
+the repeat of the past.
+
+01:29:42.870 --> 01:29:46.050
+The last 10, 15 years, I know,
+has always been about sort
+
+01:29:46.050 --> 01:29:48.390
+of the aggregate of power.
+
+01:29:48.390 --> 01:29:50.910
+I think something big
+is going to shift.
+
+01:29:50.910 --> 01:29:55.770
+Now moving to the next
+layer of the stack.
+
+01:29:55.770 --> 01:29:59.760
+Data. After all, for any AI app,
+
+01:29:59.760 --> 01:30:03.210
+the data tier is
+super important.
+
+01:30:03.210 --> 01:30:06.180
+We are building out
+the full data stack.
+
+01:30:06.180 --> 01:30:08.100
+There are so many
+great examples,
+
+01:30:08.100 --> 01:30:13.680
+whether it's Lumen using Fabric
+to save over 10,000 hours
+
+01:30:13.680 --> 01:30:16.410
+because they can
+access data faster,
+
+01:30:16.410 --> 01:30:20.490
+or Sitecore delivering 10x
+speed with our data stack.
+
+01:30:20.490 --> 01:30:24.390
+But one of my favorite
+examples is NFL,
+
+01:30:24.390 --> 01:30:29.070
+which used our data stack to run
+the recent Scouting Combine.
+
+01:30:29.104 --> 01:30:31.009
+Let's take a look at the video.
+
+01:30:31.043 --> 01:30:32.246
+[ Music ]
+
+01:30:32.280 --> 01:30:34.440
+Jacqueline Davidson: Success
+in the NFL often comes
+
+01:30:34.440 --> 01:30:37.170
+down to one play, one second,
+
+01:30:37.170 --> 01:30:40.290
+one thing that's done
+better than your opponent.
+
+01:30:40.290 --> 01:30:41.666
+Data is a big part of that.
+
+01:30:41.700 --> 01:30:43.856
+[ Music ]
+
+01:30:43.890 --> 01:30:45.270
+Jeff Foster: The
+Combine is an event
+
+01:30:45.270 --> 01:30:47.730
+that brings together the top 3%
+
+01:30:47.730 --> 01:30:50.010
+of draft-eligible
+football players.
+
+01:30:50.010 --> 01:30:52.530
+In the early years, we were
+collecting the same amount
+
+01:30:52.530 --> 01:30:55.320
+of data, but it was scattered
+across different systems.
+
+01:30:55.320 --> 01:30:58.380
+Johnny Halife: Teams didn't
+have a way to filter, search,
+
+01:30:58.380 --> 01:31:00.480
+and compare these
+stats without digging
+
+01:31:00.480 --> 01:31:02.550
+through multiple reports.
+
+01:31:02.550 --> 01:31:05.717
+AI was a perfect way to get
+that full prospect view.
+
+01:31:05.751 --> 01:31:07.316
+[ Music ]
+
+01:31:07.350 --> 01:31:08.490
+Jeff Foster: We had
+a very short runway
+
+01:31:08.490 --> 01:31:11.400
+to get this all put together
+before we kicked it off.
+
+01:31:11.400 --> 01:31:13.140
+Johnny Halife: Azure AI
+Foundry gave us the tools
+
+01:31:13.140 --> 01:31:14.820
+that we needed to hit
+the ground running.
+
+01:31:14.820 --> 01:31:17.910
+We started with the
+Azure OpenAI GPT models
+
+01:31:17.910 --> 01:31:20.520
+that we didn't
+need to fine-tune.
+
+01:31:20.520 --> 01:31:23.580
+We had Azure Cosmos
+DB to quickly store
+
+01:31:23.580 --> 01:31:24.990
+and retrieve that data.
+
+01:31:24.990 --> 01:31:26.490
+And we had Azure Container Apps
+
+01:31:26.490 --> 01:31:29.100
+to deploy the
+workload seamlessly.
+
+01:31:29.100 --> 01:31:33.520
+It was like a big challenge
+that we solved in no time.
+
+01:31:33.899 --> 01:31:36.206
+[ Music ]
+
+01:31:36.240 --> 01:31:38.730
+Jeff Foster: Now teams have
+the ability to ask questions
+
+01:31:38.730 --> 01:31:41.610
+about specific players
+and immediately be able
+
+01:31:41.610 --> 01:31:44.430
+to obtain data that allows
+comparative analysis
+
+01:31:44.430 --> 01:31:45.600
+from player to player.
+
+01:31:45.600 --> 01:31:48.060
+It really gives
+evaluators an edge
+
+01:31:48.060 --> 01:31:49.950
+that we didn't have previously.
+
+01:31:49.950 --> 01:31:51.210
+Jacqueline Davidson: Being
+able to ask a question
+
+01:31:51.210 --> 01:31:52.980
+as I would ask you
+a question. Like,
+
+01:31:52.980 --> 01:31:55.560
+give me the fastest 40 times
+of a defensive lineman,
+
+01:31:55.560 --> 01:31:59.370
+the filtering of data that
+would have taken hours is done
+
+01:31:59.370 --> 01:32:00.990
+in a matter of seconds.
+
+01:32:00.990 --> 01:32:04.320
+Jeff Foster: The ability to
+collect data in real time
+
+01:32:04.320 --> 01:32:06.960
+and dig deeper into the details
+while the player's in front
+
+01:32:06.960 --> 01:32:08.370
+of you, it makes
+you more confident
+
+01:32:08.370 --> 01:32:09.494
+in your decision making.
+
+01:32:09.528 --> 01:32:11.336
+[ Music ]
+
+01:32:11.370 --> 01:32:17.790
+[ Applause ]
+
+01:32:17.790 --> 01:32:20.820
+Satya Nadella: Sports and
+data, it's the most fun.
+
+01:32:20.820 --> 01:32:21.690
+Just love that.
+
+01:32:21.690 --> 01:32:26.460
+And we're making a ton of
+data news at Build, starting,
+
+01:32:26.460 --> 01:32:30.990
+in fact, with SQL Server
+2025 that's launching.
+
+01:32:30.990 --> 01:32:34.200
+And more importantly, we're
+bringing the data layer
+
+01:32:34.200 --> 01:32:37.350
+and the intelligence
+closer than ever before.
+
+01:32:37.350 --> 01:32:42.000
+For any real-world agent,
+you require the storage.
+
+01:32:42.000 --> 01:32:46.170
+And that's why we're integrating
+Cosmos DB directly into Foundry.
+
+01:32:46.170 --> 01:32:50.700
+So that means any agent can
+store and retrieve things
+
+01:32:50.700 --> 01:32:53.160
+like conversational history.
+
+01:32:53.160 --> 01:32:55.800
+And soon they'll
+be able to do --
+
+01:32:55.800 --> 01:33:00.660
+also use Cosmos for all
+their RAG application needs.
+
+01:33:00.660 --> 01:33:03.840
+And we're taking it further
+with Azure Databricks,
+
+01:33:03.840 --> 01:33:06.450
+connecting your data
+in Genie spaces
+
+01:33:06.450 --> 01:33:09.150
+or in AI functions to Foundry.
+
+01:33:09.150 --> 01:33:12.090
+The other very cool
+capability is now inside
+
+01:33:12.090 --> 01:33:15.540
+of a Postgres SQL query, you
+can have LLM directly --
+
+01:33:15.540 --> 01:33:18.060
+LLM responses
+directly integrated.
+
+01:33:18.060 --> 01:33:21.120
+So basically, you can
+have natural language
+
+01:33:21.120 --> 01:33:25.710
+and SQL mix together and have
+the orchestration happen
+
+01:33:25.710 --> 01:33:28.950
+and a query plan happen
+in a very different way.
+
+01:33:28.950 --> 01:33:33.300
+And sort of when it comes to
+Fabric, which we launched here
+
+01:33:33.300 --> 01:33:35.970
+at Build two years
+ago, it's at the heart
+
+01:33:35.970 --> 01:33:38.460
+of our data and analytics stack.
+
+01:33:38.460 --> 01:33:41.910
+And Fabric brings together all
+your data, all your workloads,
+
+01:33:41.910 --> 01:33:45.210
+together into this one
+unified experience.
+
+01:33:45.210 --> 01:33:49.260
+Last fall, we put SQL
+into Fabric, and today,
+
+01:33:49.260 --> 01:33:51.810
+we're taking the next big step.
+
+01:33:51.810 --> 01:33:54.510
+We're bringing Cosmos
+DB to Fabric, too,
+
+01:33:54.510 --> 01:33:58.620
+because AI apps need more
+than just structured data.
+
+01:33:58.620 --> 01:34:00.270
+They need semi-structured data,
+
+01:34:00.270 --> 01:34:02.880
+whether it's text,
+images, audio.
+
+01:34:02.880 --> 01:34:04.650
+And with Cosmos and Fabric
+
+01:34:04.650 --> 01:34:08.730
+and your data instantly
+available alongside SQL,
+
+01:34:08.730 --> 01:34:11.370
+you can now unify your
+entire data estate
+
+01:34:11.370 --> 01:34:13.140
+and make it ready for AI.
+
+01:34:13.140 --> 01:34:15.060
+And there's a lot more.
+
+01:34:15.060 --> 01:34:18.990
+In fact, we are even building
+our digital twin builder right
+
+01:34:18.990 --> 01:34:20.460
+into Fabric.
+
+01:34:20.460 --> 01:34:24.090
+Now you can very easily
+take digital twins
+
+01:34:24.090 --> 01:34:26.070
+with no-code/low-code.
+
+01:34:26.070 --> 01:34:28.530
+As you can see here,
+you can map the data
+
+01:34:28.530 --> 01:34:32.940
+from your physical assets
+and systems super fast.
+
+01:34:32.940 --> 01:34:37.500
+We're also announcing shortcut
+transformations in OneLake.
+
+01:34:37.500 --> 01:34:41.310
+You can think of this
+as AI driven ETL.
+
+01:34:41.310 --> 01:34:45.180
+You can apply all these prebuilt
+AI-powered transformations,
+
+01:34:45.180 --> 01:34:49.650
+audio-to-text or sentiment
+analysis when data is coming in,
+
+01:34:49.650 --> 01:34:55.320
+summarization, all powered by
+Foundry straight into Fabric,
+
+01:34:55.320 --> 01:34:58.050
+and all with just a few clicks.
+
+01:34:58.050 --> 01:35:00.750
+Lastly, I want to talk about one
+of my favorite features now,
+
+01:35:00.750 --> 01:35:04.320
+which is coming to Power BI,
+which is Copilot in Power BI.
+
+01:35:04.320 --> 01:35:07.710
+So, that allows you to chat
+with all of your data.
+
+01:35:07.710 --> 01:35:10.860
+You can ask questions about
+data, visually explore,
+
+01:35:10.860 --> 01:35:16.170
+analyze it across multiple Power
+BI reports and semantic models.
+
+01:35:16.170 --> 01:35:17.280
+It'll also be available.
+
+01:35:17.280 --> 01:35:20.880
+This agent will be available
+in Microsoft 365 Copilot.
+
+01:35:20.880 --> 01:35:23.460
+So the power of all
+the work you did,
+
+01:35:23.460 --> 01:35:25.320
+building out those
+semantic models,
+
+01:35:25.320 --> 01:35:28.950
+building out those dashboards
+in Power BI, and now being able
+
+01:35:28.950 --> 01:35:31.920
+to put reasoning models on top
+of it in a chat interface.
+
+01:35:31.920 --> 01:35:34.740
+I mean, think about sort of what
+a game changer that will be.
+
+01:35:34.740 --> 01:35:36.660
+And so we are very, very
+excited about that.
+
+01:35:37.775 --> 01:35:42.266
+[ Applause ]
+
+01:35:42.300 --> 01:35:46.140
+So let's get to the bottom
+layer of the stack,
+
+01:35:46.140 --> 01:35:48.510
+which is infrastructure.
+
+01:35:48.510 --> 01:35:53.190
+As a developer, you face that
+classic optimization problem
+
+01:35:53.190 --> 01:35:56.790
+between delivering the best
+AI experience in terms
+
+01:35:56.790 --> 01:35:58.920
+of performance and latency.
+
+01:35:58.920 --> 01:36:01.470
+And then, of course, you
+got to deliver it with sort
+
+01:36:01.470 --> 01:36:04.440
+of monotonically
+decreasing cost.
+
+01:36:04.440 --> 01:36:08.010
+And that's why we're
+taking a systems approach,
+
+01:36:08.010 --> 01:36:10.020
+working across the
+entire industry
+
+01:36:10.020 --> 01:36:14.010
+to optimize the full stack,
+whether it's the Datacenter,
+
+01:36:14.010 --> 01:36:17.940
+Silicon, the system
+software or the app server,
+
+01:36:17.940 --> 01:36:21.300
+bringing it all together as
+one system and optimizing
+
+01:36:21.300 --> 01:36:24.390
+and using the power of software.
+
+01:36:24.390 --> 01:36:26.970
+And our aim is to
+offer the lowest cost,
+
+01:36:26.970 --> 01:36:30.300
+highest scale infrastructure
+to build both cloud
+
+01:36:30.300 --> 01:36:33.870
+and next generation
+of AI workloads.
+
+01:36:33.870 --> 01:36:36.975
+And it all comes down
+to delivering the most
+
+01:36:37.008 --> 01:36:39.690
+tokens per watt per dollar.
+
+01:36:39.690 --> 01:36:42.330
+And that's sort of the
+ultimate equation for us.
+
+01:36:42.330 --> 01:36:46.470
+And we're writing multiple
+S curves across Silicon.
+
+01:36:46.470 --> 01:36:48.180
+Think of it as
+classic Moore's law,
+
+01:36:48.180 --> 01:36:50.910
+plus system software
+optimization
+
+01:36:50.910 --> 01:36:52.740
+and the model optimization.
+
+01:36:52.740 --> 01:36:55.800
+It's the compounding effects
+of those three S curves.
+
+01:36:55.800 --> 01:36:59.310
+And we're doing all of
+this with real speed.
+
+01:36:59.310 --> 01:37:03.750
+So when anything gets ready, you
+want to bring it into the fleet.
+
+01:37:03.750 --> 01:37:06.420
+In fact, Azure is
+the first cloud
+
+01:37:06.420 --> 01:37:11.610
+to bring NVIDIA GB200
+online and do so at scale.
+
+01:37:11.610 --> 01:37:15.930
+Now Azure now leads the
+performance from a single GB200
+
+01:37:15.930 --> 01:37:22.350
+with NV Link 72 rack generating
+an astonishing number of tokens,
+
+01:37:22.350 --> 01:37:26.130
+865,000 tokens per second.
+
+01:37:26.130 --> 01:37:30.360
+It's the highest throughput
+for any cloud platform.
+
+01:37:30.360 --> 01:37:32.400
+And, of course, there's
+nobody better to talk
+
+01:37:32.400 --> 01:37:34.350
+about this than Jensen Huang.
+
+01:37:34.350 --> 01:37:37.020
+Let's roll the video.
+
+01:37:37.020 --> 01:37:38.370
+Satya Nadella: 
+Thank you so much, Jensen,
+
+01:37:38.403 --> 01:37:39.900
+for joining yet again
+
+01:37:39.900 --> 01:37:42.090
+for our Build
+Developer Conference.
+
+01:37:42.090 --> 01:37:44.910
+At the end of the day, our
+joint goal is to be able
+
+01:37:44.910 --> 01:37:47.970
+to deliver more
+intelligence to the world.
+
+01:37:47.970 --> 01:37:51.930
+In some sense, you can even say
+it's tokens per dollar per watt.
+
+01:37:51.930 --> 01:37:55.860
+And so I just wanted to be able
+to maybe get your perspective
+
+01:37:55.860 --> 01:37:59.220
+on all this, maybe starting,
+in fact, with the very start
+
+01:37:59.220 --> 01:38:02.310
+of what has been our industry,
+which is Moore's Law.
+
+01:38:02.310 --> 01:38:04.680
+Jensen Huang: So excited
+to be here, Satya.
+
+01:38:04.680 --> 01:38:06.450
+In fact, two years ago,
+
+01:38:06.450 --> 01:38:11.310
+we had just launched the
+largest AI supercomputer
+
+01:38:11.310 --> 01:38:14.250
+in the world together on Azure.
+
+01:38:14.250 --> 01:38:18.330
+This is the big change in
+how computing works now.
+
+01:38:18.330 --> 01:38:23.130
+.With our new CUDA algorithms
+and new model technology
+
+01:38:23.130 --> 01:38:27.300
+and your new AI infrastructure
+on Azure, together,
+
+01:38:27.300 --> 01:38:30.810
+all of that together, 40x
+speed up over Hopper.
+
+01:38:30.810 --> 01:38:33.270
+That's just an insane speed
+up in just two years.
+
+01:38:33.270 --> 01:38:33.900
+Satya Nadella: You want to talk
+
+01:38:33.900 --> 01:38:38.790
+about the compounding effects of
+software that then add to all
+
+01:38:38.790 --> 01:38:40.110
+of what we're doing together?
+
+01:38:40.110 --> 01:38:42.240
+Jensen Huang: We still want
+architecture compatibility.
+
+01:38:42.240 --> 01:38:44.850
+We want the rich
+ecosystem to be stable
+
+01:38:44.850 --> 01:38:49.050
+so that software developers'
+investments and all
+
+01:38:49.050 --> 01:38:50.730
+of the AI developers'
+investments
+
+01:38:50.730 --> 01:38:53.670
+and all your infrastructure
+customers' investments get
+
+01:38:53.670 --> 01:38:56.730
+to be distributed and amortized
+across the entire fleet.
+
+01:38:56.730 --> 01:38:57.750
+Satya Nadella: Do you want
+to speak a little bit
+
+01:38:57.750 --> 01:39:02.160
+to what happens to utilization
+and their diversity of workloads
+
+01:39:02.160 --> 01:39:04.260
+that get all accelerated?
+
+01:39:04.260 --> 01:39:06.060
+Jensen Huang: One of
+the benefits of CUDA is
+
+01:39:06.060 --> 01:39:07.800
+that the install
+base is so large.
+
+01:39:07.800 --> 01:39:11.460
+Another benefit of CUDA
+is that on the one hand,
+
+01:39:11.460 --> 01:39:15.030
+it's an accelerator
+architecture; on the other hand,
+
+01:39:15.030 --> 01:39:20.130
+it's fairly general purpose for
+some of the heaviest workloads.
+
+01:39:20.130 --> 01:39:23.910
+Our two teams are working on
+accelerating data processing,
+
+01:39:23.910 --> 01:39:29.610
+accelerating data processing by
+20x, 50x, transcoding video,
+
+01:39:29.610 --> 01:39:33.270
+image processing,
+models of all kinds.
+
+01:39:33.270 --> 01:39:34.830
+All of those different types
+
+01:39:34.830 --> 01:39:38.400
+of algorithms map
+wonderfully on top of CUDA.
+
+01:39:38.400 --> 01:39:41.250
+Our job is to make sure that
+that fleet and that workload,
+
+01:39:41.250 --> 01:39:43.500
+all of the workloads
+of your data center,
+
+01:39:43.500 --> 01:39:46.680
+are fully accelerated, the
+fleet is fully utilized
+
+01:39:46.680 --> 01:39:48.780
+for the entire
+life of the fleet.
+
+01:39:48.780 --> 01:39:49.920
+Satya Nadella: It's
+not just tokens,
+
+01:39:49.920 --> 01:39:53.250
+but it's all workloads
+per dollar per watt.
+
+01:39:53.250 --> 01:39:57.870
+Can we really accelerate them
+all as we continue to innovate
+
+01:39:57.870 --> 01:40:01.230
+across both the hardware and
+the software boundaries?
+
+01:40:01.230 --> 01:40:02.340
+Jensen Huang: And Satya,
+
+01:40:02.340 --> 01:40:04.770
+thank you for your
+partnership and leadership.
+
+01:40:04.770 --> 01:40:07.800
+The alignment between
+our two organizations
+
+01:40:07.800 --> 01:40:11.460
+to build the most advanced
+infrastructure in the world,
+
+01:40:11.460 --> 01:40:14.460
+the most advanced AI factories
+in the world, and the best
+
+01:40:14.460 --> 01:40:15.501
+of times are yet to come.
+
+01:40:17.460 --> 01:40:18.270
+Satya Nadella:
+Thank you, Jensen.
+
+01:40:18.270 --> 01:40:22.140
+[ Applause ]
+
+01:40:22.140 --> 01:40:23.827
+So, in fact, the largest
+
+01:40:23.861 --> 01:40:27.000
+GB200-based supercomputer
+is going to be Azure.
+
+01:40:27.000 --> 01:40:30.420
+And so we're very excited
+about scaling this
+
+01:40:30.420 --> 01:40:34.120
+and making it available to
+all of you as developers.
+
+01:40:35.220 --> 01:40:38.850
+In fact, we are continuing
+to expand Azure.
+
+01:40:38.850 --> 01:40:41.970
+We now have 70 plus
+data center regions,
+
+01:40:41.970 --> 01:40:44.160
+more than any other provider.
+
+01:40:44.160 --> 01:40:46.050
+Over the past three
+months alone,
+
+01:40:46.050 --> 01:40:51.150
+we have opened 10 data centers
+across countries and continents.
+
+01:40:51.150 --> 01:40:55.050
+And, of course, we're building
+a complete AI system.
+
+01:40:55.050 --> 01:40:57.510
+That means it includes cooling
+
+01:40:57.510 --> 01:41:00.450
+to meet the demands
+of AI workloads.
+
+01:41:00.450 --> 01:41:02.100
+With Maya, we had introduced
+
+01:41:02.100 --> 01:41:05.490
+and engineered this sidekick
+liquid cooling unit
+
+01:41:05.490 --> 01:41:09.990
+that also supports now GB200
+in this closed fashion,
+
+01:41:09.990 --> 01:41:11.610
+such that -- closed-loop fashion
+
+01:41:11.610 --> 01:41:14.580
+so that you can really
+consume zero water.
+
+01:41:14.580 --> 01:41:18.690
+On the network side, our
+newest data centers built
+
+01:41:18.690 --> 01:41:24.840
+for AI have more fiber
+optics than we added in all
+
+01:41:24.840 --> 01:41:26.460
+of Azure before last year.
+
+01:41:26.460 --> 01:41:29.099
+I mean, think about that, right?
+So, there is -- it's just,
+
+01:41:29.133 --> 01:41:32.580
+even the data center design
+is just mind blowing for me
+
+01:41:32.580 --> 01:41:34.380
+when I go back and see them.
+
+01:41:34.380 --> 01:41:37.650
+It's unlike anything that
+at least I grew up with.
+
+01:41:37.650 --> 01:41:40.950
+We're connecting our
+DCs with this AI WAN,
+
+01:41:40.950 --> 01:41:44.670
+400-terabyte backbone.
+
+01:41:44.670 --> 01:41:48.150
+So think about, like, it's not
+about all the type of workloads,
+
+01:41:48.150 --> 01:41:49.950
+whether it's inference
+or training needs.
+
+01:41:49.950 --> 01:41:51.810
+When you distribute them,
+
+01:41:51.810 --> 01:41:55.230
+the AI WAN connects this
+data center footprint.
+
+01:41:55.230 --> 01:41:57.630
+And, of course, the AI
+applications themselves.
+
+01:41:57.630 --> 01:42:01.050
+It's not just about having
+an AI accelerator or a GPU.
+
+01:42:01.050 --> 01:42:03.870
+You need all of your compute,
+
+01:42:03.870 --> 01:42:06.960
+and every app needs
+storage and compute.
+
+01:42:06.960 --> 01:42:09.270
+And that's also a place
+where we are driving a lot
+
+01:42:09.270 --> 01:42:11.940
+of the S curve efficiency
+there as well.
+
+01:42:11.940 --> 01:42:16.680
+Last October, we launched
+Cobalt, our arm-based VMs.
+
+01:42:16.680 --> 01:42:17.820
+They're already powering a lot
+
+01:42:17.820 --> 01:42:20.190
+of our own workloads
+with massive scale.
+
+01:42:20.190 --> 01:42:21.210
+Teams runs on it.
+
+01:42:21.210 --> 01:42:22.950
+Defender runs on it.
+
+01:42:22.950 --> 01:42:26.220
+We have all our CUSP
+partners, Adobe, Databricks,
+
+01:42:26.220 --> 01:42:30.090
+Snowflake all sort of
+scaling on Cobalt.
+
+01:42:30.090 --> 01:42:33.240
+In fact, talking about sort of
+new workloads that are running
+
+01:42:33.240 --> 01:42:38.790
+on using sort of our fungible
+fleet of AI accelerators and GPU
+
+01:42:38.790 --> 01:42:41.850
+and compute and storage.
+
+01:42:41.850 --> 01:42:44.310
+Met Office is an
+unbelievable example.
+
+01:42:44.310 --> 01:42:48.720
+They're using Azure to
+better predict the weather,
+
+01:42:48.720 --> 01:42:53.040
+ensuring timely and accurate
+forecasting for millions.
+
+01:42:53.040 --> 01:42:54.180
+The supercomputer they built
+
+01:42:54.180 --> 01:42:59.070
+on Azure is the most advanced
+supercomputer of any kind
+
+01:42:59.070 --> 01:43:00.870
+for weather and climate science.
+
+01:43:00.870 --> 01:43:02.650
+Let's take a look.
+
+01:43:02.684 --> 01:43:05.970
+[ Music ]
+
+01:43:05.970 --> 01:43:06.960
+Charlie Ewan: The Met Office
+has been in existence
+
+01:43:06.960 --> 01:43:10.290
+for over 170 years, delivering
+the most trusted weather
+
+01:43:10.290 --> 01:43:13.440
+and climate intelligence in
+our radically changing world.
+
+01:43:13.440 --> 01:43:15.480
+Every day, we are
+taking on board more
+
+01:43:15.480 --> 01:43:18.390
+than 50 billion observations,
+200, 300 terabytes
+
+01:43:18.390 --> 01:43:20.490
+of operational data a day.
+
+01:43:20.490 --> 01:43:23.400
+So, we need very big storage and
+very big compute to be able
+
+01:43:23.400 --> 01:43:25.410
+to do that numerical
+weather prediction.
+
+01:43:25.410 --> 01:43:26.317
+Ségolène Berthou: 
+So the resolutional
+
+01:43:26.350 --> 01:43:28.170
+model is very important.
+
+01:43:28.170 --> 01:43:31.140
+They require a lot of
+supercomputing power.
+
+01:43:31.140 --> 01:43:34.680
+The more supercomputing power
+we have will help increase the
+
+01:43:34.680 --> 01:43:37.170
+accuracy of our forecasts.
+
+01:43:37.170 --> 01:43:41.190
+So, that will also then help
+people make better decisions.
+
+01:43:41.190 --> 01:43:43.440
+Simon Vosper: The weather and
+climate science is big science.
+
+01:43:43.440 --> 01:43:45.960
+The data that those models
+produce underpins all our
+
+01:43:45.960 --> 01:43:47.850
+products and services.
+
+01:43:47.850 --> 01:43:49.260
+Charlie Ewan: Our
+ability to repeatedly
+
+01:43:49.260 --> 01:43:51.990
+and reliably deliver these
+massive supercomputing services
+
+01:43:51.990 --> 01:43:53.490
+are of paramount importance.
+
+01:43:53.490 --> 01:43:56.220
+And we can only really do
+that in something like Azure.
+
+01:43:56.220 --> 01:43:59.160
+This program really puts a
+scientific supercomputer
+
+01:43:59.160 --> 01:44:01.860
+in the heart of the Azure
+wider infrastructure,
+
+01:44:01.860 --> 01:44:04.800
+and it's fully integrated, which
+means that as we go forward,
+
+01:44:04.800 --> 01:44:06.540
+we can start to develop new
+
+01:44:06.540 --> 01:44:09.360
+and currently impossible
+products and services.
+
+01:44:09.360 --> 01:44:10.729
+Alex Deakin: It's going
+to be the world's
+
+01:44:10.762 --> 01:44:13.650
+first cloud-based solely
+
+01:44:13.650 --> 01:44:16.200
+for weather forecasting
+supercomputer.
+
+01:44:16.200 --> 01:44:18.750
+Simon Vosper: It enables us to
+run more complicated models
+
+01:44:18.750 --> 01:44:21.750
+at higher resolution
+to provide more timely
+
+01:44:21.750 --> 01:44:23.070
+and accurate predictions.
+
+01:44:23.070 --> 01:44:24.720
+Our customers will
+notice improvements
+
+01:44:24.720 --> 01:44:26.070
+to our forecast accuracy.
+
+01:44:26.070 --> 01:44:26.520
+Speaker 21: Good morning.
+
+01:44:26.520 --> 01:44:28.830
+Welcome to our UK Mets
+Office weather update.
+
+01:44:28.830 --> 01:44:30.480
+Alex Deakin: We do
+weather forecasts
+
+01:44:30.480 --> 01:44:32.730
+and climate predictions
+for the public,
+
+01:44:32.730 --> 01:44:34.260
+for the government,
+and for businesses.
+
+01:44:34.260 --> 01:44:36.930
+It's about that honesty and
+about building that trust
+
+01:44:36.930 --> 01:44:39.030
+so that when the
+weather is severe,
+
+01:44:39.030 --> 01:44:41.010
+people do believe what
+you're going to say,
+
+01:44:41.010 --> 01:44:43.350
+and most importantly,
+they act upon it.
+
+01:44:43.350 --> 01:44:44.250
+Simon Vosper: Looking
+further ahead,
+
+01:44:44.250 --> 01:44:45.960
+we've got really exciting plans
+
+01:44:45.960 --> 01:44:48.300
+where we're extending
+our forecast range,
+
+01:44:48.300 --> 01:44:49.890
+high resolution modeling,
+
+01:44:49.890 --> 01:44:53.010
+all of which will benefit our
+weather forecast accuracy,
+
+01:44:53.010 --> 01:44:54.840
+timeliness, and usefulness.
+
+01:44:54.840 --> 01:44:56.310
+Alex Deakin: It's just
+going to enhance everything
+
+01:44:56.310 --> 01:44:57.930
+that we do here
+at the Met Office
+
+01:44:57.930 --> 01:44:59.349
+and improve everyone's lives.
+
+01:44:59.383 --> 01:45:03.043
+[ Music ]
+
+01:45:03.077 --> 01:45:08.012
+[ Applause ]
+
+01:45:08.046 --> 01:45:10.590
+Satya Nadella: 
+You know, it's, of course,
+
+01:45:10.590 --> 01:45:13.920
+more than just performance
+and efficiency.
+
+01:45:13.920 --> 01:45:17.430
+It's about digital resilience.
+
+01:45:17.430 --> 01:45:19.800
+We have the most
+comprehensive set
+
+01:45:19.800 --> 01:45:22.770
+of compliance capabilities
+in the cloud.
+
+01:45:22.770 --> 01:45:27.090
+We offer sovereign controls
+such as data residency,
+
+01:45:27.090 --> 01:45:29.850
+confidential computing
+for cloud infrastructure,
+
+01:45:29.850 --> 01:45:33.360
+including your AI
+accelerators and GPUs as well
+
+01:45:33.360 --> 01:45:35.760
+as the past workloads.
+
+01:45:35.760 --> 01:45:40.590
+This ensures that you maintain
+that complete control
+
+01:45:40.590 --> 01:45:42.510
+and how your systems
+are governed,
+
+01:45:42.510 --> 01:45:45.270
+who has access to them.
+
+01:45:45.270 --> 01:45:49.410
+Now, while our cloud offers
+this comprehensive coverage,
+
+01:45:49.410 --> 01:45:52.740
+there are still many critical
+use cases that need extreme,
+
+01:45:52.740 --> 01:45:55.530
+low-latency and
+explicit control,
+
+01:45:55.530 --> 01:45:58.350
+where and how your apps
+and data are stored.
+
+01:45:58.350 --> 01:46:01.680
+And that means the ability
+to run things disconnected.
+
+01:46:01.680 --> 01:46:06.390
+And that's why we also
+offer Azure Local.
+
+01:46:06.390 --> 01:46:09.240
+Now so far, we've
+talked about developer
+
+01:46:09.240 --> 01:46:12.210
+and knowledge worker
+workflows on our AI platform.
+
+01:46:12.210 --> 01:46:15.420
+But there's one more
+domain that I want to talk
+
+01:46:15.420 --> 01:46:18.960
+about to close out,
+which is science.
+
+01:46:18.960 --> 01:46:23.400
+One of the most exciting
+things I think that'll happen
+
+01:46:23.400 --> 01:46:27.750
+over the years to come is
+we'll have real breakthroughs
+
+01:46:27.750 --> 01:46:30.780
+in the scientific
+process itself,
+
+01:46:30.780 --> 01:46:33.600
+which will really
+accelerate our ability
+
+01:46:33.600 --> 01:46:39.300
+to create a new material, a
+new compound, a new molecule.
+
+01:46:39.300 --> 01:46:42.960
+And that's why we are bringing
+together the entire stack I
+
+01:46:42.960 --> 01:46:47.700
+talked about today and saying,
+"Look, let's apply it to science
+
+01:46:47.700 --> 01:46:51.660
+and the scientific workflow,
+the scientific process."
+
+01:46:51.660 --> 01:46:55.380
+That's our ambition with
+Microsoft Discovery,
+
+01:46:55.380 --> 01:46:57.510
+which we are announcing today.
+
+01:46:57.510 --> 01:46:58.475
+Microsoft -- yeah.
+
+01:46:58.509 --> 01:47:03.056
+[ Applause ]
+
+01:47:03.090 --> 01:47:06.060
+If you sort of think about
+GitHub for software developers,
+
+01:47:06.060 --> 01:47:10.290
+Microsoft 365, and Copilot
+and Copilot Studio
+
+01:47:10.290 --> 01:47:12.600
+for knowledge work
+and business process,
+
+01:47:12.600 --> 01:47:14.940
+Microsoft Discovery
+is for science.
+
+01:47:14.940 --> 01:47:19.260
+It's built on a very powerful
+graph-based knowledge engine
+
+01:47:19.260 --> 01:47:21.180
+graph RAG.
+
+01:47:21.180 --> 01:47:24.090
+And instead of just merely
+retrieving facts, I mean,
+
+01:47:24.090 --> 01:47:29.010
+this is the key thing, it
+understands the nuance knowledge
+
+01:47:29.010 --> 01:47:32.340
+in the scientific domain
+from public domain,
+
+01:47:32.340 --> 01:47:35.880
+as well as your own data if
+you're a biopharma company.
+
+01:47:35.880 --> 01:47:38.070
+Discoveries built on Foundry,
+
+01:47:38.070 --> 01:47:43.020
+bringing advanced agents
+highly specialized in R&amp;D,
+
+01:47:43.020 --> 01:47:47.100
+not just for reasoning, but for
+conducting research itself.
+
+01:47:47.100 --> 01:47:49.860
+Instead of really
+static pipelines,
+
+01:47:49.860 --> 01:47:54.480
+these agents cooperate in a
+continuous iterative cycle,
+
+01:47:54.480 --> 01:47:57.960
+generating candidates,
+simulating them,
+
+01:47:57.960 --> 01:47:59.370
+and learning from the results.
+
+01:47:59.370 --> 01:48:02.610
+I mean, think about that
+Copilot agent or coding agent.
+
+01:48:02.610 --> 01:48:05.130
+This is the science agent.
+
+01:48:05.130 --> 01:48:08.250
+Let me hand it over to John to
+show you all this in action.
+
+01:48:08.250 --> 01:48:09.150
+John?
+
+01:48:10.240 --> 01:48:14.456
+[ Applause ]
+
+01:48:14.490 --> 01:48:15.720
+John Link: 
+Thanks, Satya.
+
+01:48:15.720 --> 01:48:19.500
+I'm John, Chemistry Product
+Lead for our Science Platform.
+
+01:48:19.500 --> 01:48:22.350
+Today I'll show you how
+I lead a team of agents
+
+01:48:22.350 --> 01:48:25.290
+to make a discovery for
+immersion coolants.
+
+01:48:25.290 --> 01:48:26.880
+These are an interesting
+line of research
+
+01:48:26.880 --> 01:48:28.290
+for cooling data centers.
+
+01:48:28.290 --> 01:48:31.140
+Unfortunately, most of
+them are based on PFAS
+
+01:48:31.140 --> 01:48:34.950
+or forever chemicals, which are
+harmful for the environment.
+
+01:48:34.950 --> 01:48:37.860
+So how could I discover
+a better coolant?
+
+01:48:37.860 --> 01:48:41.430
+I'll show you three steps today:
+reasoning over knowledge,
+
+01:48:41.430 --> 01:48:44.640
+generating hypotheses,
+and running experiments,
+
+01:48:44.640 --> 01:48:46.860
+all in an iterative loop.
+
+01:48:46.860 --> 01:48:48.120
+Let's dive in.
+
+01:48:48.120 --> 01:48:51.300
+My first step is to
+conduct research.
+
+01:48:51.300 --> 01:48:52.620
+So I want to be up to date
+
+01:48:52.620 --> 01:48:54.600
+with the latest
+knowledge on this topic.
+
+01:48:54.600 --> 01:48:58.080
+So I'll start by asking about
+coolants and their properties
+
+01:48:58.080 --> 01:49:00.570
+to help me identify
+starting candidates.
+
+01:49:02.490 --> 01:49:05.760
+The platform uses a network
+of agents that reason
+
+01:49:05.760 --> 01:49:09.660
+over scientific knowledge
+in both public sources
+
+01:49:09.660 --> 01:49:13.050
+and your trusted
+internal research.
+
+01:49:13.050 --> 01:49:15.720
+Behind the scenes, it
+uses a knowledge graph
+
+01:49:15.720 --> 01:49:19.110
+to provide deeper insights
+and more accurate answers
+
+01:49:19.110 --> 01:49:21.090
+than we get from
+LLMs on their own,
+
+01:49:21.090 --> 01:49:23.820
+which can struggle
+to connect the dots.
+
+01:49:23.820 --> 01:49:27.460
+This process will take a few
+minutes, so let's skip ahead.
+
+01:49:29.130 --> 01:49:32.370
+And what we see here is
+a summary on the left
+
+01:49:32.370 --> 01:49:35.518
+and a comprehensive
+report on the right,
+
+01:49:35.552 --> 01:49:38.368
+covering the state-of-the-art
+in coolant research
+
+01:49:38.402 --> 01:49:40.020
+with links throughout
+
+01:49:40.020 --> 01:49:42.840
+to citations for
+trusted research.
+
+01:49:42.840 --> 01:49:45.510
+Now, I can validate these
+findings and iterate
+
+01:49:45.510 --> 01:49:47.460
+if I choose before moving on.
+
+01:49:47.460 --> 01:49:52.140
+But our goal today is not just
+to reason over knowledge,
+
+01:49:52.140 --> 01:49:54.660
+we want to make a real
+coolant discovery.
+
+01:49:54.694 --> 01:49:57.521
+So, we need to
+move on to Step 2. . .
+
+01:49:59.440 --> 01:50:01.624
+. . . which is
+generating hypotheses.
+
+01:50:05.040 --> 01:50:10.440
+So, I am going to ask for a plan
+specific to my investigation,
+
+01:50:10.440 --> 01:50:13.710
+informed by this research,
+knowing, for example,
+
+01:50:13.710 --> 01:50:16.050
+that I should target a
+specific boiling point
+
+01:50:16.050 --> 01:50:20.100
+and a dielectric constant that
+won't fry my electronics.
+
+01:50:20.100 --> 01:50:21.484
+So we'll submit that. . .
+
+01:50:24.930 --> 01:50:26.596
+Now, my team of
+agents is working
+
+01:50:26.630 --> 01:50:28.560
+to build the right workflow.
+
+01:50:28.560 --> 01:50:31.020
+Now, you'll see I didn't
+specify what methods
+
+01:50:31.020 --> 01:50:33.420
+to use or write any code.
+
+01:50:33.420 --> 01:50:36.420
+Microsoft Discovery
+handles it all for me.
+
+01:50:36.420 --> 01:50:39.660
+The agents can use tools
+and models from Microsoft.
+
+01:50:39.660 --> 01:50:42.750
+They can integrate open-source
+or third-party solutions
+
+01:50:42.750 --> 01:50:45.120
+or even ones from my
+own organization.
+
+01:50:45.120 --> 01:50:47.580
+And I can always
+adjust this plan,
+
+01:50:47.580 --> 01:50:50.610
+either adding additional steps
+or changing the criteria,
+
+01:50:50.610 --> 01:50:52.800
+so that I'm always in control.
+
+01:50:52.800 --> 01:50:54.840
+And if we look right
+here, we can see the plan
+
+01:50:54.840 --> 01:50:56.340
+that my agents returned.
+
+01:50:56.340 --> 01:50:58.590
+It starts with a generative
+chemistry step here,
+
+01:50:58.590 --> 01:51:00.810
+where it creates millions
+of novel candidates
+
+01:51:00.810 --> 01:51:03.600
+that are more likely
+to meet my criteria.
+
+01:51:03.600 --> 01:51:08.700
+And then it uses AI models to
+screen these down quickly.
+
+01:51:08.700 --> 01:51:10.890
+And finally, we use
+HPC simulations
+
+01:51:10.890 --> 01:51:13.140
+for validation of our findings.
+
+01:51:13.140 --> 01:51:15.540
+And as I look at this,
+I like this plan.
+
+01:51:15.540 --> 01:51:19.530
+It looks like a good approach,
+so let's go ahead and run it.
+
+01:51:19.530 --> 01:51:21.750
+We click "Proceed" right
+there, and with that,
+
+01:51:21.750 --> 01:51:24.540
+we're in Step 3:
+experimentation.
+
+01:51:24.540 --> 01:51:28.050
+Microsoft Discovery executes
+this full plan, choosing
+
+01:51:28.050 --> 01:51:32.130
+and managing the best
+HPC resources in Azure.
+
+01:51:32.130 --> 01:51:34.830
+And in the future, it will
+also integrate our advances
+
+01:51:34.830 --> 01:51:36.900
+in quantum computing.
+
+01:51:36.900 --> 01:51:39.180
+We can see here now the
+Discovery agents working
+
+01:51:39.180 --> 01:51:41.460
+together in real
+time, driving all
+
+01:51:41.460 --> 01:51:44.220
+of these intense computations.
+
+01:51:44.220 --> 01:51:46.140
+With traditional methods,
+getting to a short list
+
+01:51:46.140 --> 01:51:50.520
+of candidates could take months
+or years of trial and error.
+
+01:51:50.520 --> 01:51:55.650
+Microsoft Discovery can compress
+the time to days or even hours.
+
+01:51:55.650 --> 01:51:58.621
+So, let me show you the final
+results of the process. . .
+
+01:52:01.080 --> 01:52:03.000
+These are the set of candidates
+
+01:52:03.000 --> 01:52:04.860
+that Microsoft Discovery
+has identified
+
+01:52:04.860 --> 01:52:07.650
+for PFAS-free
+immersion coolants.
+
+01:52:07.650 --> 01:52:11.130
+So, now I can analyze these
+results to decide if I'm ready
+
+01:52:11.130 --> 01:52:14.220
+to head to the lab or if I
+need to run another iteration.
+
+01:52:14.220 --> 01:52:16.290
+And if I just take a look
+at a couple of these,
+
+01:52:16.290 --> 01:52:19.860
+I can see that indeed, yeah,
+the boiling points are in line
+
+01:52:19.860 --> 01:52:23.340
+with my expectations, and the
+dielectric constant is great.
+
+01:52:23.340 --> 01:52:25.570
+So this is very promising.
+
+01:52:26.670 --> 01:52:28.260
+But I know what
+you're wondering:
+
+01:52:28.260 --> 01:52:30.720
+did we actually
+make a discovery?
+
+01:52:30.720 --> 01:52:33.660
+Well, this is not just a demo.
+
+01:52:33.660 --> 01:52:35.400
+We really did this.
+
+01:52:35.400 --> 01:52:38.160
+We took one of the most
+promising candidates
+
+01:52:38.160 --> 01:52:40.380
+and synthesized it.
+
+01:52:40.380 --> 01:52:42.810
+They didn't let me bring
+a new material unknown
+
+01:52:42.810 --> 01:52:44.820
+to humans onto this stage.
+
+01:52:44.820 --> 01:52:47.490
+But I've got this
+video from the lab.
+
+01:52:47.490 --> 01:52:49.740
+So we can see there my coolant.
+
+01:52:49.740 --> 01:52:51.600
+And we dropped a
+standard PC in it,
+
+01:52:51.600 --> 01:52:54.390
+and it's running
+Forza Motorsport.
+
+01:52:54.390 --> 01:52:58.050
+And it is keeping the
+temperature stable with no fans.
+
+01:52:58.050 --> 01:53:00.450
+It's literally very cool.
+
+01:53:00.450 --> 01:53:08.340
+[ Applause ]
+
+01:53:08.340 --> 01:53:11.310
+We found a promising candidate
+for an immersion coolant
+
+01:53:11.310 --> 01:53:14.340
+that does not rely on
+forever chemicals.
+
+01:53:14.340 --> 01:53:17.760
+Imagine using Microsoft
+Discovery across domains,
+
+01:53:17.760 --> 01:53:19.680
+designing new therapeutics,
+
+01:53:19.680 --> 01:53:23.220
+new semiconductors,
+or new materials.
+
+01:53:23.220 --> 01:53:24.900
+It worked for us.
+
+01:53:24.900 --> 01:53:28.110
+The next great breakthrough
+is yours to discover.
+
+01:53:28.110 --> 01:53:30.150
+Thank you.
+Have a great Build.
+
+01:53:30.150 --> 01:53:30.780
+Back to you, Satya.
+
+01:53:30.780 --> 01:53:33.720
+[ Applause ]
+
+01:53:33.720 --> 01:53:35.190
+Satya Nadella: 
+Thank you, John.
+
+01:53:35.190 --> 01:53:38.220
+It is, indeed, very, very cool.
+
+01:53:38.220 --> 01:53:40.320
+It's great to see how companies
+
+01:53:40.320 --> 01:53:43.560
+across every industry are
+already using Discovery
+
+01:53:43.560 --> 01:53:47.040
+to accelerate their R&amp;D, and
+I can't wait to see this
+
+01:53:47.040 --> 01:53:51.090
+in the hands of more R&amp;D labs
+all over and what they can do.
+
+01:53:51.090 --> 01:53:55.380
+So that was a quick,
+comprehensive, whatever you want
+
+01:53:55.380 --> 01:53:59.130
+to call it, walk
+through the full stack
+
+01:53:59.130 --> 01:54:02.280
+and how we're creating
+new opportunity for you
+
+01:54:02.280 --> 01:54:05.130
+across the agentic web.
+
+01:54:05.130 --> 01:54:09.720
+We're taking, really, a systems
+approach, a platform approach,
+
+01:54:09.720 --> 01:54:13.560
+which you can expect from
+Microsoft across every layer
+
+01:54:13.560 --> 01:54:17.130
+of the stack, whether it's
+GitHub and GitHub Copilot,
+
+01:54:17.130 --> 01:54:19.230
+enabling an open ecosystem
+
+01:54:19.230 --> 01:54:24.540
+for the software development
+lifecycle, Microsoft 365 Copilot
+
+01:54:24.540 --> 01:54:29.940
+and Teams and Copilot Studio,
+enabling agents for every role
+
+01:54:29.940 --> 01:54:35.160
+and business process, and an
+agent factory in Foundry,
+
+01:54:35.160 --> 01:54:40.140
+enabling you to build any AI
+app, any agent, using any data,
+
+01:54:40.140 --> 01:54:43.560
+all running on world
+class infrastructure.
+
+01:54:43.560 --> 01:54:49.170
+And all of this on a robust
+set of rails for management,
+
+01:54:49.170 --> 01:54:51.900
+identity, and security.
+
+01:54:51.900 --> 01:54:56.400
+Ultimately, though, all of this
+is about creating opportunity
+
+01:54:56.400 --> 01:54:59.460
+to fuel your ambition.
+
+01:54:59.460 --> 01:55:04.620
+I think back to some of the
+developers I've had the chance
+
+01:55:04.620 --> 01:55:06.570
+to meet over the course
+of the last year.
+
+01:55:06.570 --> 01:55:09.480
+Right? A father in
+Spain using Foundry
+
+01:55:09.480 --> 01:55:12.360
+to help speed the
+diagnosis of rare diseases
+
+01:55:12.360 --> 01:55:14.430
+like the one affecting his son.
+
+01:55:14.430 --> 01:55:16.800
+A startup in South
+America building an app
+
+01:55:16.800 --> 01:55:18.720
+to gamify wellness.
+
+01:55:18.720 --> 01:55:23.310
+An airline in Japan using Phi
+
+01:55:23.310 --> 01:55:26.400
+to help flight attendants
+complete reports even
+
+01:55:26.400 --> 01:55:28.920
+when they're 30,000 feet above.
+
+01:55:28.920 --> 01:55:31.800
+Examples like this is
+what I'm excited about
+
+01:55:31.800 --> 01:55:33.510
+and take much pride in.
+
+01:55:33.510 --> 01:55:37.230
+After all, the big winners
+are going to be people
+
+01:55:37.230 --> 01:55:40.260
+like yourselves who are going
+to build these applications,
+
+01:55:40.260 --> 01:55:43.950
+not just people who
+create platforms like us.
+
+01:55:43.950 --> 01:55:48.150
+The winners need to be across
+every sector of the economy
+
+01:55:48.150 --> 01:55:49.890
+in every part of the world.
+
+01:55:49.890 --> 01:55:51.180
+That's our goal.
+
+01:55:51.180 --> 01:55:53.250
+For us, it's never been
+about the technology.
+
+01:55:53.250 --> 01:55:55.980
+It's about what people
+can do with it.
+
+01:55:55.980 --> 01:55:58.530
+And that's what is
+core to our mission.
+
+01:55:58.530 --> 01:56:03.330
+And I want to leave you with
+this one real, powerful example.
+
+01:56:03.330 --> 01:56:06.900
+Earlier this year, World Bank
+conducted a study for students
+
+01:56:06.900 --> 01:56:09.840
+in Nigeria using Copilot.
+
+01:56:09.840 --> 01:56:11.850
+What they found was
+pretty remarkable.
+
+01:56:11.850 --> 01:56:15.360
+By their analysis,
+it was the best,
+
+01:56:15.360 --> 01:56:19.740
+most effective educational
+intervention involving tech.
+
+01:56:19.740 --> 01:56:22.020
+I mean, this is something I've
+been working throughout my life
+
+01:56:22.020 --> 01:56:23.670
+at Microsoft.
+
+01:56:23.670 --> 01:56:28.320
+And to see, finally, in
+a country like Nigeria,
+
+01:56:28.320 --> 01:56:30.360
+putting something in
+the hands of people
+
+01:56:30.360 --> 01:56:35.010
+and having it really registered
+statistically as an intervention
+
+01:56:35.010 --> 01:56:36.960
+that had positive impact.
+
+01:56:36.960 --> 01:56:40.110
+The World Bank has expanded the
+program to Peru, where hundreds
+
+01:56:40.110 --> 01:56:43.110
+of public school teachers
+are now using Copilot
+
+01:56:43.110 --> 01:56:46.530
+to enhance lesson plans,
+improve student outcomes,
+
+01:56:46.530 --> 01:56:48.750
+and grow in their own careers.
+
+01:56:48.750 --> 01:56:49.860
+So let's roll the video.
+
+01:56:49.860 --> 01:56:51.270
+Thank you all very, very much.
+
+01:56:51.270 --> 01:56:52.510
+Enjoy the rest of Build.
+
+01:56:52.544 --> 01:56:55.098
+[ Applause ]
+
+01:56:55.132 --> 01:57:00.984
+[ Music ]
+
+01:57:01.018 --> 01:57:02.812
+Marcos Saúl Tupayachi:
+In the Lima Metropolitan area,
+
+01:57:02.846 --> 01:57:04.694
+the number of children at risk
+
+01:57:04.728 --> 01:57:06.523
+of not receiving a
+quality education
+
+01:57:06.557 --> 01:57:10.000
+totals just over
+445,000 students.
+
+01:57:10.984 --> 01:57:13.300
+Ezequiel Molina: 
+Teachers face a very
+
+01:57:13.334 --> 01:57:15.144
+diverse classroom environment
+
+01:57:15.178 --> 01:57:17.007
+and must consider how to ensure
+
+01:57:17.041 --> 01:57:18.816
+that all students learn,
+
+01:57:18.861 --> 01:57:21.124
+even at very different
+academic levels.
+
+01:57:21.158 --> 01:57:23.606
+The World Bank
+is actively working
+
+01:57:23.640 --> 01:57:25.634
+to improve education.
+
+01:57:25.675 --> 01:57:28.964
+And in collaboration with
+the Lima Regional Directorate
+
+01:57:28.998 --> 01:57:31.668
+we decided to train teachers
+
+01:57:31.702 --> 01:57:33.669
+in the use of
+artificial intelligence,
+
+01:57:33.703 --> 01:57:37.754
+because AI has the potential
+to transform education.
+
+01:57:37.788 --> 01:57:39.209
+[ Music ]
+
+01:57:39.243 --> 01:57:41.898
+Marcos Saúl Tupayachi:
+Microsoft 365 Copilot Chat
+
+01:57:41.939 --> 01:57:46.022
+has been made available
+to more than 390 schools
+
+01:57:46.056 --> 01:57:48.631
+and 482 teachers
+in Metropolitan Lima,
+
+01:57:48.665 --> 01:57:51.027
+to imporove learning
+in our classrooms.
+
+01:57:51.061 --> 01:57:51.687
+[ Music ]
+
+01:57:51.721 --> 01:57:53.476
+Marco Antonio Pedraza:
+Copilot helps me
+
+01:57:53.510 --> 01:57:56.352
+create personalized activities
+
+01:57:56.386 --> 01:57:58.615
+for my neurodivergent children
+
+01:57:58.649 --> 01:58:00.216
+without it being my specialty
+
+01:58:00.250 --> 01:58:02.886
+in a way that they
+feel integrated,
+
+01:58:02.920 --> 01:58:04.320
+which was not the case before.
+
+01:58:04.354 --> 01:58:07.109
+I think that's
+phenomenal--I'm happy
+
+01:58:07.143 --> 01:58:08.819
+[ Music ]
+
+01:58:08.865 --> 01:58:11.814
+I was scared of
+artificial intelligence.
+
+01:58:11.862 --> 01:58:13.571
+Marcela Vásquez: 
+I thought it would
+
+01:58:13.604 --> 01:58:15.425
+replace teachers
+
+01:58:15.465 --> 01:58:18.127
+and I didn't believe
+I was good enough
+
+01:58:18.188 --> 01:58:20.396
+to handle these types of tools.
+
+01:58:20.449 --> 01:58:23.645
+But through this
+training we've had,
+
+01:58:23.707 --> 01:58:28.017
+Copilot is making
+me feel empowered.
+
+01:58:28.051 --> 01:58:29.079
+[ Music ]
+
+01:58:29.113 --> 01:58:32.502
+It suggests very creative
+and personalized strategies
+
+01:58:32.536 --> 01:58:34.884
+for each of the students.
+
+01:58:34.918 --> 01:58:38.788
+As a result, their
+learning is improving.
+
+01:58:38.849 --> 01:58:41.210
+That makes me feel accomplished.
+
+01:58:41.244 --> 01:58:43.920
+Now I can give
+more to my students.
+
+01:58:43.954 --> 01:58:48.167
+[ Music ]

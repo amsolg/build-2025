@@ -56,7 +56,7 @@ The demonstration showed Copilot as an integrated part of the development proces
 
 ## Links & Resources
 - [GitHub Copilot Documentation](https://github.com/features/copilot)
-- [Copilot for Organizations](https://github.com/features/copilot/business)
+- [Copilot for Organizations](https://github.com/features/copilot/for-business)
 - [Setting up Copilot Instructions](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-settings)
 - [Microsoft Build Session Recordings](https://build.microsoft.com/sessions)
 

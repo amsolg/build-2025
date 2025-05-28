@@ -1,0 +1,15 @@
+# Local references between files in this repository
+../keynotes/KEY010.md
+../keynotes/KEY020/KEY020-transcript-based-report.md
+../breakouts/code-quality-best-practices.md
+../demos/DEM567/DEM567.md
+
+# Examples of URLs to exclude (update as needed)
+# localhost URLs
+localhost
+127.0.0.1
+
+# Placeholder URLs in examples
+example.com
+
+# Add other patterns to ignore here

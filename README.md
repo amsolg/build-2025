@@ -10,8 +10,6 @@ This repository represents my personal learnings and curated notes from Microsof
 - [Demos](demos/)
 - [Breakout Sessions](breakouts/)
 - [Resources](resources/)
-- [Videos](videos/)
-- [Shows](shows/)
 - [News](news/)
 
 ---

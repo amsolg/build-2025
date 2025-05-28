@@ -12,7 +12,6 @@ This repository is dedicated to the accumulation and organization of all informa
 - `keynotes/` — Keynote session notes and learnings
 - `announcements/` — Major announcements, product launches, and updates
 - `resources/` — Downloadable resources, documentation, and reference material
-- `videos/` — Links to on-demand session recordings and keynotes
 - `news/` — News articles and blog posts related to Build 2025
 - `partners/` — Partner announcements, integrations, and collaborations
 
